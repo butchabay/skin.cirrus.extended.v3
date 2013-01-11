@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Language file translated with Team XBMC Translator-->
+<!--Date of translation: 16/09/2010-->
+<!--$Revision$-->
+<strings>
+  <!-- Misc labels -->
+ <!-- Div. labels -->
+  <string id="31000">Verander Je</string>
+  <string id="31001">Liefde</string>
+  <string id="31002">Haat</string>
+  <string id="31003">Power Opties</string>
+  <string id="31004">Bezig...</string>
+  <string id="31005">Verberg INFO</string>
+
+  <string id="31007">Video Addons</string>
+
+  <string id="31020">Recent Toegevoegd</string>
+  <string id="31021">Video: Bestanden</string>
+  <string id="31022">Muziek: Bestanden</string>
+  <string id="31023">Speelt</string>
+  <string id="31024">Pagina</string>
+  <string id="31025">Onderdelen</string>
+  <string id="31026">Div. Opties</string>
+  <string id="31027">Locatie</string>
+ 
+  <!-- Aanzicht Type labels -->
+  <string id="31028">Poster Wikkelen</string>
+  <string id="31029">Fanart</string>
+  <string id="40000">Fanart Poster</string>      	 <!--ViewsGamesFanart -->
+  <string id="40001">Fanart Vierkant</string>      	 <!--ViewsGamesFanartSquare -->
+  <string id="40002">Fanart Breed</string>       	 <!--ViewsGamesFanartWide -->
+  <string id="40003">Rechtslijst</string>       		 <!--ViewsGamesRightlist -->
+  <string id="40004">Rechtslijst Vierkant</string>       <!--ViewsGamesRightlist -->
+  <string id="40005">Rechtslijst Landscape</string>    <!--ViewsGamesRightlistLandscape  -->
+  <string id="40006">Rechtslijst Logo</string> 	 	 <!--ViewsTVLogoRightlist  -->
+  <string id="41111">Rechtslijst Logo</string>	     <!--ViewsGamesLogoRightlist  -->
+  <string id="41112">Muziek Coverflow</string>
+  <string id="41113">Muziek Fanart</string>
+  <string id="41114">Muziek Rechtslijst</string>
+  <string id="41115">Muziek Muur</string>
+  <string id="41116">Fanart Glijden Logo</string>
+  <string id="41117">Rechtslijst Vaandel</string>
+  <string id="41118">Vaandel Muur</string>
+  <string id="41119">Grote Poster</string>
+  <string id="41120">Compact</string>
+  <string id="41121">Coverflow</string>			   	<!--Speelfilm Coverflow  -->
+  <string id="41122">Fanart Glijden</string>
+  <string id="41123">Halve Muur</string>		    	<!--Speelfilm Halfwall  -->
+  <string id="41124">Halve Muur</string>			    <!--TV Halfwall  -->
+  <string id="41125">Vaandel Muur2</string>		    <!--TV Bannerwall Vertical  -->
+  <string id="41126">Muur</string>		            <!--Speelfilm Muur  -->
+  
+  <string id="31030">Volle lijst</string>
+  <string id="31031">Foto Thumbs</string>
+  <string id="31032">Foto Wikkelen</string>
+
+  <!-- Extra labels -->
+  <string id="31040">Nu Speelt</string>
+
+  <string id="31042">NU SPEELT</string>
+  <string id="31043">PAUZE</string>
+  <string id="31044">SNEL VOORUIT</string>
+  <string id="31045">TERUGSPOELEN</string>
+  <string id="31046">Audio Eigenschappen</string>
+  <string id="31047">Huidige Instelling</string>
+  <string id="31048">Visualisatie Instellingenen</string>
+  <string id="31049">Eindtijd</string>
+  <string id="31050">Starttijd</string>
+  <string id="31052">Imdb</string>
+  <string id="31053">Jaar</string>
+  <string id="31054">Speelduur</string>
+  <string id="31063">Seizoen</string>
+  <string id="31064">Aflevering</string>
+  <string id="31065">Score</string>
+  <string id="31066">Regisseur</string>
+  <!-- Afspeellijst Editor labels -->
+  <string id="31055">Open Afspeellijst</string>
+  <string id="31056">Opslaan Afspeellijst</string>
+  <string id="31057">Sluit Afspeellijst</string>
+  <string id="31058">Systeem muziekbestanden</string>
+  <string id="31059">Huidige Afspeellijst</string>
+  <string id="31060">Dit bestand is gestapeld, selecteer het gedeelte dat u wilt afspelen.</string>
+  <string id="31061">Huidige Geselecteerd</string>
+  <string id="31062">Volgende Aflevering:</string>
+  <!-- Skin Instellingen labels -->
+  <string id="31100"></string>
+  <string id="31101">Beginscherm opties</string>
+  <string id="31102">Achtergrond</string>
+  <string id="31103">Toon "Pauze" in fotovoorstelling</string>
+  <string id="31104">Speel Trailers af in een venster [COLOR=grey3](Alleen in het Video-Informatie dialoogvenster)[/COLOR]</string>
+  <string id="31105">Toon media titels in achtergrond scanner</string>
+  <string id="31106">Diverse opties</string>
+  <string id="31107"></string>
+  <string id="31108">Verberg Hoofdmenu Knoppen</string>
+  <string id="31109">Beginscherm Achtergronden</string>
+  <string id="31110">Bewerk Achtergrond Beginscherm</string>
+  <string id="31111">Verberg</string>
+  <string id="31112">Opties</string>
+  <string id="31113">Enkele Foto</string>
+  <string id="31114">Meerdere Foto's</string>
+  <string id="31115">Customizer</string>
+  <string id="31116">Addon Scripts</string>
+  <string id="31117">Toon Recent toegevoegde Video's</string>
+  <string id="31118">Beginpagina Submenu</string>
+  <string id="31119">Zet Aangepaste Script Knop Aan</string>
+  <string id="31120">KNOP LABEL</string>
+  <string id="31121">PAD NAAR SCRIPT</string>
+  <string id="31122">Weerpagina</string>
+  <string id="31123">Gebruik "Posters" in plaats van "Vaandels" voor TV Shows</string>
+  <string id="31124">Toon Achtergrond "Nu Speelt" voor Video</string>
+  <string id="31125">Toon Achtergrond "Nu Speelt" voor Visualisatie</string>
+
+  <string id="31126">Zet Liedtekst in Muziek OSD Aan</string>
+  <string id="31127">PAD NAAR LIEDTEKST SCRIPT</string>
+  <string id="31128">XBMC Liedtekst</string>
+  <string id="31129">Zet Ondertiteling Downloaden in Video OSD Aan</string>
+  <string id="31130">PAD NAAR ONDERTITELING SCRIPT</string>
+
+  <string id="31140">Muziek OSD</string>
+  <string id="31141">Video OSD</string>
+  
+   <!-- Nieuwe labels Instellingen (Aangepaste Skin Instellingen)  -->
+  <string id="41000">Aangepast Menu</string>
+  <string id="41001">Verander Submenu's</string>
+  <string id="41002">Aangepast Beginscherm</string>
+  <string id="41003">Beginscherm Menu Onderdelen</string>
+  <string id="41004">Uitgebreide Mod</string>
+  <string id="41005">Mod Knoppen</string>
+  
+    <!-- Nieuwe labels Instellingen (General)  -->
+  <string id="41006">Zet Kiosk Modus Aan (zet zijmenu uit)</string>
+  <string id="41007">Zet CDArt animatie Aan bij muziek visualisatie scherm</string>
+  <string id="41008">Zet CDArt animatie Aan op het Beginscherm</string>
+  <string id="41009">Zet ClearArt Aan</string>
+  <string id="41010">Zet Nieuwe Media Vlaggen Aan</string>
+  <string id="41011">Zet Artiest Slideshow Script Aan bij muziek visualisatie scherm</string>
+  <string id="41012">Zet Aangepaste Achtergrond Aan bij muziek visualisatie scherm</string>
+  <string id="41013">Zet Zwarte Achtergrond Aan bij muziek visualisatie scherm</string>
+  
+   <!-- Nieuwe labels Instellingen (Begin Venster)  -->
+  <string id="41014">Schoon Beginscherm Nu Speelt</string>
+  <string id="41015">Zet Videovenster Aan op Beginscherm</string>
+  <string id="41016">Zet Video Venster Globaal Aan</string>
+  <string id="41017">Schoon Beginscherm (verwijder logo en knoppen)</string>
+  <string id="41018">Zet Horizontaal Beginmenu Aan</string>
+  <string id="41019">Lager Horizontaal Beginmenu</string>
+  <string id="41020">Zet geanimeerde Achtergronden Aan</string>
+  <string id="41021">Globaal geanimeerde Achtergronden</string>
+  
+   <!-- Nieuwe labels Instellingen (Achtergrond Customizer)  -->
+  <string id="41022">Power</string>
+  <string id="41023">Speel Disc af</string>
+  <string id="41024">Favorieten</string>
+  <string id="41025">Muziek Visualisatie</string>
+  <string id="41026">Spellen</string>
+  
+ <!-- Nieuwe labels Instellingen (Addons Submenus)  -->
+  <string id="41027">Addon Submenu</string>
+  <string id="41028">Kies Aangepaste Addon [B]1[/B]</string>
+  <string id="41029">Kies Aangepaste Addon [B]2[/B]</string>
+  <string id="41030">Kies Aangepaste Addon [B]3[/B]</string>
+  <string id="41031">Kies Aangepaste Addon [B]4[/B]</string>
+  <string id="41032">Kies Aangepaste Addon [B]5[/B]</string>
+  
+   <!-- Nieuwe labels Instellingen (Programs Submenus)  -->
+  <string id="41033">Kies Aangepast Programma [B]1[/B]</string>
+  <string id="41034">Kies Aangepast Programma [B]2[/B]</string>
+  <string id="41035">Kies Aangepast Programma [B]3[/B]</string>
+  <string id="41036">Kies Aangepast Programma [B]4[/B]</string>
+  <string id="41037">Kies Aangepast Programma [B]5[/B]</string>
+  
+   <!-- Nieuwe labels Instellingen (Speelfilm Submenus)  -->
+  <string id="41038">Speelfilm Submenu</string>
+  <string id="41039">Zet Video Bestanden Uit</string>
+  <string id="41040">Zet Titel Uit</string>
+  <string id="41041">Zet Genre Uit</string>
+  <string id="41042">Zet Jaren Uit</string>
+  <string id="41043">Zet Recent Toegevoegd Uit</string>
+  <string id="41044">Zet Acteur Uit</string>
+  <string id="41045">Zet Regisseur Uit</string>
+  <string id="41046">Zet Bibliotheek Update Uit</string>
+  <string id="41047">Zet Video Addons Uit</string>
+  
+  <string id="41048">Kies Afspeellijst [B]1[/B]</string>
+  <string id="41049">Kies Afspeellijst [B]2[/B]</string>
+  <string id="41050">Kies Afspeellijst [B]3[/B]</string>
+  <string id="41051">Kies Afspeellijst [B]4[/B]</string>
+  <string id="41052">Kies Afspeellijst [B]5[/B]</string>
+  <string id="41053">Kies Afspeellijst [B]6[/B]</string>
+  
+  <!-- Nieuwe labels Instellingen (Speelfilm Submenus Addon)  -->
+  <string id="41054">Kies Aangepaste Addon [B]1[/B]</string>
+  <string id="41055">Kies Aangepaste Addon [B]2[/B]</string>
+  <string id="41056">Kies Aangepaste Addon [B]3[/B]</string>
+  
+   <!-- Nieuwe labels Instellingen (Speelfilm Submenus Favorieten)  -->
+  <string id="41057">Kies Aangepaste Favoriet [B]1[/B]</string>
+  <string id="41058"> - Stel Label In</string>
+  <string id="41059"> - Stel Favoriet In</string>
+  <string id="41060">Kies Aangepaste Favoriet [B]2[/B]</string>
+  <string id="41061">Kies Aangepaste Favoriet [B]3[/B]</string>
+  <string id="41062">Kies Aangepaste Favoriet [B]4[/B]</string>
+  <string id="41063">Kies Aangepaste Favoriet [B]5[/B]</string>
+  
+   <!-- Nieuwe labels Instellingen (TV Submenus)  -->
+  <string id="41064">TV Submenu</string>
+  
+  <!-- Nieuwe labels Instellingen (Aangepaste Begin Onderdelen)  -->
+  <string id="41065">Voeg Aangepaste Onderdelen Aan Het Beginscherm Toe</string>
+  <string id="41066">Aangepaste Favoriet 1</string>
+  <string id="41067">Aangepaste Favoriet 2</string>
+  <string id="41068">Aangepaste Favoriet 3</string>
+  <string id="41069">Aangepaste Favoriet 4</string>
+  <string id="41070">- Stel Afspeellijst In</string>
+  <string id="41071">Aangepaste Favoriet 5</string>
+  <string id="41072">Aangepaste Afspeellijst 1</string>
+  <string id="41073">Aangepaste Afspeellijst 2</string>
+  <string id="41074">Aangepaste Afspeellijst 3</string>
+  <string id="41075">Aangepaste Afspeellijst 4</string>
+  <string id="41076">Aangepaste Afspeellijst 5</string>
+  <string id="41077">Aangepaste Afspeellijst 6</string>
+  <string id="41078">Aangepaste Afspeellijst 7</string>
+  <string id="41079">Aangepaste Afspeellijst 8</string>
+  
+  <!-- Nieuwe labels Instellingen (Aangepaste MOD Onderdelen)  -->
+  <string id="41080">Inschakelen/Uitschakelen Mods</string>
+  <string id="41081">Zet Vaandel in TV Rechtslijst Aanzicht Aan</string>
+  <string id="41082">Zet Poster in TV Rechtslijst Aanzicht Aan</string>
+  <string id="41083">Zet Widethumbs in TV Rechtslijst Aanzicht Aan</string>
+  <string id="41084">Zet Landscape.jpg voor TV Fanart Aanzicht Aan</string>
+  <string id="41085">Zet .jpg support voor Vaandel Aanzicht Aan</string>
+  <string id="41086">Zet Extra Fanart voor Speelfilms Aan</string>
+  <string id="41087">Zet Extra Fanart voor TV Shows Aan</string>
+  <string id="41088">Zet Seizoen Thumbs bij Afleveringsniveau in TV Fanart Aanzicht Aan</string>
+  <string id="41089">Zet Seizoen Thumbs bij Seizoensniveau in TV Fanart Aanzicht Aan</string>
+  <string id="41090">Zet Plot Beschrijving voor Speelfilms in Rechtslijst,Coverflow,Fanart Aan</string>
+  <string id="41091">Zet IMDB Nummerscore in RechtslijstAanzicht Aan</string>
+  <string id="41092">Stel Pad voor Advanced Launcher Spellen Foto's In</string>
+  <string id="41093">- Stel Pad In</string>
+  <string id="41094">Verberg Trailer Vlag</string>
+  <string id="41095">Toon Pad in Videoinfo Scherm</string>
+  <string id="41096">Voer Logo Downloader Script Uit</string>
+ <!--  <string id="41097">Zet Smalle OSD by Zombierobot aan</string> -->
+  
+  <!-- Nieuwe labels Instellingen (Begin Onderdelen)  -->
+  <string id="41098">Addons</string>
+  <string id="41099">TV Shows</string>
+  <string id="41100">Speel Disc af</string>
+  
+    <!-- Nieuwe labels Div..  Cirrus Uitgebreide v2 -->
+  <string id="41101">Aanzicht Opties</string>
+  <string id="41102">Speelfilms</string>
+  <string id="41103">TV Shows</string>
+  <string id="41104">Muziek</string>
+  <string id="41105">Video Plugins</string>
+  <string id="41106">Addons</string>
+  <string id="41107">Inschakelen/Uitschakelen Aanzichten</string>
+  <string id="41108">Zet Aan</string>
+  <string id="41109">Zet Uit</string>
+  <string id="41110">Verkrijg Logo's</string>
+  <string id="41127">Bewerk Bibliotheek</string>
+  <string id="41128">Pad:</string>
+  <string id="41129">Totaal</string>
+  <string id="41130">Bekeken</string>
+  <string id="41131">Onbekeken</string>
+  <string id="41132">Aanbevolen Muziek</string>
+  <string id="41133">Aanbevolen Nummers</string>
+  
+   <!-- Nieuwe labels Div..  Cirrus Uitgebreide v2 *** NEW V2.03 -->
+  <string id="41134">Instellingen</string>
+  <string id="41135">Willekeurige Fanart Achtergronden</string>
+  <string id="41136">Verberg Video Venster Rand</string>
+  <string id="41137">Zet IMDB Nummerscore in Fanart Aanzicht Aan</string>
+  <string id="41138">Artiest fanart op beginscherm tijdens afspelen muziek</string>
+  <string id="41139">Weervoorspelling fanart op beginscherm</string>
+  <string id="41140">Weer fanart locatie:</string>
+  <string id="41141">Zet Uitgebreide Nu Speelt Aan (Overschrijft Schone Beginscherm Nu Speelt)</string>
+  <string id="41142">Zet Uit Uitgebreide Nu Speelt Voortgangsbalk Uit</string>
+  
+  <!-- Nieuwe labels Div..  Cirrus Uitgebreide v2 *** NEW V2.04 -->
+  <string id="41143">Zet Nieuwe MPAA Scorevlaggen Aan</string>
+  <string id="41144">Zet CDArt Draait in Uitgebreide Nu Speelt Uit</string>
+  <string id="41145">Zet geanimeerde Weer Iconen Uit</string>
+  <string id="41146">Verberg Achtergrond Weer Widget op Beginscherm</string>
+ 
+  <string id="41148">Trailer</string>
+  <string id="41149">Toon IMDB Nummerscore in Videoinfo Scherm</string>
+  <string id="41160">Zet Autoscroll Uit in Uitgebreide Nu Speelt</string>
+  <string id="41161">Advanced Launcher Addon</string>
+  <string id="41162">Diverse</string>
+  <string id="41163">Stijl</string>
+  <string id="41164">Verwijder Cover Afspelende Media</string>
+  <string id="41165">Standaard CDArt Zwarte XBMC</string>
+  <string id="41166">Standaard CDArt Zwarte Uitgebreide Cirrus</string>
+  <string id="41167">Standaard CDArt Witte Uitgebreide Cirrus</string>
+  <string id="41168">Willekeurig Aangepaste CDArts (zet Album CDArt uit)</string>
+  <string id="41169">Verberg Breadcrumb Paden</string>
+  <string id="41170">Stel Focus Verschuiving In op Hoofdmenu (Bereik -2 to xx)</string>
+  <string id="41171">Zet Aangepaste Focus Verschuiving in Hoofdmenu bij Opstarten Aan</string>
+  <string id="41172">HD Speelfilms</string>
+  <string id="41173">Verberg Breadcrumb Paden TV Shows op Afleveringniveau</string>
+  <string id="41174">Gebruik Origineel Bekeken Symbool in Fanart Aanzicht</string>
+  <string id="41175">Optie om gebruik te maken van Artiest Clear Logo's</string>
+  <string id="41176">Muziek Pad</string>
+  <string id="31185">Vermelde Shows</string>
+  <string id="31186">Vandaag Uitgezonden</string>
+  <string id="31187">TV Gids</string>
+  
+ <!-- Nieuwe labels Div..  Cirrus Uitgebreide v2 *** NEW V2.05 -->
+  <string id="41177">Zet Speelfilmgenres Pakket van N.O.W.A.L.L Aan</string>
+  <string id="41178">Zet Aangepaste Willekeurige Fanart Aan</string>
+  <string id="41147">Verberg MPAA Vlaggen</string>
+  <string id="41179">Zet Thema "Licht" in Beginscherm Menu Aan</string>
+  <string id="41180">Verberg Nu Speelt Titel in Video Venster</string>
+  
+  <!-- Nieuwe labels Div..  Cirrus Uitgebreide v2 *** NEW V2.06 -->
+ 
+  <string id="41181">Willekeurig Genre</string>
+  <string id="41182">Willekeurige Speelfilm</string>
+  <string id="41183">Speelfilm Set</string>
+  <string id="41184">Horizontale Indeling</string>
+  <string id="41185">Globaal Zoeken</string>
+  <string id="41186">Nieuwste Albums</string>
+  <string id="41187">Willekeurige Addons</string>
+  <string id="41188">Zet Nieuwste Speelfilms Aan</string>
+  <string id="41189">Zet Nieuwste Afleveringen Aan</string>
+  <string id="41190">Zet Nieuwste Albums Aan</string>
+  <string id="41191">Zet Willekeurige Addons Aan</string>
+  <string id="41192">Zet Extra Fanart voor Muziek Aan</string>
+  <string id="41193">Schepper</string>
+  <string id="41194">Samenvatting</string>
+  <string id="41195">Speelfilm Widget</string>
+  <string id="41196">TV Show Widget</string>
+  <string id="41197">Muziek Widget</string>
+  <string id="41198">Addons Widget</string>
+  <string id="41199">Status Widget</string>
+  
+  
+  <!-- Nieuwe labels Div..  Cirrus Uitgebreide v2 *** NEW V2.07 -->
+  
+  <string id="31311">Fanart afbeelding Onbeschikbaar Klik op de knop om in te stellen</string>
+  <string id="41200">Verkrijg Extrafanart</string>
+  <string id="41201">Verberg Extrathumbs</string>
+  <string id="41202">Dim Achtergrond</string>
+  <string id="41203">Zwarte Achtergrond</string>
+  <string id="41204">Speel Trailer in Venstermodus af</string>
+  <string id="41205">Speel Trailer Schermvullend af</string>
+  <string id="41206">Speel Video in Venstermodus af</string>
+  <string id="41207">Speel Video Schermvullend af</string>
+  <string id="41208">Cinema Experience</string>
+  <string id="41209">Exit</string>
+  <string id="41210">Dim Achtergrond op Beginscherm</string>
+  <string id="41211">Zet Muziek Afspeellijst bij Opstarten Aan</string>
+  <string id="41212">Stel Muziek Afspeellijst In</string>
+  <string id="41213">Zet Video Afspeellijst bij Opstarten Aan</string>
+  <string id="41214">Stel Video Afspeellijst In</string>
+  <string id="41215">Zet geanimeerde Video Achtergrond bij Opstarten Aan</string>
+  <string id="41216">Stel Video of Afspeellijst In</string>
+  <string id="41217">Originele Cirrus Klok</string>
+  <string id="41218">Verwijder Weer</string>
+  <string id="41219">Momenteel Lopend</string>
+  <string id="41220">Lopende Speelfilms</string>
+  <string id="41221">Zet Lopende Speelfilms Widget Aan</string>
+  <string id="41222">Zet Nu Lopend Widget Aan</string>
+  <string id="41223">Toon Seizoen Thumb</string>
+  <string id="41224">Toon TV Show Thumb</string>
+  <string id="41225">Toon Aflevering Thumb</string>
+  <string id="41226">Zet Lopende Speelfilms WATCHLIST Aan - Speelfilms -</string>
+  <string id="41227">Zet Nu Loopt WATCHLIST Aan - TV Shows -</string>
+  <string id="41228">Widgets</string>
+  <string id="41229">Kies:</string>
+  <string id="41230">Recent Toegevoegd en Watchlist op Beginscherm</string>
+  <string id="41231">Alternatieve Recent Toegevoegd en Watchlist op Beginscherm Indeling</string>
+  <string id="41232">GEEN SPEELFILMS LOPEND</string>
+  <string id="41233">Zet Lopende Speelfilms Aan</string>
+  <string id="41234">Zet Lopende TV Shows Aan</string>
+  <string id="41235">Verberg Plot bij Pause</string>
+  <string id="41236">Verkrijg Game Info</string>
+  <string id="41237">Start Game</string>
+  <string id="41238">Bekijk Trailer</string>
+  <string id="41239">Volgende Nummers:</string>
+  <string id="41240">Afspeelopties</string>
+  <string id="41241">Tijd en Weer</string>
+  <string id="41242">Video Venster</string>
+  <string id="41243">Verberg Plot bij Info Schermvullend</string>
+  <string id="41244">Data Leverancier</string>
+  <string id="41245">Toon Hoezen</string>
+  <string id="41246">Verwijder Hoezen</string>
+  <string id="41247">Verwijder Poster</string>
+  <string id="41248">Verberg Klein Venster</string>
+  <string id="41249">Zet Nu Speelt Videoinfo Aan</string>
+  <string id="41250">Introductie Jaren</string>
+  <string id="41251">Status</string>
+  <string id="41252">Totaal Speelfilms</string>
+  <string id="41253">Zet TV Tunes Aan</string>
+  <string id="41254">Root</string>
+  <string id="41255">Muziek Addons</string>
+  <string id="41256">Concerten</string>
+  <string id="41257">Huidige</string>
+  <string id="41258">Zet Smalle OSD door Zombierobot in Muziek Vis Aan.</string>
+  <string id="41259">Zet Smalle Info en Pauzescherm Aan</string>
+  <string id="41260">Geregisseerd Door:</string>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   <!-- Nieuwe labels PVR.  Cirrus Uitgebreide v2 -->
+  <string id="41150">Opnemen</string>
+  <string id="41151">Opname</string>
+  <string id="41152">Kanalenlijst</string>
+  <string id="41153">Teletekst</string>
+  
+  
+  <!-- Script labels -->
+  <string id="31200">Snelkoppelingen</string>
+  <string id="31201">CategorieÃ«n</string>
+  <string id="31202">Toon Cast</string>
+  <string id="31203">Kies Je Nummer</string>
+  <string id="31204">Afdeling Koppelingen</string>
+  <string id="31205">Liedtekst Bron</string>
+
+  <!-- The Weer Kanalen Script labels -->
+  <string id="31250">Radar &amp; Vooruitzicht</string>
+  <string id="31251">Vooruitzicht</string>
+  <string id="31252">TWC Script</string>
+
+  <!-- Extra labels -->
+  <string id="31300">Huidige Temp</string>
+  <string id="31301">Laatst Bijgewerkt</string>
+  <string id="31302">Menu</string>
+  <string id="31303"></string>
+  <string id="31304">Foto</string>
+  <string id="31305">Geen Disc Media Gevonden</string>
+  <string id="31306">Uitwerpen</string>
+  <string id="31307">Verberg Fanart</string>
+  <string id="31308">Speelfilm Details</string>
+  <string id="31309">Geheugen Gebruikt:</string>
+  <string id="31310">Track Nummer</string>
+  
+  <string id="31312">Huidige Scraper</string>
+  <string id="31313">Kies een Scraper</string>
+  <string id="31314">Inhoud Scannen Opties</string>
+  <string id="31315">Basis</string>
+  <string id="31316"></string>
+  <string id="31317">Stel Fanart Pad In</string>
+  <string id="31318">Kleinere Fanart</string>
+  <string id="31319">Geselecteerd Profiel</string>
+  <string id="31320">Laatst Ingelogd</string>
+  <string id="31321">Karaoke Nummer Keuzeschakelaar</string>
+  <string id="31322">Uitgezonden</string>
+  <string id="31323">Nieuwste Speelfilms</string>
+  <string id="31324">Nieuwste Afleveringen</string>
+  <string id="31325">Afspeellijst Opties</string>
+  <string id="31326">Gemaakt</string>
+  <string id="31327">Resolutie</string>
+  <string id="31328">Recent Toegevoegd</string>
+  <string id="31329">[B]Timer ingesteld![/B] [COLOR=grey2] - Systeem auto afsluiten in[/COLOR]</string>
+  <string id="31330">Klik op de knop om af te spelen[CR][CR]Speelfilm trailer</string>
+  <string id="31331">Zoeken</string>
+
+  <!-- Video en Muziek OSD Labels  -->
+  <string id="31351">Pause</string>
+  <string id="31352">Stop</string>
+  <string id="31353">Snel Vooruit</string>
+  <string id="31354">Terugspoelen</string>
+  <string id="31355">Speelfilm menu</string>
+  <string id="31356">Download Ondertitels</string>
+  <string id="31357"></string>
+  <string id="31358">Huidige Tijd</string>
+
+  <!-- Description Labels  -->
+  <string id="31400">[B]CONFIGUREER UITERLIJKE INSTELLINGEN[/B][CR][CR]Verander de skin \ Stel taal en regio in \ Verander bestand lijst opties[CR]Stel een screensaver in</string>
+  <string id="31401">[B]CONFIGUREER VIDEO INSTELLINGEN[/B][CR][CR]Beheer je videobibliotheek \ Stel video afspeel opties in \ Verander video lijst opties[CR]Stel ondertitel lettertypes in</string>
+  <string id="31402">[B]CONFIGUREER MUZIEK INSTELLINGEN[/B][CR][CR]Beheer je muziekbibliotheek \ Stel muziek afspeel opties in \ Verander muziek lijst opties[CR]Stel lied submission in \ Stel karaoke opties in</string>
+  <string id="31403">[B]CONFIGUREER FOTO INSTELLINGEN[/B][CR][CR]Stel foto lijst opties in \ Configureer diavoorstellingen</string>
+  <string id="31404">[B]CONFIGUREER WEER INSTELLINGEN[/B][CR][CR]Stel drie steden in om weersinformatie voor op te halen</string>
+  <string id="31405">[B]CONFIGUREER NETWERK INSTELLINGEN[/B][CR][CR]Stel controle van XBMC via UPnP en HTTP in \ Configureer bestandsdelen[CR]Stel internet toegangsopties in</string>
+  <string id="31406">[B]CONFIGUREER SYSTEEM INSTELLINGEN[/B][CR][CR]Stel in en calibreer schermen \ Configureer de audio uitgang \ Stel afstandsbedieningen in[CR]Stel energiebesparingsopties in \ Zet debugging aan \ Stel master lock in</string>
+  <string id="31407">[B]CONFIGUREER SKIN INSTELLINGEN[/B][CR][CR]Stel de Cirrus skin in \ Voeg toe en verwijder beginscherm menu items[CR]Verander skin Achtergronden</string>
+  <string id="31409">[B]CONFIGUREER TV INSTELLINGEN[/B][CR][CR]Verander volledig scherm info \ Beheer EPG data instellingen</string>
+  
+  <string id="31421">Selecteer je XBMC gebruikersprofiel[CR]om in te loggen en verder te gaan</string>
+  <!-- Extra Unified PVR labels -->
+  <string id="31500">Opname Timers</string>
+  <string id="31501">Geplande Tijd</string>
+  <string id="31502">Live TV</string>
+  <string id="31503">Voeg Groep Toe</string>
+  <string id="31504">Hernoem Groep</string>
+  <string id="31505">Verwijder Groep</string>
+  <string id="31506">Beschikbare[CR]Groepen</string>
+  <string id="31507">Ongegroepeerde[CR]Kanalen</string>
+  <string id="31508">Kanalen in Groep</string>
+  <string id="31509">Kanalen Groep</string>
+  <string id="31510">Timer Ingesteld</string>
+</strings>
