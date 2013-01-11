@@ -3,7 +3,6 @@
 <defaultcontrol always="true">55</defaultcontrol>
 <onload condition="Skin.HasSetting(tv_theme) + System.HasAddon(script.tvtunes) + IsEmpty(Window(Home).Property(DontRunTVShowScripts))">XBMC.RunScript(script.tvtunes,backend=True)</onload>
 <onload condition="System.HasAddon(script.tv.show.next.aired) + IsEmpty(Window(Home).Property(DontRunTVShowScripts)) + !Skin.HasSetting(NextAiredInfo)">RunScript(script.tv.show.next.aired,backend=True)</onload>
-<onload condition="Container.Content(Movies) + System.HasAddon(script.moviesets) + IsEmpty(Window(Home).Property(DontRunTVShowScripts))">RunScript(script.moviesets,containerId=7000)</onload>
 
 <allowoverlay>no</allowoverlay>
 <views>55,52,515,508,666,556,555,667,569,668,570,513,519,571,514,560,590,591,592,593,594,595,511,700,691,766,525,720,721</views>
@@ -11,7 +10,6 @@
 <!-- Hide menu if kiosk mode turned ON -->
 <visible>!Skin.HasSetting(kiosk)</visible>
 <controls>
-<include condition="System.HasAddon(script.moviesets)">ContainerMovieSets</include>
 <include>CommonVideoBackground</include>
 	<!-- FANART IMAGES Mod  -->
 	<control type="group">
@@ -514,9 +512,17 @@
 					<label>20367</label>
 				</control>
 				<control type="radiobutton" id="19">
+					<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
 					<description>Filter</description>
 					<include>ButtonCommonValues</include>
 					<label>587</label>
+				</control>
+				<control type="radiobutton" id="20">
+					<visible>Container.CanFilterAdvanced</visible>
+					<description>Filter</description>
+					<include>ButtonCommonValues</include>
+					<label>587</label>
+					<onclick>Filter</onclick>
 				</control>
 				<control type="radiobutton" id="17">
 					<description>Flatten</description>

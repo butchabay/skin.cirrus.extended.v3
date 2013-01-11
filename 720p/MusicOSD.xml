@@ -282,34 +282,6 @@
 					<enable>Skin.HasSetting(LyricScript_Enable) + !IsEmpty(Skin.String(LyricScript_Path))</enable>
 					<animation effect="fade" start="100" end="50" time="100" condition="![Skin.HasSetting(LyricScript_Enable) + !IsEmpty(Skin.String(LyricScript_Path))]">Conditional</animation>
 				</control>
-				<control type="button" id="710">
-					<visible>LastFM.RadioPlaying</visible>
-					<posx>250</posx>
-					<posy>0</posy>
-					<width>35</width>
-					<height>28</height>
-					<label>31001</label>
-					<font>-</font>
-					<texturefocus>lastfm-love-focus.png</texturefocus>
-					<texturenofocus>lastfm-love-nofocus.png</texturenofocus>			
-					<onleft>703</onleft>
-					<onright>711</onright>
-					<onclick>XBMC.LastFM.Love</onclick>	
-	            </control>
-				<control type="button" id="711">
-					<visible>LastFM.RadioPlaying</visible>
-					<posx>300</posx>
-					<posy>0</posy>
-					<width>35</width>
-					<height>28</height>
-					<label>31002</label>
-					<font>-</font>
-					<texturefocus>lastfm-hate-focus.png</texturefocus>
-					<texturenofocus>lastfm-hate-nofocus.png</texturenofocus>
-					<onleft>710</onleft>
-					<onright>600</onright>
-					<onclick>XBMC.LastFM.Ban</onclick>	
-	            </control>
 			</control>
 			<control type="image" id="11">
 				<description>separator image</description>

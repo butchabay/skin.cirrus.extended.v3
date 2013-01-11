@@ -150,7 +150,9 @@
 				<onup>99</onup>
 				<ondown>19</ondown>
 			</control>
+			</control>
 			<control type="radiobutton" id="19">
+				<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
 				<description>Filter</description>
 				<posx>0</posx>
 				<posy>160</posy>
@@ -160,6 +162,20 @@
 				<onright>55</onright>
 				<onup>16</onup>
 				<ondown>201</ondown>
+			</control>
+			<control type="radiobutton" id="20">
+				<visible>Container.CanFilterAdvanced</visible>
+				<description>Filter</description>
+				<posx>0</posx>
+				<posy>160</posy>
+				<include>ButtonCommonValues</include>
+				<label>587</label>
+				<onleft>55</onleft>
+				<onright>55</onright>
+				<onup>16</onup>
+				<ondown>201</ondown>
+				<selected>Container.Filtered</selected>
+				<onclick>Filter</onclick>
 			</control>
 			<control type="radiobutton" id="201">
 				<description>Toggle Fanart</description>

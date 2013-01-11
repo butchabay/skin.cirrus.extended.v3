@@ -634,7 +634,7 @@
                     <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="900" delay="900" reversible="false">WindowOpen</animation>
 		            <animation effect="fade" start="100" end="0" easing="out" time="200" delay="200" reversible="false">WindowClose</animation>
 			        <animation effect="rotate" time="0" delay="0" start="0" end="-8" condition="true">Conditional</animation>
-		            <visible>Control.IsVisible(721) + [StringCompare(Container.FolderPath,videodb://1/7/) | !IsEmpty(Window(10025).Property(Content.MovieSets)) | !IsEmpty(Container(7000).ListItem.Property(IsSet))]</visible>
+		            <visible>Control.IsVisible(721) + Container.Content(Sets)</visible>
 			    </control>
 				<!-- Changes Ending -->
 				<control type="grouplist">
@@ -728,7 +728,7 @@
 					<label>$INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(TotalMovies),[COLOR=orange]$LOCALIZE[41252]: [/COLOR],]   $INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(WatchedMovies),[COLOR=orange]$LOCALIZE[41130]:[/COLOR] ]  $INFO[Container(7000).ListItem.Duration,, min]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
-					<visible>Control.IsVisible(721) + [StringCompare(Container.FolderPath,videodb://1/7/) | !IsEmpty(Window(10025).Property(Content.MovieSets)) | !IsEmpty(Container(7000).ListItem.Property(IsSet))]</visible>
+					<visible>Control.IsVisible(721) + Container.Content(Sets)</visible>
 				</control>  
 				<control type="textbox">
 					<description>Plot</description>
@@ -745,7 +745,7 @@
 					<animation effect="fade" start="0" end="100" easing="out" time="1200" delay="1100" reversible="false">Visible</animation>
                     <animation effect="fade" start="0" end="100" easing="out" time="1200" delay="1100" reversible="false">WindowOpen</animation>
 		            <animation effect="fade" start="100" end="0" easing="out" time="200" delay="200" reversible="false">WindowClose</animation>
-					<visible>Control.IsVisible(721) + [StringCompare(Container.FolderPath,videodb://1/7/) | !IsEmpty(Window(10025).Property(Content.MovieSets)) | !IsEmpty(Container(7000).ListItem.Property(IsSet))]</visible>
+					<visible>Control.IsVisible(721) + Container.Content(Sets)</visible>
 					<visible>!Player.HasVideo | !Skin.HasSetting(videowindowglobal)</visible>
 				</control>		          <!-- Movie Sets Ende --> 
 				
@@ -761,7 +761,7 @@
 				<animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
                 <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">WindowOpen</animation>
 		        <animation effect="fade" start="100" end="0" easing="out" time="200" delay="200" reversible="false">WindowClose</animation>
-				<visible>Control.IsVisible(721) + [StringCompare(Container.FolderPath,videodb://1/7/) | !IsEmpty(Window(10025).Property(Content.MovieSets)) | !IsEmpty(Container(7000).ListItem.Property(IsSet))]</visible>
+				<visible>Control.IsVisible(721) + Container.Content(Sets)</visible>
 				<visible>!Player.HasVideo | !Skin.HasSetting(videowindowglobal)</visible>
 				<visible>!Skin.HasSetting(VideoLibraryMovieExtrathumbs)</visible>
 			</control>
@@ -777,7 +777,7 @@
 				<animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
                 <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">WindowOpen</animation>
 		        <animation effect="fade" start="100" end="0" easing="out" time="200" delay="200" reversible="false">WindowClose</animation>
-				<visible>Control.IsVisible(721) + [StringCompare(Container.FolderPath,videodb://1/7/) | !IsEmpty(Window(10025).Property(Content.MovieSets)) | !IsEmpty(Container(7000).ListItem.Property(IsSet))]</visible>
+				<visible>Control.IsVisible(721) + Container.Content(Sets)</visible>
 				<visible>!Player.HasVideo | !Skin.HasSetting(videowindowglobal)</visible>
 				<visible>!Skin.HasSetting(VideoLibraryMovieExtrathumbs)</visible>
 			</control>
@@ -794,7 +794,7 @@
                 <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">WindowOpen</animation>
 		        <animation effect="fade" start="100" end="0" easing="out" time="200" delay="200" reversible="false">WindowClose</animation>
 				<animation effect="rotate" time="0" delay="0" start="0" end="7" condition="true">Conditional</animation>
-				<visible>Control.IsVisible(721) + [StringCompare(Container.FolderPath,videodb://1/7/) | !IsEmpty(Window(10025).Property(Content.MovieSets)) | !IsEmpty(Container(7000).ListItem.Property(IsSet))]</visible>
+				<visible>Control.IsVisible(721) + Container.Content(Sets)</visible>
 				<visible>!Player.HasVideo | !Skin.HasSetting(videowindowglobal)</visible>
 				<visible>!Skin.HasSetting(VideoLibraryMovieExtrathumbs)</visible>
 			</control>
@@ -811,7 +811,7 @@
                 <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">WindowOpen</animation>
 		        <animation effect="fade" start="100" end="0" easing="out" time="200" delay="200" reversible="false">WindowClose</animation>
 				<animation effect="rotate" time="0" delay="0" start="0" end="7" condition="true">Conditional</animation>
-				<visible>Control.IsVisible(721) + [StringCompare(Container.FolderPath,videodb://1/7/) | !IsEmpty(Window(10025).Property(Content.MovieSets)) | !IsEmpty(Container(7000).ListItem.Property(IsSet))]</visible>
+				<visible>Control.IsVisible(721) + Container.Content(Sets)</visible>
 				<visible>!Player.HasVideo | !Skin.HasSetting(videowindowglobal)</visible>
 				<visible>!Skin.HasSetting(VideoLibraryMovieExtrathumbs)</visible>
 			</control>
@@ -828,7 +828,7 @@
 			        <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
                     <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">WindowOpen</animation>
 		            <animation effect="fade" start="100" end="0" easing="out" time="200" delay="200" reversible="false">WindowClose</animation>
-					<visible>Control.IsVisible(721) + [StringCompare(Container.FolderPath,videodb://1/7/) | !IsEmpty(Window(10025).Property(Content.MovieSets)) | !IsEmpty(Container(7000).ListItem.Property(IsSet))]</visible>
+					<visible>Control.IsVisible(721) + Container.Content(Sets)</visible>
 			</control>
 			<control type="image">
 				<posx>750</posx>

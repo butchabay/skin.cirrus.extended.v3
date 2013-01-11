@@ -322,6 +322,7 @@
 				<ondown>19</ondown>
 			</control>
 			<control type="radiobutton" id="19">
+				<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
 				<description>Filter</description>
 				<posx>0</posx>
 				<posy>160</posy>
@@ -331,6 +332,20 @@
 				<onright>55</onright>
 				<onup>16</onup>
 				<ondown>2071</ondown>
+			</control>
+			<control type="radiobutton" id="20">
+				<visible>Container.CanFilterAdvanced</visible>
+				<description>Filter</description>
+				<posx>0</posx>
+				<posy>160</posy>
+				<include>ButtonCommonValues</include>
+				<label>587</label>
+				<onleft>55</onleft>
+				<onright>55</onright>
+				<onup>16</onup>
+				<ondown>2071</ondown>
+				<selected>Container.Filtered</selected>
+				<onclick>Filter</onclick>
 			</control>
 			<control type="button" id="2071">
 				<description>Watch it Later</description>

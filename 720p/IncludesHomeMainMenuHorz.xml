@@ -477,10 +477,10 @@
 				<item id="30">
 			        <description>Movie Sets</description>
 					<label>41183</label>
-					<onclick>ActivateWindow(10025,videodb://1/7/,return)</onclick>
 					<icon>special://skin/backgrounds/moviesets.jpg</icon>
 					<thumb>$INFO[Skin.String(Home_Custom_Back_MovieSets_Folder)]</thumb>
-					<visible>!Skin.HasSetting(HomeMenuNoMovieSetsButton) + Library.HasContent(Movies)</visible>
+					<visible>!Skin.HasSetting(HomeMenuNoMovieSetsButton) + Library.HasContent(MovieSets)</visible>
+					<onclick>ActivateWindow(Videos,MovieSets,return)</onclick>
 				</item>
 			<item id="2">
 					<description>Custom FAV One</description>

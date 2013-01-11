@@ -176,13 +176,13 @@
 					<visible>!Skin.HasSetting(HomeMenuNoMoviesButton) + Library.HasContent(Movies)</visible>
 				</item>
 			<item id="30">
-			        <description>Movie Sets</description>
-					<label>41183</label>
-					<onclick>ActivateWindow(10025,videodb://1/7/,return)</onclick>
-					<icon>special://skin/backgrounds/moviesets.jpg</icon>
-					<thumb>$INFO[Skin.String(Home_Custom_Back_MovieSets_Folder)]</thumb>
-					<visible>!Skin.HasSetting(HomeMenuNoMovieSetsButton) + Library.HasContent(Movies)</visible>
-				</item>
+		        <description>Movie Sets</description>
+				<label>41183</label>
+				<icon>special://skin/backgrounds/moviesets.jpg</icon>
+				<thumb>$INFO[Skin.String(Home_Custom_Back_MovieSets_Folder)]</thumb>
+				<visible>!Skin.HasSetting(HomeMenuNoMovieSetsButton) + Library.HasContent(MovieSets)</visible>
+				<onclick>ActivateWindow(Videos,MovieSets,return)</onclick>
+			</item>
 			<item id="2">
 					<description>Custom FAV One</description>
 					<label>$INFO[Skin.String(Menu_Custom1_Label)]</label>

@@ -2,8 +2,6 @@
 	<defaultcontrol always="true">10</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<onload condition="Library.HasContent(tvshows) + System.HasAddon(script.tv.show.next.aired)">XBMC.AlarmClock(NextAired,XBMC.RunScript(script.tv.show.next.aired,silent=True),00:00:10,silent)</onload>
-	<onload condition="Skin.HasSetting(watchlisttv)">RunScript(script.watchlist,movies=true&amp;episodes=true&amp;limit=25)</onload>
-	<onload>XBMC.RunScript(script.randomitems,limit=10&amp;unplayed=True&amp;random=True)</onload>
 	<controls>
 		<control type="button" id="10">
 			<description>trigger</description>

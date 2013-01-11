@@ -3,7 +3,7 @@
 <!-- ===================================================================================== -->
 <!-- ================================= FANART Movie Sets VIEW ID 766 ================================ -->
 <!-- ====================== Movies ===================== -->
-<include name="ContainerMovieSets">
+	<include name="ContainerMovieSets">
 		<control type="list" id="7000">
 			<description>Container Movie Sets</description>
 			<hitrect x="0" y="0" w="0" h="0" />
@@ -152,7 +152,7 @@
 			</control>
 			<!-- Fanart Slide Mod 1.2.2 -->
 		<control type="group">
-		<visible>Control.IsVisible(766) + System.HasAddon(script.moviesets)</visible>
+		<visible>Control.IsVisible(766)</visible>
 		<posx>0</posx>
 			<posy>100</posy>
 			<control type="image">
@@ -162,12 +162,12 @@
 				<height>400</height>
 				<texture>videoinfoback.png</texture>
 				<aspectratio>stretch</aspectratio>
-				<visible>Control.IsVisible(766) + [StringCompare(Container.FolderPath,videodb://1/7/) | !IsEmpty(Window(10025).Property(Content.MovieSets)) | !IsEmpty(Container(7000).ListItem.Property(IsSet))]</visible>
+				<visible>Control.IsVisible(766) + Container.Content(Sets)</visible>
 			</control>
 			<control type="group">
 				<posx>80</posx>
 				<posy>0</posy>
-				<visible>Control.IsVisible(766) + [StringCompare(Container.FolderPath,videodb://1/7/) | !IsEmpty(Window(10025).Property(Content.MovieSets)) | !IsEmpty(Container(7000).ListItem.Property(IsSet))]</visible>
+				<visible>Control.IsVisible(766) + Container.Content(Sets)</visible>
 				<control type="image">
 				<posx>-55</posx>
 				<posy>0</posy>

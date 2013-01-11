@@ -592,7 +592,7 @@
 					 </item>
 					 <item id="90187">
 						<label>41183</label>
-						<onclick>ActivateWindow(10025,videodb://1/7/,return)</onclick>
+						<onclick>ActivateWindow(Videos,MovieSets,return)</onclick>
 						<visible>!Skin.HasSetting(hidemovievideofiles)</visible>
 					</item>
 				</content>
