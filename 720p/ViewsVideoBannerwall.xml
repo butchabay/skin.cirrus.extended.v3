@@ -64,6 +64,7 @@
 							<aspectratio>stretch</aspectratio>
 							<fadetime>200</fadetime>
 							<texture background="true" fallback="tvbanner.png">$INFO[ListItem.Path]banner.jpg</texture>
+							<texture background="true" fallback="tvbanner.png">$INFO[ListItem.Art(banner)]</texture>
 							<bordertexture border="8">ThumbBorder.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Skin.HasSetting(jpgsupport)</visible>
@@ -112,6 +113,7 @@
 							<aspectratio>stretch</aspectratio>
 							<fadetime>200</fadetime>
 							<texture background="true" fallback="tvbanner.png">$INFO[ListItem.Path]banner.jpg</texture>
+							<texture background="true" fallback="tvbanner.png">$INFO[ListItem.Art(banner)]</texture>
 							<bordertexture border="8">ThumbBorder.png</bordertexture>
 							<bordersize>8</bordersize>
 							<visible>Skin.HasSetting(jpgsupport)</visible>

@@ -75,6 +75,7 @@
 				<fadetime>200</fadetime>
 				<animation effect="fade" time="900">VisibleChange</animation>
 				<texture fallback="blank.png">$INFO[Player.FolderPath]../poster.jpg</texture>
+				<texture fallback="blank.png">$INFO[Player.Art(poster)]</texture>
 				<bordertexture border="6">ContentPanelvertical.png</bordertexture>
 				<bordersize>6</bordersize>
 				<aspectratio aligny="bottom">stretch</aspectratio>
@@ -414,6 +415,7 @@
 					<visible>VideoPlayer.Content(Movies)</visible>
 					<visible>Skin.HasSetting(slimseek)</visible>
 				</control> -->
+			<!-- TODO -->
 			<control type="largeimage">
 					<description>TV Show Image</description>
 					<posx>200r</posx>

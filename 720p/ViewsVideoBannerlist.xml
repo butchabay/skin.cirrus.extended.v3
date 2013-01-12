@@ -142,6 +142,7 @@
 							<aspectratio>stretch</aspectratio>
 							<fadetime>200</fadetime>
 							<texture background="true" fallback="tvbanner.png">$INFO[ListItem.Path]banner.jpg</texture>
+							<texture background="true" fallback="tvbanner.png">$INFO[ListItem.Art(banner)]</texture>
 							<bordertexture border="6">contentpanelvertical.png</bordertexture>
 						    <bordersize>6</bordersize>
 							<visible>Skin.HasSetting(jpgsupport)</visible>

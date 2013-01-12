@@ -491,6 +491,7 @@
 					<aspectratio>stretch</aspectratio>
 					<fadetime>200</fadetime>
 					<texture fallback="tvbanner.png" background="true">$INFO[ListItem.Path]banner.jpg</texture>
+					<texture fallback="tvbanner.png" background="true">$INFO[ListItem.Art(banner)]</texture>
 					<bordersize>8</bordersize>
 					<visible>Skin.HasSetting(banner) + !Skin.HasSetting(poster)</visible>
 					<visible>!IsEmpty(ListItem.Thumb)</visible> 

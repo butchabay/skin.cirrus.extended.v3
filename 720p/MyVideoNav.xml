@@ -171,6 +171,7 @@
         <width>1280</width>
         <height>720</height>
         <texture background="true">$INFO[ListItem.Path,,fanart.jpg]</texture>
+        <texture background="true">$INFO[ListItem.Art(fanart)]</texture>
         <fadetime>FanartCrossfadeTime</fadetime>
 		<include>global_kenburns_fanart</include>
         <visible>!Skin.HasSetting(VideoLibraryTVFanart)</visible>
