@@ -1263,7 +1263,7 @@
 			<include>ButtonVideoInfoCommonValues</include>
 		    <label>41110</label>
 			<onclick>Dialog.Close(MovieInformation)</onclick>
-		   <onclick condition="Container.Content(movies)">XBMC.RunScript(script.artwork.downloader,mode=custom,mediatype=movie,mode=gui,medianame=$INFO[ListItem.Title],mediapath=$INFO[ListItem.Path])</onclick>
+		   <onclick condition="Container.Content(movies)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
 		    <visible>Container.Content(movies) + System.HasAddon(script.artwork.downloader)</visible>
 		   </control> 
 		    <control type="button" id="130">
@@ -1271,7 +1271,7 @@
 			<include>ButtonVideoInfoCommonValues</include>
 		    <label>41200</label>
 			<onclick>Dialog.Close(MovieInformation)</onclick>
-		    <onclick condition="Container.Content(movies)">XBMC.RunScript(script.artwork.downloader,mode=custom,mediatype=movie,medianame=$INFO[ListItem.Title],mediapath=$INFO[ListItem.Path],extrafanart)</onclick>
+		    <onclick condition="Container.Content(movies)">XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=movie, dbid=$INFO[ListItem.DBID], extrafanart)</onclick>
 		    <visible>Container.Content(movies) + System.HasAddon(script.artwork.downloader)</visible>
 		   </control> 
           <control type="button" id="11">
@@ -1295,7 +1295,7 @@
 			<include>ButtonVideoInfoCommonValues</include>
 			<label>41110</label>
 			<onclick>Dialog.Close(MovieInformation)</onclick>
-			<onclick condition="Container.Content(tvshows)">XBMC.RunScript(script.artwork.downloader,mode=gui, mediatype=tvshow, medianame=$INFO[ListItem.TVShowTitle])</onclick>
+			<onclick condition="Container.Content(tvshows)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
 			<visible>Container.Content(TVShows) + System.HasAddon(script.artwork.downloader)</visible>
 		  </control>
 		  <control type="button" id="131">
@@ -1303,7 +1303,7 @@
 			<include>ButtonVideoInfoCommonValues</include>
 			<label>41200</label>
 			<onclick>Dialog.Close(MovieInformation)</onclick>
-			<onclick condition="Container.Content(tvshows)">XBMC.RunScript(script.artwork.downloader,mode=custom,mediatype=tvshow,medianame=$INFO[ListItem.TVShowTitle],extrafanart)</onclick>
+			<onclick condition="Container.Content(tvshows)">XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=tvshow, dbid=$INFO[ListItem.DBID], extrafanart)</onclick>
 			<visible>Container.Content(TVShows) + System.HasAddon(script.artwork.downloader)</visible>
 		  </control>
 			<control type="button" id="132">
