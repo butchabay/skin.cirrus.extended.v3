@@ -36,7 +36,7 @@
 			<width>1280</width>
 			<height>720</height>
 			<texture background="true">$INFO[Container(4001).ListItem.Art(fanart)]</texture>
-			<texture background="true">$INFO[Container(4001).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,fanart.jpg]</texture>
+			<texture background="true">$INFO[Container(4001).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,fanart.jpg]</texture>
 			<aspectratio>scale</aspectratio>
 			<fadetime>FanartCrossfadeTime</fadetime>
 			<include>VisibleFadeEffect</include>
@@ -48,7 +48,7 @@
 			<posy>0</posy>
 			<width>1280</width>
 			<height>720</height>
-			<texture background="true">$INFO[Container(4002).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,fanart.jpg]</texture>
+			<texture background="true">$INFO[Container(4002).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,fanart.jpg]</texture>
 			<texture background="true">$INFO[Container(4002).ListItem.Art(fanart)]</texture>
 			<aspectratio>scale</aspectratio>
 			<fadetime>FanartCrossfadeTime</fadetime>
@@ -62,7 +62,7 @@
 			<width>1280</width>
 			<height>720</height>
 			<texture background="true">$INFO[Container(4003).ListItem.Art(fanart)]</texture>
-			<texture background="true">$INFO[Container(4003).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,fanart.jpg]</texture>
+			<texture background="true">$INFO[Container(4003).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,fanart.jpg]</texture>
 			<aspectratio>scale</aspectratio>
 			<fadetime>FanartCrossfadeTime</fadetime>
 			<include>VisibleFadeEffect</include>
@@ -75,7 +75,7 @@
 			<width>1280</width>
 			<height>720</height>
 			<texture background="true">$INFO[Container(4004).ListItem.Art(fanart)]</texture>
-			<texture background="true">$INFO[Container(4004).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,fanart.jpg]</texture>
+			<texture background="true">$INFO[Container(4004).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,fanart.jpg]</texture>
 			<aspectratio>scale</aspectratio>
 			<fadetime>FanartCrossfadeTime</fadetime>
 			<include>VisibleFadeEffect</include>
@@ -88,7 +88,7 @@
 			<width>1280</width>
 			<height>720</height>
 			<texture background="true">$INFO[Container(4005).ListItem.Art(fanart)]</texture>
-			<texture background="true">$INFO[Container(4005).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,fanart.jpg]</texture>
+			<texture background="true">$INFO[Container(4005).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,fanart.jpg]</texture>
 			<aspectratio>scale</aspectratio>
 			<fadetime>FanartCrossfadeTime</fadetime>
 			<include>VisibleFadeEffect</include>
@@ -101,7 +101,7 @@
 			<width>1280</width>
 			<height>720</height>
 			<texture background="true">$INFO[Container(4006).ListItem.Art(fanart)]</texture>
-			<texture background="true">$INFO[Container(4006).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,fanart.jpg]</texture>
+			<texture background="true">$INFO[Container(4006).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,fanart.jpg]</texture>
 			<aspectratio>scale</aspectratio>
 			<fadetime>FanartCrossfadeTime</fadetime>
 			<include>VisibleFadeEffect</include>
@@ -114,7 +114,7 @@
 			<width>1280</width>
 			<height>720</height>
 			<texture background="true">$INFO[Container(4007).ListItem.Art(fanart)]</texture>
-			<texture background="true">$INFO[Container(4007).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,fanart.jpg]</texture>
+			<texture background="true">$INFO[Container(4007).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,fanart.jpg]</texture>
 			<aspectratio>scale</aspectratio>
 			<fadetime>FanartCrossfadeTime</fadetime>
 			<include>VisibleFadeEffect</include>
@@ -4031,7 +4031,7 @@
 					<width>244</width>
 					<height>45</height>
 					<texture>$INFO[Container(4001).ListItem.Art(banner)]</texture>
-					<texture>$INFO[Container(4001).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/banner.jpg]</texture>
+					<texture>$INFO[Container(4001).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/banner.jpg]</texture>
 					<visible>Skin.HasSetting(jpgsupport)</visible>
 				</control>
 				<control type="image">
@@ -4119,7 +4119,7 @@
 					<posy>446</posy>
 					<width>200</width>
 					<height>78</height>
-					<texture>$INFO[Container(4001).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/logo.png]</texture>
+					<texture>$INFO[Container(4001).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/logo.png]</texture>
 					<animation effect="slide" start="0,0" end="0,14" center="auto" time="0" condition="Skin.HasSetting(TVShowsPosters)">Conditional</animation>
 				</control>
 				<control type="image">
@@ -4150,7 +4150,7 @@
 					<width>244</width>
 					<height>45</height>
 					<texture>$INFO[Container(4002).ListItem.Art(banner)]</texture>
-					<texture>$INFO[Container(4002).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/banner.jpg]</texture>
+					<texture>$INFO[Container(4002).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/banner.jpg]</texture>
 					<visible>Skin.HasSetting(jpgsupport)</visible>
 				</control>
 				<control type="image">
@@ -4238,7 +4238,7 @@
 					<posy>446</posy>
 					<width>200</width>
 					<height>78</height>
-					<texture>$INFO[Container(4002).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/logo.png]</texture>
+					<texture>$INFO[Container(4002).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/logo.png]</texture>
 					<animation effect="slide" start="0,0" end="0,14" center="auto" time="0" condition="Skin.HasSetting(TVShowsPosters)">Conditional</animation>
 				</control>
 				<control type="image">
@@ -4269,7 +4269,7 @@
 					<width>244</width>
 					<height>45</height>
 					<texture>$INFO[Container(4003).ListItem.Art(banner)]</texture>
-					<texture>$INFO[Container(4003).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/banner.jpg]</texture>
+					<texture>$INFO[Container(4003).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/banner.jpg]</texture>
 					<visible>Skin.HasSetting(jpgsupport)</visible>
 				</control>
 				<control type="image">
@@ -4357,7 +4357,7 @@
 					<posy>446</posy>
 					<width>200</width>
 					<height>78</height>
-					<texture>$INFO[Container(4003).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/logo.png]</texture>
+					<texture>$INFO[Container(4003).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/logo.png]</texture>
 					<animation effect="slide" start="0,0" end="0,14" center="auto" time="0" condition="Skin.HasSetting(TVShowsPosters)">Conditional</animation>
 				</control>
 				<control type="image">
@@ -4388,7 +4388,7 @@
 					<width>244</width>
 					<height>45</height>
 					<texture>$INFO[Container(4004).ListItem.Art(banner)]</texture>
-					<texture>$INFO[Container(4004).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/banner.jpg]</texture>
+					<texture>$INFO[Container(4004).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/banner.jpg]</texture>
 					<visible>Skin.HasSetting(jpgsupport)</visible>
 				</control>
 				<control type="image">
@@ -4476,7 +4476,7 @@
 					<posy>446</posy>
 					<width>200</width>
 					<height>78</height>
-					<texture>$INFO[Container(4004).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/logo.png]</texture>
+					<texture>$INFO[Container(4004).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/logo.png]</texture>
 					<animation effect="slide" start="0,0" end="0,14" center="auto" time="0" condition="Skin.HasSetting(TVShowsPosters)">Conditional</animation>
 				</control>
 				<control type="image">
@@ -4507,7 +4507,7 @@
 					<width>244</width>
 					<height>45</height>
 					<texture>$INFO[Container(4005).ListItem.Art(banner)]</texture>
-					<texture>$INFO[Container(4005).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/banner.jpg]</texture>
+					<texture>$INFO[Container(4005).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/banner.jpg]</texture>
 					<visible>Skin.HasSetting(jpgsupport)</visible>
 				</control>
 				<control type="image">
@@ -4595,7 +4595,7 @@
 					<posy>446</posy>
 					<width>200</width>
 					<height>78</height>
-					<texture>$INFO[Container(4005).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/logo.png]</texture>
+					<texture>$INFO[Container(4005).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/logo.png]</texture>
 					<animation effect="slide" start="0,0" end="0,14" center="auto" time="0" condition="Skin.HasSetting(TVShowsPosters)">Conditional</animation>
 				</control>
 				<control type="image">
@@ -4626,7 +4626,7 @@
 					<width>244</width>
 					<height>45</height>
 					<texture>$INFO[Container(4006).ListItem.Art(banner)]</texture>
-					<texture>$INFO[Container(4006).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/banner.jpg]</texture>
+					<texture>$INFO[Container(4006).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/banner.jpg]</texture>
 					<visible>Skin.HasSetting(jpgsupport)</visible>
 				</control>
 				<control type="image">
@@ -4714,7 +4714,7 @@
 					<posy>446</posy>
 					<width>200</width>
 					<height>78</height>
-					<texture>$INFO[Container(4006).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/logo.png]</texture>
+					<texture>$INFO[Container(4006).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/logo.png]</texture>
 					<animation effect="slide" start="0,0" end="0,14" center="auto" time="0" condition="Skin.HasSetting(TVShowsPosters)">Conditional</animation>
 				</control>
 				<control type="image">
@@ -4745,7 +4745,7 @@
 					<width>244</width>
 					<height>45</height>
 					<texture>$INFO[Container(4007).ListItem.Art(banner)]</texture>
-					<texture>$INFO[Container(4007).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/banner.jpg]</texture>
+					<texture>$INFO[Container(4007).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/banner.jpg]</texture>
 					<visible>Skin.HasSetting(jpgsupport)</visible>
 				</control>
 				<control type="image">
@@ -4833,7 +4833,7 @@
 					<posy>446</posy>
 					<width>200</width>
 					<height>78</height>
-					<texture>$INFO[Container(4007).ListItem.Property(ShowTitle),special://skin/extras/tvfanarts/,/logo.png]</texture>
+					<texture>$INFO[Container(4007).ListItem.Property(ShowTitle),special://userdata/extras/tvfanarts/,/logo.png]</texture>
 					<animation effect="slide" start="0,0" end="0,14" center="auto" time="0" condition="Skin.HasSetting(TVShowsPosters)">Conditional</animation>
 				</control>
 				<control type="image">

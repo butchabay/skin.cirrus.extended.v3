@@ -285,7 +285,7 @@
 					<aspectratio>stretch</aspectratio>
 					<fadetime>FanartCrossfadeTime</fadetime>
 					<timeperimage>3000</timeperimage>
-					<imagepath background="true">special://skin/extras/videofanarts/$INFO[ListItem.FolderName]/extrathumbs</imagepath>
+					<imagepath background="true">special://userdata/extras/videofanarts/$INFO[ListItem.FolderName]/extrathumbs</imagepath>
 					<visible>!Player.HasVideo | !Skin.HasSetting(videowindowglobal)</visible>
 				</control>
 				<!-- <control type="image">

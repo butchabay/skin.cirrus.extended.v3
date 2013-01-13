@@ -49,7 +49,7 @@
 							<height>106</height>
 							<aspectratio>stretch</aspectratio>
 							<fadetime>200</fadetime>
-							<texture background="true" fallback="tvbanner.png">special://skin/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/banner.jpg</texture>
+							<texture background="true" fallback="tvbanner.png">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/banner.jpg</texture>
 							<texture background="true" fallback="tvbanner.png">$INFO[ListItem.Art(banner)]</texture>
 							<bordertexture border="8">ThumbBorder.png</bordertexture>
 							<bordersize>8</bordersize>
@@ -98,7 +98,7 @@
 							<height>106</height>
 							<aspectratio>stretch</aspectratio>
 							<fadetime>200</fadetime>
-							<texture background="true" fallback="tvbanner.png">special://skin/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/banner.jpg</texture>
+							<texture background="true" fallback="tvbanner.png">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/banner.jpg</texture>
 							<texture background="true" fallback="tvbanner.png">$INFO[ListItem.Art(banner)]</texture>
 							<bordertexture border="8">ThumbBorder.png</bordertexture>
 							<bordersize>8</bordersize>
@@ -191,7 +191,7 @@
 					<posy>-10</posy> 
 					<width>335</width> 
 					<height>130</height> 
-					<texture>special://skin/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture> 
+					<texture>special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture> 
 					<fadetime>100</fadetime> 
 					<aspectratio scalediffuse="false">keep</aspectratio> 
 					<visible>!IsEmpty(ListItem.Thumb)</visible> 

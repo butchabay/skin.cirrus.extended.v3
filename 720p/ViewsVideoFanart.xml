@@ -397,7 +397,7 @@
 					<aspectratio>stretch</aspectratio>
 					<fadetime>FanartCrossfadeTime</fadetime>
 					<timeperimage>3000</timeperimage>
-					<imagepath background="true">special://skin/extras/videofanarts/$INFO[ListItem.FolderName]/extrathumbs</imagepath>
+					<imagepath background="true">special://userdata/extras/videofanarts/$INFO[ListItem.FolderName]/extrathumbs</imagepath>
 					<bordersize>8</bordersize>
 					<visible>!Player.HasVideo | !Skin.HasSetting(videowindowglobal)</visible>
 					<visible>!Skin.HasSetting(Smallwindowhidden)</visible>
@@ -600,7 +600,7 @@
 					<posy>-20</posy> 
 					<width>470</width> 
 					<height>130</height> 
-					<texture background="true">special://skin/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture>
+					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<aspectratio scalediffuse="false" aligny="center" align="left">keep</aspectratio> 
 				</control>
@@ -695,7 +695,7 @@
 					<height>303</height>
 					<aspectratio aligny="bottom">stretch</aspectratio>
 					<fadetime>FanartCrossfadeTime</fadetime>
-					<texture fallback="splashm.png" background="true">special://skin/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/landscape.jpg</texture>
+					<texture fallback="splashm.png" background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/landscape.jpg</texture>
 					<bordersize>8</bordersize>
 					<visible>Skin.HasSetting(tvfanart)</visible>
 					<visible>!Player.HasVideo | !Skin.HasSetting(videowindowglobal)</visible>
@@ -803,7 +803,7 @@
 					<posy>-20</posy> 
 					<width>470</width> 
 					<height>130</height> 
-					<texture background="true">special://skin/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture>
+					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<aspectratio scalediffuse="false" aligny="center" align="left">keep</aspectratio> 
 				</control>
@@ -813,7 +813,7 @@
 					<width>575</width>
 					<height>106</height>
 				    <aspectratio>stretch</aspectratio>
-					<texture background="true">special://skin/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/$INFO[ListItem.Season,season,-banner.jpg]</texture>
+					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/$INFO[ListItem.Season,season,-banner.jpg]</texture>
 					<bordertexture border="8">contentpanelvertical.png</bordertexture>
 				    <bordersize>8</bordersize>
 				</control>
@@ -1051,7 +1051,7 @@
 					<posy>-20</posy> 
 					<width>470</width> 
 					<height>130</height> 
-					<texture background="true">special://skin/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture> 
+					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture> 
 					<fadetime>IconCrossfadeTime</fadetime>
 					<aspectratio scalediffuse="false" aligny="center" align="left">keep</aspectratio> 
 					<visible>!substring(listitem.path,season)</visible> 
@@ -1062,7 +1062,7 @@
 					<posy>-20</posy> 
 					<width>470</width> 
 					<height>130</height> 
-					<texture background="true">special://skin/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture> 
+					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture> 
 					<fadetime>IconCrossfadeTime</fadetime>
 					<aspectratio scalediffuse="false" aligny="center" align="left">keep</aspectratio> 
 					<visible>!IsEmpty(ListItem.Thumb)</visible> 

@@ -329,7 +329,7 @@
 					<posy>-20</posy> 
 					<width>232</width> 
 					<height>90</height> 
-					<texture>special://skin/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture> 
+					<texture>special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture> 
 					<fadetime>100</fadetime> 
 					<aspectratio scalediffuse="false">keep</aspectratio> 
 					<visible>!IsEmpty(ListItem.Thumb)</visible> 
