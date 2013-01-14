@@ -150,8 +150,7 @@
 				<onup>99</onup>
 				<ondown>19</ondown>
 			</control>
-			</control>
-			<control type="radiobutton" id="19">
+            <control type="radiobutton" id="19">
 				<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
 				<description>Filter</description>
 				<posx>0</posx>

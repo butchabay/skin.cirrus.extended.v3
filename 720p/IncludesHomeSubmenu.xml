@@ -152,7 +152,7 @@
 		        <!-- SearchSUBMENU Butchabay -->
                  <item id="90110">
 						<label>31331</label>
-						<onclick>ActivateWindow(MusicLibrary)</onclick>
+						<onclick>ActivateWindow(MusicLibrary,root)</onclick>
 						<onclick>SendClick(8)</onclick>
 					</item>
 					<item id="90111">
@@ -173,7 +173,7 @@
 					</item>
 					<item id="90115">
 						<label>14022</label>
-						<onclick>ActivateWindow(MusicLibrary)</onclick>
+						<onclick>ActivateWindow(MusicLibrary,root)</onclick>
 					</item>
 					<item id="90116">
 						<label>653</label>

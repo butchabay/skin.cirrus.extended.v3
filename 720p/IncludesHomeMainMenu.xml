@@ -295,7 +295,7 @@
 				</item>
 			<item id="14">
 					<label>2</label>
-					<onclick>ActivateWindow(Music)</onclick>
+					<onclick>ActivateWindow(MusicLibrary, root)</onclick>
 					<icon>special://skin/backgrounds/musicfanart.jpg</icon>
 					<thumb>$INFO[Skin.String(Home_Custom_Back_Music_Folder)]</thumb>
 					<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>

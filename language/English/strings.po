@@ -1119,7 +1119,7 @@ msgid "Show Path in Video Info Screen"
 msgstr ""
 
 msgctxt "#41096"
-msgid "Run Logo Downloader Script"
+msgid "Run Artwork Downloader (TV Shows)"
 msgstr ""
 
 #<string id="41097">Enable Slim OSD by Zombierobot</string>
@@ -1936,4 +1936,8 @@ msgstr ""
 
 msgctxt "#41301"
 msgid "Listen Later"
+msgstr ""
+
+msgctxt "#41302"
+msgid "Run Artwork Downloader (Movies)"
 msgstr ""
