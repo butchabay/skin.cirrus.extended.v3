@@ -6802,18 +6802,18 @@
 						<focusedcolor>white</focusedcolor>
 						<texturefocus flipx="true">listwhitegradient.png</texturefocus>
 						<texturenofocus>menuitemNF.png</texturenofocus>
-						<onclick>XBMC.runscript(script.artwork.downloader, mediatype=tvshow)</onclick>
+						<onclick>XBMC.RunScript(script.artwork.downloader, mediatype=tvshow)</onclick>
 					</control>
 					<control type="button" id="1044">
 						<width>750</width>
 						<height>40</height>
 						<font>cirrus_20</font>
-						<label>47999</label>
+						<label>41302</label>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
 						<texturefocus flipx="true">listwhitegradient.png</texturefocus>
 						<texturenofocus>menuitemNF.png</texturenofocus>
-						<onclick>XBMC.runscript(script.artwork.downloader, mediatype=movie)</onclick>
+						<onclick>XBMC.RunScript(script.artwork.downloader, mediatype=movie)</onclick>
 					</control>
 					<!--Changes Ending-->
 				<control type="label" id="1078">
