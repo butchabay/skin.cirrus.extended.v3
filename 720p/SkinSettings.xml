@@ -6793,28 +6793,6 @@
 					<onclick>Skin.ToggleSetting(ExtraFanTV)</onclick>
 					<selected>Skin.HasSetting(ExtraFanTV)</selected>
 				</control>		
-					<control type="button" id="1041">
-						<width>750</width>
-						<height>40</height>
-						<font>cirrus_20</font>
-						<label>41096</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<texturefocus flipx="true">listwhitegradient.png</texturefocus>
-						<texturenofocus>menuitemNF.png</texturenofocus>
-						<onclick>XBMC.RunScript(script.artwork.downloader, mediatype=tvshow)</onclick>
-					</control>
-					<control type="button" id="1044">
-						<width>750</width>
-						<height>40</height>
-						<font>cirrus_20</font>
-						<label>41302</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<texturefocus flipx="true">listwhitegradient.png</texturefocus>
-						<texturenofocus>menuitemNF.png</texturenofocus>
-						<onclick>XBMC.RunScript(script.artwork.downloader, mediatype=movie)</onclick>
-					</control>
 					<!--Changes Ending-->
 				<control type="label" id="1078">
 						<width>750</width>
