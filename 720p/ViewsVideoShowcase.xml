@@ -17,8 +17,7 @@
 				<width>180</width>
 				<height>180</height>
 				<aspectratio>stretch</aspectratio>
-				<texture>special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/disc.png</texture>
-				<texture>special://userdata/extras/videofanarts/$INFO[ListItem.FolderName]/disc.png</texture>
+				<texture>$INFO[ListItem.Path,,disc.png]</texture>
 				<visible>Skin.HasSetting(showmoviedvd)</visible>
 			</control>
 			</control>
@@ -276,7 +275,7 @@
 					<posy>550</posy>
 					<width>200</width>
 					<height>112</height>
-					<texture>special://userdata/extras/videofanarts/$INFO[ListItem.FolderName]/logo.png</texture>
+					<texture>$INFO[ListItem.Path,,logo.png]</texture>
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<visible>Container.Content(Movies)</visible>
 					<visible>!Skin.HasSetting(noMPAAStudioFlags)</visible>
@@ -288,7 +287,7 @@
 					<posy>550</posy>
 					<width>200</width>
 					<height>112</height>
-					<texture>special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture>
+					<texture>$INFO[ListItem.Path,,logo.png]</texture>
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<visible>Container.Content(TVShows) | !Container.Content(Movies)</visible>
 				</control>
@@ -298,7 +297,7 @@
 					<posy>550</posy>
 					<width>200</width>
 					<height>112</height>
-					<texture>special://userdata/extras/videofanarts/$INFO[ListItem.FolderName]/logo.png</texture>
+					<texture>$INFO[ListItem.Path,,logo.png]</texture>
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<visible>Container.Content(Movies)</visible>
 					<visible>Skin.HasSetting(noMPAAStudioFlags)</visible>
@@ -310,7 +309,7 @@
 					<posy>550</posy>
 					<width>200</width>
 					<height>112</height>
-					<texture>special://userdata/extras/videofanarts/$INFO[ListItem.FolderName]/logo.png</texture>
+					<texture>$INFO[ListItem.Path,,logo.png]</texture>
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<visible>Container.Content(Movies)</visible>
 					<visible>Skin.HasSetting(newMPAAFlags)</visible>

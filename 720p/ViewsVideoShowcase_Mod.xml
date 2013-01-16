@@ -19,7 +19,7 @@
 				<width>170</width>
 				<height>170</height>
 				<aspectratio>stretch</aspectratio>
-				<texture>special://userdata/extras/videofanarts/$INFO[ListItem.FolderName]/disc.png</texture>
+				<texture>$INFO[ListItem.Path,,disc.png]</texture>
 				<visible>Skin.HasSetting(showmoviedvd)</visible>
 			</control>
 		</control>
@@ -131,7 +131,7 @@
 			<height>95</height>
 			<aspectratio>stretch</aspectratio>
 			<fadetime>FanartCrossfadeTime</fadetime>
-			<imagepath background="true">special://userdata/extras/videofanarts/$INFO[ListItem.FolderName]/extrathumbs/thumb2.jpg]</imagepath>
+			<imagepath background="true">$INFO[ListItem.Path,,extrathumbs/thumb2.jpg]</imagepath>
 			<bordersize>8</bordersize>
 			<visible>!Container(721).OnNext + !Container(721).OnPrevious</visible>
 			<animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
@@ -148,7 +148,7 @@
 			<height>93</height>
 			<aspectratio>stretch</aspectratio>
 			<fadetime>FanartCrossfadeTime</fadetime>
-			<imagepath background="true">special://userdata/extras/videofanarts/$INFO[ListItem.FolderName]/extrathumbs/thumb3.jpg]</imagepath>
+			<imagepath background="true">$INFO[ListItem.Path,,extrathumbs/thumb3.jpg]</imagepath>
 			<bordersize>8</bordersize>
 			<visible>!Container(721).OnNext + !Container(721).OnPrevious</visible>
 			<animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
@@ -875,7 +875,7 @@
 					<posy>-14</posy> 
 					<width>170</width> 
 					<height>100</height>
-					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture>
+					<texture background="true">$INFO[ListItem.path]logo.png</texture>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<aspectratio scalediffuse="false" aligny="center" align="left">keep</aspectratio> 
 					<visible>!Container(721).OnNext + !Container(721).OnPrevious + Container.Content(TVShows)</visible>
@@ -989,7 +989,7 @@
 					<height>110</height>
 					<aspectratio aligny="bottom">stretch</aspectratio>
 					<fadetime>FanartCrossfadeTime</fadetime>
-					<texture fallback="splashm.png" background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/landscape.jpg</texture>
+					<texture fallback="splashm.png" background="true">$INFO[ListItem.Path]landscape.jpg</texture>
 					<bordersize>8</bordersize>
 					<visible>!Container(721).OnNext + !Container(721).OnPrevious + Container.Content(TVShows)</visible>
 			        <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
@@ -1093,7 +1093,7 @@
 					<posy>-34</posy> 
 					<width>170</width> 
 					<height>100</height> 
-					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/logo.png</texture>
+					<texture background="true">$INFO[ListItem.path]logo.png</texture>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<aspectratio scalediffuse="false" aligny="center" align="left">keep</aspectratio> 
 					<visible>!Container(721).OnNext + !Container(721).OnPrevious + Container.Content(Seasons)</visible>
@@ -1122,7 +1122,7 @@
 					<height>110</height>
 					<aspectratio aligny="bottom">stretch</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/$INFO[ListItem.Season,season,-landscape.jpg]</texture>
+					<texture background="true">$INFO[ListItem.Path]$INFO[ListItem.Season,season,-landscape.jpg]</texture>
 					<bordersize>8</bordersize>
 					<visible>!Container(721).OnNext + !Container(721).OnPrevious + Container.Content(Seasons)</visible>
 			        <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
@@ -1148,7 +1148,7 @@
 					<width>290</width>
 					<height>65</height>
 				    <aspectratio>stretch</aspectratio>
-					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/$INFO[ListItem.Season,season,-banner.jpg]</texture>
+					<texture background="true">$INFO[ListItem.Path]$INFO[ListItem.Season,season,-banner.jpg]</texture>
 				    <bordersize>8</bordersize>
 					<visible>!Container(721).OnNext + !Container(721).OnPrevious + Container.Content(Seasons)</visible>
 			        <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
@@ -1182,8 +1182,8 @@
 					<height>110</height>
 					<aspectratio aligny="bottom">stretch</aspectratio>
 					<fadetime>FanartCrossfadeTime</fadetime>
-					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/../seasonthumb$INFO[ListItem.season].jpg</texture>
- 					<texture background="true">special://userdata/extras/tvfanarts/$INFO[ListItem.TVShowTitle]/$INFO[ListItem.Season,../season,-landscape.jpg]</texture>
+					<texture background="true">$INFO[ListItem.path]../seasonthumb$INFO[ListItem.season].jpg</texture>
+ 					<texture background="true">$INFO[ListItem.Path]$INFO[ListItem.Season,../season,-landscape.jpg]</texture>
 					<bordersize>8</bordersize>
 					<visible>!Container(721).OnNext + !Container(721).OnPrevious + Container.Content(Seasons)</visible>
 			        <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
