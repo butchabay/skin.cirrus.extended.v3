@@ -1047,8 +1047,7 @@
 						<aligny>center</aligny>
 						<font>cirrus_26</font>
 						<textcolor>white</textcolor>
-						
-						<visible>!SubString(ListItem.Duration,mins)</visible>
+						<visible>!IsEmpty(ListItem.Duration)</visible>
 						<visible>!ListItem.IsFolder</visible>
 					</control>
 					<control type="label">

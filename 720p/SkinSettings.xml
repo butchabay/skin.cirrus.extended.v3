@@ -68,7 +68,7 @@
 					<posy>15</posy>
 					<width>380</width>
 					<height>25</height>
-					<font>cirrus_35</font>
+					<font>cirrus_30</font>
 					<textcolor>grey3</textcolor>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -100,7 +100,7 @@
 					<posy>15</posy>
 					<width>380</width>
 					<height>25</height>
-					<font>cirrus_35</font>
+					<font>cirrus_30</font>
 					<textcolor>white</textcolor>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -1804,7 +1804,7 @@
             <font>cirrus_20</font>
             <textcolor>grey2</textcolor>
             <focusedcolor>white</focusedcolor>
-            <label>$LOCALIZE[31111] - $LOCALIZE[41106]</label>
+            <label>$LOCALIZE[31111] - $LOCALIZE[41098]</label>
             <onclick>Skin.ToggleSetting(HomeMenuNoScriptsButton)</onclick>
             <selected>Skin.HasSetting(HomeMenuNoScriptsButton)</selected>
             <texturefocus flipx="true">listwhitegradient.png</texturefocus>
@@ -6734,7 +6734,7 @@
 						<width>750</width>
 						<height>45</height>
 						<font>cirrus_20</font>
-						<label>41099</label>
+						<label>41103</label>
 						<textcolor>orange</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>

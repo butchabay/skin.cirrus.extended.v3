@@ -253,11 +253,11 @@
     <include condition="Skin.HasSetting(horzHomeMenu) + !Skin.HasSetting(horzLowHomeMenu)">HomeHorzSubmenu</include>
     <include condition="Skin.HasSetting(horzHomeMenu) + Skin.HasSetting(horzLowHomeMenu)">HomeHorzLowSubmenu</include>
 
-	 <!-- Custom Offset -->
+	 <!-- Custom Offset 
 	 
 	<include condition="!Skin.HasSetting(customstartupfocus)">StartUpNoCustomfocus</include>
     <include condition="Skin.HasSetting(customstartupfocus)">StartupCustomFocus</include>
-	
+	-->
 	<!-- Weather Plus Widget Beginning -->
 		<control type="group">
 		<animation type="WindowOpen" reversible="false">

@@ -610,7 +610,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(TotalMovies),[COLOR=orange]$LOCALIZE[41252]: [/COLOR],]  $INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(WatchedMovies),[COLOR=orange]$LOCALIZE[41130]:[/COLOR] ]  $INFO[Container(7000).ListItem.Duration,, mins]</label>
+					<label>$INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(TotalMovies),[COLOR=orange]$LOCALIZE[41295]: [/COLOR],]  $INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(WatchedMovies),[COLOR=orange]$LOCALIZE[41130]:[/COLOR] ]  $INFO[Container(7000).ListItem.Duration,, mins]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 					<visible>Control.IsVisible(720) + Container.Content(Sets)</visible>

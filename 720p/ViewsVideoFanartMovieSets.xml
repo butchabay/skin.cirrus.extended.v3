@@ -343,7 +343,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(TotalMovies),[COLOR=orange]$LOCALIZE[41252]:[/COLOR] ]</label>
+					<label>$INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(TotalMovies),[COLOR=orange]$LOCALIZE[41295]:[/COLOR] ]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 				</control>
