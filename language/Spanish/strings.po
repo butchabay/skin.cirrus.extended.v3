@@ -1,7 +1,7 @@
 # XBMC Media Center language file
-# Addon Name: Cirrus Extended V2 (SVN)
-# Addon id: skin.cirrus.extended.v2
-# Addon version: 2.0.9
+# Addon Name: Cirrus Extended V3
+# Addon id: skin.cirrus.extended.v3
+# Addon version: 3.0.0
 # Addon Provider: butchabay
 msgid ""
 msgstr ""
@@ -56,10 +56,6 @@ msgstr "Ocultar Información"
 msgctxt "#31007"
 msgid "Video Addons"
 msgstr "Addons de Video"
-
-msgctxt "#31020"
-msgid "Recently Added"
-msgstr "Añadido Recientemente"
 
 msgctxt "#31021"
 msgid "Video: Files"
@@ -733,10 +729,6 @@ msgctxt "#41022"
 msgid "Power"
 msgstr "Apagar"
 
-msgctxt "#41023"
-msgid "Play Disc"
-msgstr "Reproducir Disco"
-
 msgctxt "#41024"
 msgid "Favourites"
 msgstr "Favoritos"
@@ -1029,14 +1021,6 @@ msgctxt "#41098"
 msgid "Addons"
 msgstr "Addons"
 
-msgctxt "#41099"
-msgid "TV Shows"
-msgstr "Series"
-
-msgctxt "#41100"
-msgid "Play Disc"
-msgstr "Reproducir Disco"
-
 msgctxt "#41101"
 msgid "View Options"
 msgstr "Ver Opciones"
@@ -1056,10 +1040,6 @@ msgstr "Música"
 msgctxt "#41105"
 msgid "Video Plugins"
 msgstr "Plugins de Video"
-
-msgctxt "#41106"
-msgid "Addons"
-msgstr "Addons"
 
 msgctxt "#41107"
 msgid "Enable/Disable Views"
@@ -1617,10 +1597,6 @@ msgctxt "#41251"
 msgid "Status"
 msgstr "Status"
 
-msgctxt "#41252"
-msgid "Total Movies"
-msgstr "Total Películas"
-
 msgctxt "#41253"
 msgid "Enable TV Tunes"
 msgstr "Habilitar TV Tunes"
@@ -1779,7 +1755,7 @@ msgstr ""
 
 msgctxt "#41295"
 msgid "Total Movies"
-msgstr ""
+msgstr "Total Películas"
 
 msgctxt "#41296"
 msgid "Total Shows"
