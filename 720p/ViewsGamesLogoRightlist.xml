@@ -74,7 +74,7 @@
           <posy>510</posy>
           <height>30</height>
           <width>330</width>
-          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>cirrus_20</font>
@@ -170,7 +170,7 @@
 						<posy>0</posy>
 						<width>550</width>
 						<height>25</height>
-						<label>$INFO[ListItem.Genre,[COLOR=orange]$LOCALIZE[515]:[/COLOR] ]</label>
+						<label>$INFO[ListItem.Genre,[COLOR=accent]$LOCALIZE[515]:[/COLOR] ]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_24</font>
@@ -184,7 +184,7 @@
 						<posy>0</posy>
 						<width>550</width>
 						<height>25</height>
-						<label>$INFO[ListItem.Property(Addon.Type),[COLOR=orange]$LOCALIZE[515]:[/COLOR] ]</label>
+						<label>$INFO[ListItem.Property(Addon.Type),[COLOR=accent]$LOCALIZE[515]:[/COLOR] ]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_24</font>
@@ -230,7 +230,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_26</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 					</control>
 				</control>

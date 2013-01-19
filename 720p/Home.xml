@@ -642,7 +642,7 @@
 				<posy>15</posy>
 				<height>28</height>
 				<width>520</width>
-				<label>$INFO[Window(Weather).Property(Location)]  [COLOR=orange]$INFO[Weather.Temperature][/COLOR]  $INFO[Window(Weather).Property(Current.Condition)]</label>
+				<label>$INFO[Window(Weather).Property(Location)]  [COLOR=accent]$INFO[Weather.Temperature][/COLOR]  $INFO[Window(Weather).Property(Current.Condition)]</label>
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>cirrus_22</font>
@@ -922,7 +922,7 @@
 				<height>30</height>
            		<font>cirrus_20</font>
           		<textcolor>white</textcolor>
-			    <label>[COLOR=orange]$LOCALIZE[393] :[/COLOR]$INFO[Window(weather).Property(Day0.HighTemp)]$INFO[System.TemperatureUnits] </label>
+			    <label>[COLOR=accent]$LOCALIZE[393] :[/COLOR]$INFO[Window(weather).Property(Day0.HighTemp)]$INFO[System.TemperatureUnits] </label>
 				<align>center</align>
 				<aligny>center</aligny>
 			</control>
@@ -970,7 +970,7 @@
 				<height>30</height>
            		<font>cirrus_20</font>
           		<textcolor>white</textcolor>
-			    <label>[COLOR=orange]$LOCALIZE[393] :[/COLOR]$INFO[Window(weather).Property(Day1.HighTemp)]$INFO[System.TemperatureUnits] </label>
+			    <label>[COLOR=accent]$LOCALIZE[393] :[/COLOR]$INFO[Window(weather).Property(Day1.HighTemp)]$INFO[System.TemperatureUnits] </label>
 				<align>center</align>
 				<aligny>center</aligny>
 			</control>
@@ -1018,7 +1018,7 @@
 				<height>30</height>
            		<font>cirrus_20</font>
           		<textcolor>white</textcolor>
-			    <label>[COLOR=orange]$LOCALIZE[393] :[/COLOR]$INFO[Window(weather).Property(Day2.HighTemp)]$INFO[System.TemperatureUnits] </label>
+			    <label>[COLOR=accent]$LOCALIZE[393] :[/COLOR]$INFO[Window(weather).Property(Day2.HighTemp)]$INFO[System.TemperatureUnits] </label>
 				<align>center</align>
 				<aligny>center</aligny>
 			</control>
@@ -1066,7 +1066,7 @@
 				<height>30</height>
            		<font>cirrus_20</font>
           		<textcolor>white</textcolor>
-			    <label>[COLOR=orange]$LOCALIZE[393] :[/COLOR]$INFO[Window(weather).Property(Day3.HighTemp)]$INFO[System.TemperatureUnits] </label>
+			    <label>[COLOR=accent]$LOCALIZE[393] :[/COLOR]$INFO[Window(weather).Property(Day3.HighTemp)]$INFO[System.TemperatureUnits] </label>
 				<align>center</align>
 				<aligny>center</aligny>
 			</control>
@@ -1090,7 +1090,7 @@
 				<height>30</height>
            		<font>cirrus_22</font>
           		<textcolor>white</textcolor>
-				<label>               [COLOR=orange]$INFO[Weather.Temperature][/COLOR]               $INFO[Window(weather).Property(Day0.HighTemp)]$INFO[System.TemperatureUnits]               $INFO[Window(weather).Property(Day1.HighTemp)]$INFO[System.TemperatureUnits]               $INFO[Window(weather).Property(Day2.HighTemp)]$INFO[System.TemperatureUnits]               $INFO[Window(weather).Property(Day3.HighTemp)]$INFO[System.TemperatureUnits]               </label>
+				<label>               [COLOR=accent]$INFO[Weather.Temperature][/COLOR]               $INFO[Window(weather).Property(Day0.HighTemp)]$INFO[System.TemperatureUnits]               $INFO[Window(weather).Property(Day1.HighTemp)]$INFO[System.TemperatureUnits]               $INFO[Window(weather).Property(Day2.HighTemp)]$INFO[System.TemperatureUnits]               $INFO[Window(weather).Property(Day3.HighTemp)]$INFO[System.TemperatureUnits]               </label>
 				<align>center</align>
 				<aligny>center</aligny>
 				 <visible>Weather.IsFetched</visible>
@@ -1643,8 +1643,8 @@
       <width>1280</width>
       <font>font12</font>
       <urlset>1</urlset>
-      <textcolor>orange</textcolor>
-      <titlecolor>orange</titlecolor>
+      <textcolor>accent</textcolor>
+      <titlecolor>accent</titlecolor>
       <headlinecolor>white</headlinecolor>
       <visible>system.getbool(lookandfeel.enablerssfeeds)</visible>
     </control>

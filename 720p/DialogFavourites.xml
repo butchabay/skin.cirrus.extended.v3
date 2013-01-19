@@ -99,7 +99,7 @@
         <aligny>center</aligny>
         <font>cirrus_16</font>
         <textcolor>grey</textcolor>
-        <label>([COLOR=orange]$INFO[Container(450).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages][/COLOR])</label>
+        <label>([COLOR=accent]$INFO[Container(450).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages][/COLOR])</label>
       </control>
     </control>
   </controls>

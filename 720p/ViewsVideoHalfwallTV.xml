@@ -129,7 +129,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>bottom</aligny>
-						<label>[COLOR=orange]$LOCALIZE[20373]:[/COLOR] $INFO[ListItem.Season] [COLOR=orange]$LOCALIZE[20359]: [/COLOR]$INFO[ListItem.Episode]</label>
+						<label>[COLOR=accent]$LOCALIZE[20373]:[/COLOR] $INFO[ListItem.Season] [COLOR=accent]$LOCALIZE[20359]: [/COLOR]$INFO[ListItem.Episode]</label>
 						<scroll>true</scroll>
 					</control>
 					<control type="label">
@@ -157,7 +157,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>[COLOR=orange]$INFO[ListItem.Year][/COLOR] $INFO[ListItem.Duration]</label>
+					<label>[COLOR=accent]$INFO[ListItem.Year][/COLOR] $INFO[ListItem.Duration]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 					<visible>SubString(ListItem.Duration,mins)</visible>
@@ -173,7 +173,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>[COLOR=orange]$INFO[ListItem.Year][/COLOR] $INFO[ListItem.Duration] mins</label>
+					<label>[COLOR=accent]$INFO[ListItem.Year][/COLOR] $INFO[ListItem.Duration] mins</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 					<visible>!SubString(ListItem.Duration,mins)</visible>
@@ -244,7 +244,7 @@
 					<posy>280</posy>
 					<height>30</height>
 					<width>330</width>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>

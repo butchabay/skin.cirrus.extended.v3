@@ -38,7 +38,7 @@
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
 			<label>1021</label>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="list" id="10">
@@ -183,7 +183,7 @@
 			<aligny>center</aligny>
 			<font>cirrus_20</font>
 			<label>1022</label>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="button" id="12">

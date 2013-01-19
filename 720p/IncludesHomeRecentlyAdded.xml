@@ -457,77 +457,77 @@
               <height>24</height>
               <texture>recentlyadded/0.0.png</texture>
               <visible>SubString(Container(8000).ListItem.Property(Rating),0,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/1.0.png</texture>
               <visible>[SubString(Container(8000).ListItem.Property(Rating),1,left) + !SubString(Container(8000).ListItem.Property(Rating),10,left)]</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/2.0.png</texture>
               <visible>SubString(Container(8000).ListItem.Property(Rating),2,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>Star_Rating3.png</texture>
               <visible>SubString(Container(8000).ListItem.Property(Rating),3,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/4.0.png</texture>
               <visible>SubString(Container(8000).ListItem.Property(Rating),4,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/5.0.png</texture>
               <visible>SubString(Container(8000).ListItem.Property(Rating),5,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/6.0.png</texture>
               <visible>SubString(Container(8000).ListItem.Property(Rating),6,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/7.0.png</texture>
               <visible>SubString(Container(8000).ListItem.Property(Rating),7,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/8.0.png</texture>
               <visible>SubString(Container(8000).ListItem.Property(Rating),8,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/9.0.png</texture>
               <visible>SubString(Container(8000).ListItem.Property(Rating),9,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/10.0.png</texture>
               <visible>SubString(Container(8000).ListItem.Property(Rating),10,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
           </control>
             <control type="label">
@@ -549,7 +549,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>60</posy>
-              <label>[COLOR=orange]$LOCALIZE[31053]:[/COLOR] $INFO[Container(8000).ListItem.Property(Year)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31053]:[/COLOR] $INFO[Container(8000).ListItem.Property(Year)]</label>
               <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -559,7 +559,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>85</posy>
-              <label>[COLOR=orange]$LOCALIZE[368]:[/COLOR] $INFO[Container(8000).ListItem.Property(Rating)]</label>
+              <label>[COLOR=accent]$LOCALIZE[368]:[/COLOR] $INFO[Container(8000).ListItem.Property(Rating)]</label>
               <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -569,7 +569,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>110</posy>
-              <label>[COLOR=orange]$LOCALIZE[31054]:[/COLOR] $INFO[Container(8000).ListItem.Property(RunningTime)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31054]:[/COLOR] $INFO[Container(8000).ListItem.Property(RunningTime)]</label>
              <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -639,7 +639,7 @@
             <aligny>center</aligny>
             <label></label>
             <font>cirrus_24</font>
-            <textcolor>orange</textcolor>
+            <textcolor>accent</textcolor>
             <shadowcolor>black</shadowcolor>
             <animation effect="fade" start="0" end="100" delay="1000" time="500">WindowOpen</animation>
             <animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
@@ -1282,77 +1282,77 @@
               <height>24</height>
               <texture>recentlyadded/0.0.png</texture>
               <visible>SubString(Container(8006).ListItem.Property(Rating),0,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/1.0.png</texture>
               <visible>[SubString(Container(8006).ListItem.Property(Rating),1,left) + !SubString(Container(8006).ListItem.Property(Rating),10,left)]</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/2.0.png</texture>
               <visible>SubString(Container(8006).ListItem.Property(Rating),2,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>Star_Rating3.png</texture>
               <visible>SubString(Container(8006).ListItem.Property(Rating),3,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/4.0.png</texture>
               <visible>SubString(Container(8006).ListItem.Property(Rating),4,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/5.0.png</texture>
               <visible>SubString(Container(8006).ListItem.Property(Rating),5,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/6.0.png</texture>
               <visible>SubString(Container(8006).ListItem.Property(Rating),6,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/7.0.png</texture>
               <visible>SubString(Container(8006).ListItem.Property(Rating),7,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/8.0.png</texture>
               <visible>SubString(Container(8006).ListItem.Property(Rating),8,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/9.0.png</texture>
               <visible>SubString(Container(8006).ListItem.Property(Rating),9,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/10.0.png</texture>
               <visible>SubString(Container(8006).ListItem.Property(Rating),10,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
           </control>
             <control type="label">
@@ -1374,7 +1374,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>60</posy>
-              <label>[COLOR=orange]$LOCALIZE[31053]:[/COLOR] $INFO[Container(8006).ListItem.Property(Year)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31053]:[/COLOR] $INFO[Container(8006).ListItem.Property(Year)]</label>
               <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -1384,7 +1384,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>85</posy>
-              <label>[COLOR=orange]$LOCALIZE[368]:[/COLOR] $INFO[Container(8006).ListItem.Property(Rating)]</label>
+              <label>[COLOR=accent]$LOCALIZE[368]:[/COLOR] $INFO[Container(8006).ListItem.Property(Rating)]</label>
               <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -1394,7 +1394,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>110</posy>
-              <label>[COLOR=orange]$LOCALIZE[31054]:[/COLOR] $INFO[Container(8006).ListItem.Property(RunningTime)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31054]:[/COLOR] $INFO[Container(8006).ListItem.Property(RunningTime)]</label>
              <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -1452,7 +1452,7 @@
             <aligny>center</aligny>
             <label></label>
             <font>cirrus_24</font>
-            <textcolor>orange</textcolor>
+            <textcolor>accent</textcolor>
             <shadowcolor>black</shadowcolor>
             <animation effect="fade" start="0" end="100" delay="1000" time="500">WindowOpen</animation>
             <animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
@@ -1945,77 +1945,77 @@
               <height>24</height>
               <texture>recentlyadded/0.0.png</texture>
               <visible>SubString(Container(8007).ListItem.Property(Rating),0,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/1.0.png</texture>
               <visible>[SubString(Container(8007).ListItem.Property(Rating),1,left) + !SubString(Container(8007).ListItem.Property(Rating),10,left)]</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/2.0.png</texture>
               <visible>SubString(Container(8007).ListItem.Property(Rating),2,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>Star_Rating3.png</texture>
               <visible>SubString(Container(8007).ListItem.Property(Rating),3,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/4.0.png</texture>
               <visible>SubString(Container(8007).ListItem.Property(Rating),4,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/5.0.png</texture>
               <visible>SubString(Container(8007).ListItem.Property(Rating),5,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/6.0.png</texture>
               <visible>SubString(Container(8007).ListItem.Property(Rating),6,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/7.0.png</texture>
               <visible>SubString(Container(8007).ListItem.Property(Rating),7,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/8.0.png</texture>
               <visible>SubString(Container(8007).ListItem.Property(Rating),8,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/9.0.png</texture>
               <visible>SubString(Container(8007).ListItem.Property(Rating),9,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/10.0.png</texture>
               <visible>SubString(Container(8007).ListItem.Property(Rating),10,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
           </control>
             <control type="label">
@@ -2037,7 +2037,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>60</posy>
-              <label>[COLOR=orange]$LOCALIZE[31053]:[/COLOR] $INFO[Container(8007).ListItem.Property(Year)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31053]:[/COLOR] $INFO[Container(8007).ListItem.Property(Year)]</label>
               <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -2047,7 +2047,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>85</posy>
-              <label>[COLOR=orange]$LOCALIZE[368]:[/COLOR] $INFO[Container(8007).ListItem.Property(Rating)]</label>
+              <label>[COLOR=accent]$LOCALIZE[368]:[/COLOR] $INFO[Container(8007).ListItem.Property(Rating)]</label>
               <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -2057,7 +2057,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>110</posy>
-              <label>[COLOR=orange]$LOCALIZE[31054]:[/COLOR] $INFO[Container(8007).ListItem.Property(RunningTime)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31054]:[/COLOR] $INFO[Container(8007).ListItem.Property(RunningTime)]</label>
              <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -2115,7 +2115,7 @@
             <aligny>center</aligny>
             <label></label>
             <font>cirrus_24</font>
-            <textcolor>orange</textcolor>
+            <textcolor>accent</textcolor>
             <shadowcolor>black</shadowcolor>
             <animation effect="fade" start="0" end="100" delay="1000" time="500">WindowOpen</animation>
             <animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
@@ -2608,77 +2608,77 @@
               <height>24</height>
               <texture>recentlyadded/0.0.png</texture>
               <visible>SubString(Container(8008).ListItem.Property(Rating),0,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/1.0.png</texture>
               <visible>[SubString(Container(8008).ListItem.Property(Rating),1,left) + !SubString(Container(8008).ListItem.Property(Rating),10,left)]</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/2.0.png</texture>
               <visible>SubString(Container(8008).ListItem.Property(Rating),2,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>Star_Rating3.png</texture>
               <visible>SubString(Container(8008).ListItem.Property(Rating),3,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/4.0.png</texture>
               <visible>SubString(Container(8008).ListItem.Property(Rating),4,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/5.0.png</texture>
               <visible>SubString(Container(8008).ListItem.Property(Rating),5,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/6.0.png</texture>
               <visible>SubString(Container(8008).ListItem.Property(Rating),6,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/7.0.png</texture>
               <visible>SubString(Container(8008).ListItem.Property(Rating),7,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/8.0.png</texture>
               <visible>SubString(Container(8008).ListItem.Property(Rating),8,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/9.0.png</texture>
               <visible>SubString(Container(8008).ListItem.Property(Rating),9,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
             <control type="image">
               <width>120</width>
               <height>24</height>
               <texture>recentlyadded/10.0.png</texture>
               <visible>SubString(Container(8008).ListItem.Property(Rating),10,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
             </control>
           </control>
             <control type="label">
@@ -2700,7 +2700,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>60</posy>
-              <label>[COLOR=orange]$LOCALIZE[31053]:[/COLOR] $INFO[Container(8008).ListItem.Property(Year)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31053]:[/COLOR] $INFO[Container(8008).ListItem.Property(Year)]</label>
               <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -2710,7 +2710,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>85</posy>
-              <label>[COLOR=orange]$LOCALIZE[368]:[/COLOR] $INFO[Container(8008).ListItem.Property(Rating)]</label>
+              <label>[COLOR=accent]$LOCALIZE[368]:[/COLOR] $INFO[Container(8008).ListItem.Property(Rating)]</label>
               <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -2720,7 +2720,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>110</posy>
-              <label>[COLOR=orange]$LOCALIZE[31054]:[/COLOR] $INFO[Container(8008).ListItem.Property(RunningTime)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31054]:[/COLOR] $INFO[Container(8008).ListItem.Property(RunningTime)]</label>
              <font>cirrus_20</font>
 				<shadowcolor>black</shadowcolor>
             </control>
@@ -2778,7 +2778,7 @@
             <aligny>center</aligny>
             <label></label>
             <font>cirrus_24</font>
-            <textcolor>orange</textcolor>
+            <textcolor>accent</textcolor>
             <shadowcolor>black</shadowcolor>
             <animation effect="fade" start="0" end="100" delay="1000" time="500">WindowOpen</animation>
             <animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
@@ -3022,7 +3022,7 @@
             <aligny>center</aligny>
             <label>41102</label>
             <font>cirrus_20</font>
-            <textcolor>orange</textcolor>
+            <textcolor>accent</textcolor>
             <shadowcolor>black</shadowcolor>
             <animation effect="fade" start="0" end="100" delay="1000" time="500">WindowOpen</animation>
             <animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
@@ -3040,7 +3040,7 @@
             <aligny>center</aligny>
             <label>41103</label>
             <font>cirrus_20</font>
-            <textcolor>orange</textcolor>
+            <textcolor>accent</textcolor>
             <shadowcolor>black</shadowcolor>
             <animation effect="fade" start="0" end="100" delay="1000" time="500">WindowOpen</animation>
             <animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
@@ -3688,7 +3688,7 @@
               <height>24</height>
               <texture>recentlyadded/0.0.png</texture>
               <visible>SubString(Container(8001).ListItem.Property(Rating),0,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
             <control type="image">
@@ -3696,7 +3696,7 @@
               <height>24</height>
               <texture>recentlyadded/1.0.png</texture>
               <visible>[SubString(Container(8001).ListItem.Property(Rating),1,left) + !SubString(Container(8001).ListItem.Property(Rating),10,left)]</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
             <control type="image">
@@ -3704,7 +3704,7 @@
               <height>24</height>
               <texture>recentlyadded/2.0.png</texture>
               <visible>SubString(Container(8001).ListItem.Property(Rating),2,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
             <control type="image">
@@ -3712,7 +3712,7 @@
               <height>24</height>
               <texture>Star_Rating3.png</texture>
               <visible>SubString(Container(8001).ListItem.Property(Rating),3,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
             <control type="image">
@@ -3720,7 +3720,7 @@
               <height>24</height>
               <texture>recentlyadded/4.0.png</texture>
               <visible>SubString(Container(8001).ListItem.Property(Rating),4,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
             <control type="image">
@@ -3728,7 +3728,7 @@
               <height>24</height>
               <texture>recentlyadded/5.0.png</texture>
               <visible>SubString(Container(8001).ListItem.Property(Rating),5,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
             <control type="image">
@@ -3736,7 +3736,7 @@
               <height>24</height>
               <texture>recentlyadded/6.0.png</texture>
               <visible>SubString(Container(8001).ListItem.Property(Rating),6,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
             <control type="image">
@@ -3744,7 +3744,7 @@
               <height>24</height>
               <texture>recentlyadded/7.0.png</texture>
               <visible>SubString(Container(8001).ListItem.Property(Rating),7,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
             <control type="image">
@@ -3752,7 +3752,7 @@
               <height>24</height>
               <texture>recentlyadded/8.0.png</texture>
               <visible>SubString(Container(8001).ListItem.Property(Rating),8,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
             <control type="image">
@@ -3760,7 +3760,7 @@
               <height>24</height>
               <texture>recentlyadded/9.0.png</texture>
               <visible>SubString(Container(8001).ListItem.Property(Rating),9,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
             <control type="image">
@@ -3768,7 +3768,7 @@
               <height>24</height>
               <texture>recentlyadded/10.0.png</texture>
               <visible>SubString(Container(8001).ListItem.Property(Rating),10,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
             </control>
           </control>
@@ -3803,7 +3803,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>8</posy>
-              <label>[COLOR=orange]$LOCALIZE[31063]:[/COLOR] $INFO[Container(8001).ListItem.Property(EpisodeSeason)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31063]:[/COLOR] $INFO[Container(8001).ListItem.Property(EpisodeSeason)]</label>
 			  <font>cirrus_20</font>
 			  <shadowcolor>black</shadowcolor>
 			   <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
@@ -3814,7 +3814,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>8</posy>
-              <label>[COLOR=orange]$LOCALIZE[31063]:[/COLOR] $INFO[Container(8001).ListItem.Property(Season)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31063]:[/COLOR] $INFO[Container(8001).ListItem.Property(Season)]</label>
 			  <font>cirrus_20</font>
 			  <shadowcolor>black</shadowcolor>
 			  <visible>Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
@@ -3825,7 +3825,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>34</posy>
-              <label>[COLOR=orange]$LOCALIZE[31064]:[/COLOR] $INFO[Container(8001).ListItem.Property(EpisodeNumber)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31064]:[/COLOR] $INFO[Container(8001).ListItem.Property(EpisodeNumber)]</label>
 			  <font>cirrus_20</font>
 			  <shadowcolor>black</shadowcolor>
 			   <visible>!Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
@@ -3836,7 +3836,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>34</posy>
-              <label>[COLOR=orange]$LOCALIZE[31064]:[/COLOR] $INFO[Container(8001).ListItem.Property(Episode)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31064]:[/COLOR] $INFO[Container(8001).ListItem.Property(Episode)]</label>
 			  <font>cirrus_20</font>
 			  <shadowcolor>black</shadowcolor>
 			  <visible>Skin.HasSetting(watchlisttv)+Container(9000).HasFocus(7)</visible>
@@ -4646,7 +4646,7 @@
               <height>24</height>
               <texture>recentlyadded/0.0.png</texture>
               <visible>SubString(Container(8009).ListItem.Property(Rating),0,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
             <control type="image">
@@ -4654,7 +4654,7 @@
               <height>24</height>
               <texture>recentlyadded/1.0.png</texture>
               <visible>[SubString(Container(8009).ListItem.Property(Rating),1,left) + !SubString(Container(8009).ListItem.Property(Rating),10,left)]</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
             <control type="image">
@@ -4662,7 +4662,7 @@
               <height>24</height>
               <texture>recentlyadded/2.0.png</texture>
               <visible>SubString(Container(8009).ListItem.Property(Rating),2,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
             <control type="image">
@@ -4670,7 +4670,7 @@
               <height>24</height>
               <texture>Star_Rating3.png</texture>
               <visible>SubString(Container(8009).ListItem.Property(Rating),3,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
             <control type="image">
@@ -4678,7 +4678,7 @@
               <height>24</height>
               <texture>recentlyadded/4.0.png</texture>
               <visible>SubString(Container(8009).ListItem.Property(Rating),4,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
             <control type="image">
@@ -4686,7 +4686,7 @@
               <height>24</height>
               <texture>recentlyadded/5.0.png</texture>
               <visible>SubString(Container(8009).ListItem.Property(Rating),5,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
             <control type="image">
@@ -4694,7 +4694,7 @@
               <height>24</height>
               <texture>recentlyadded/6.0.png</texture>
               <visible>SubString(Container(8009).ListItem.Property(Rating),6,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
             <control type="image">
@@ -4702,7 +4702,7 @@
               <height>24</height>
               <texture>recentlyadded/7.0.png</texture>
               <visible>SubString(Container(8009).ListItem.Property(Rating),7,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
             <control type="image">
@@ -4710,7 +4710,7 @@
               <height>24</height>
               <texture>recentlyadded/8.0.png</texture>
               <visible>SubString(Container(8009).ListItem.Property(Rating),8,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
             <control type="image">
@@ -4718,7 +4718,7 @@
               <height>24</height>
               <texture>recentlyadded/9.0.png</texture>
               <visible>SubString(Container(8009).ListItem.Property(Rating),9,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
             <control type="image">
@@ -4726,7 +4726,7 @@
               <height>24</height>
               <texture>recentlyadded/10.0.png</texture>
               <visible>SubString(Container(8009).ListItem.Property(Rating),10,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(9)</visible>
             </control>
           </control>
@@ -4749,7 +4749,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>8</posy>
-              <label>[COLOR=orange]$LOCALIZE[31063]:[/COLOR] $INFO[Container(8009).ListItem.Property(EpisodeSeason)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31063]:[/COLOR] $INFO[Container(8009).ListItem.Property(EpisodeSeason)]</label>
 			  <font>cirrus_20</font>
 			  <shadowcolor>black</shadowcolor>
 			   <visible>Container(9000).HasFocus(9)</visible>
@@ -4760,7 +4760,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>34</posy>
-              <label>[COLOR=orange]$LOCALIZE[31064]:[/COLOR] $INFO[Container(8009).ListItem.Property(EpisodeNumber)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31064]:[/COLOR] $INFO[Container(8009).ListItem.Property(EpisodeNumber)]</label>
 			  <font>cirrus_20</font>
 			  <shadowcolor>black</shadowcolor>
 			   <visible>Container(9000).HasFocus(9)</visible>
@@ -5274,7 +5274,7 @@
               <height>24</height>
               <texture>recentlyadded/0.0.png</texture>
               <visible>SubString(Container(8010).ListItem.Property(Rating),0,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
             <control type="image">
@@ -5282,7 +5282,7 @@
               <height>24</height>
               <texture>recentlyadded/1.0.png</texture>
               <visible>[SubString(Container(8010).ListItem.Property(Rating),1,left) + !SubString(Container(8010).ListItem.Property(Rating),10,left)]</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
             <control type="image">
@@ -5290,7 +5290,7 @@
               <height>24</height>
               <texture>recentlyadded/2.0.png</texture>
               <visible>SubString(Container(8010).ListItem.Property(Rating),2,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
             <control type="image">
@@ -5298,7 +5298,7 @@
               <height>24</height>
               <texture>Star_Rating3.png</texture>
               <visible>SubString(Container(8010).ListItem.Property(Rating),3,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
             <control type="image">
@@ -5306,7 +5306,7 @@
               <height>24</height>
               <texture>recentlyadded/4.0.png</texture>
               <visible>SubString(Container(8010).ListItem.Property(Rating),4,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
             <control type="image">
@@ -5314,7 +5314,7 @@
               <height>24</height>
               <texture>recentlyadded/5.0.png</texture>
               <visible>SubString(Container(8010).ListItem.Property(Rating),5,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
             <control type="image">
@@ -5322,7 +5322,7 @@
               <height>24</height>
               <texture>recentlyadded/6.0.png</texture>
               <visible>SubString(Container(8010).ListItem.Property(Rating),6,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
             <control type="image">
@@ -5330,7 +5330,7 @@
               <height>24</height>
               <texture>recentlyadded/7.0.png</texture>
               <visible>SubString(Container(8010).ListItem.Property(Rating),7,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
             <control type="image">
@@ -5338,7 +5338,7 @@
               <height>24</height>
               <texture>recentlyadded/8.0.png</texture>
               <visible>SubString(Container(8010).ListItem.Property(Rating),8,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
             <control type="image">
@@ -5346,7 +5346,7 @@
               <height>24</height>
               <texture>recentlyadded/9.0.png</texture>
               <visible>SubString(Container(8010).ListItem.Property(Rating),9,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
             <control type="image">
@@ -5354,7 +5354,7 @@
               <height>24</height>
               <texture>recentlyadded/10.0.png</texture>
               <visible>SubString(Container(8010).ListItem.Property(Rating),10,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(10)</visible>
             </control>
           </control>
@@ -5377,7 +5377,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>8</posy>
-              <label>[COLOR=orange]$LOCALIZE[31063]:[/COLOR] $INFO[Container(8010).ListItem.Property(EpisodeSeason)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31063]:[/COLOR] $INFO[Container(8010).ListItem.Property(EpisodeSeason)]</label>
 			  <font>cirrus_20</font>
 			  <shadowcolor>black</shadowcolor>
 			   <visible>Container(9000).HasFocus(10)</visible>
@@ -5388,7 +5388,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>34</posy>
-              <label>[COLOR=orange]$LOCALIZE[31064]:[/COLOR] $INFO[Container(8010).ListItem.Property(EpisodeNumber)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31064]:[/COLOR] $INFO[Container(8010).ListItem.Property(EpisodeNumber)]</label>
 			  <font>cirrus_20</font>
 			  <shadowcolor>black</shadowcolor>
 			   <visible>Container(9000).HasFocus(10)</visible>
@@ -5903,7 +5903,7 @@
               <height>24</height>
               <texture>recentlyadded/0.0.png</texture>
               <visible>SubString(Container(8011).ListItem.Property(Rating),0,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
             <control type="image">
@@ -5911,7 +5911,7 @@
               <height>24</height>
               <texture>recentlyadded/1.0.png</texture>
               <visible>[SubString(Container(8011).ListItem.Property(Rating),1,left) + !SubString(Container(8011).ListItem.Property(Rating),10,left)]</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
             <control type="image">
@@ -5919,7 +5919,7 @@
               <height>24</height>
               <texture>recentlyadded/2.0.png</texture>
               <visible>SubString(Container(8011).ListItem.Property(Rating),2,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
             <control type="image">
@@ -5927,7 +5927,7 @@
               <height>24</height>
               <texture>Star_Rating3.png</texture>
               <visible>SubString(Container(8011).ListItem.Property(Rating),3,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
             <control type="image">
@@ -5935,7 +5935,7 @@
               <height>24</height>
               <texture>recentlyadded/4.0.png</texture>
               <visible>SubString(Container(8011).ListItem.Property(Rating),4,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
             <control type="image">
@@ -5943,7 +5943,7 @@
               <height>24</height>
               <texture>recentlyadded/5.0.png</texture>
               <visible>SubString(Container(8011).ListItem.Property(Rating),5,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
             <control type="image">
@@ -5951,7 +5951,7 @@
               <height>24</height>
               <texture>recentlyadded/6.0.png</texture>
               <visible>SubString(Container(8011).ListItem.Property(Rating),6,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
             <control type="image">
@@ -5959,7 +5959,7 @@
               <height>24</height>
               <texture>recentlyadded/7.0.png</texture>
               <visible>SubString(Container(8011).ListItem.Property(Rating),7,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
             <control type="image">
@@ -5967,7 +5967,7 @@
               <height>24</height>
               <texture>recentlyadded/8.0.png</texture>
               <visible>SubString(Container(8011).ListItem.Property(Rating),8,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
             <control type="image">
@@ -5975,7 +5975,7 @@
               <height>24</height>
               <texture>recentlyadded/9.0.png</texture>
               <visible>SubString(Container(8011).ListItem.Property(Rating),9,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
             <control type="image">
@@ -5983,7 +5983,7 @@
               <height>24</height>
               <texture>recentlyadded/10.0.png</texture>
               <visible>SubString(Container(8011).ListItem.Property(Rating),10,left)</visible>
-			  <colordiffuse>orange</colordiffuse>
+			  <colordiffuse>accent</colordiffuse>
 			  <visible>Container(9000).HasFocus(11)</visible>
             </control>
           </control>
@@ -6006,7 +6006,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>8</posy>
-              <label>[COLOR=orange]$LOCALIZE[31063]:[/COLOR] $INFO[Container(8011).ListItem.Property(EpisodeSeason)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31063]:[/COLOR] $INFO[Container(8011).ListItem.Property(EpisodeSeason)]</label>
 			  <font>cirrus_20</font>
 			  <shadowcolor>black</shadowcolor>
 			   <visible>Container(9000).HasFocus(11)</visible>
@@ -6017,7 +6017,7 @@
               <height>25</height>
               <aligny>left</aligny>
               <posy>34</posy>
-              <label>[COLOR=orange]$LOCALIZE[31064]:[/COLOR] $INFO[Container(8011).ListItem.Property(EpisodeNumber)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31064]:[/COLOR] $INFO[Container(8011).ListItem.Property(EpisodeNumber)]</label>
 			  <font>cirrus_20</font>
 			  <shadowcolor>black</shadowcolor>
 			   <visible>Container(9000).HasFocus(11)</visible>
@@ -6535,7 +6535,7 @@
               <textcolor>white</textcolor>
 			  <shadowcolor>black</shadowcolor>
               <aligny>center</aligny>
-              <label fallback="-">[COLOR=orange]Album:[/COLOR] $INFO[Container(8002).ListItem.Label]</label>
+              <label fallback="-">[COLOR=accent]Album:[/COLOR] $INFO[Container(8002).ListItem.Label]</label>
             </control>
 			<control type="label">
               <posx>130</posx>
@@ -6547,7 +6547,7 @@
 			  <textcolor>white</textcolor>
 			  <shadowcolor>black</shadowcolor>
               <aligny>center</aligny>
-              <label>[COLOR=orange]$LOCALIZE[31053]:[/COLOR] $INFO[Container(8002).ListItem.Property(Year)]</label>
+              <label>[COLOR=accent]$LOCALIZE[31053]:[/COLOR] $INFO[Container(8002).ListItem.Property(Year)]</label>
             </control>
           </control>
          <control type="image">
@@ -6982,7 +6982,7 @@
               <textcolor>white</textcolor>
 			  <shadowcolor>black</shadowcolor>
               <aligny>center</aligny>
-              <label fallback="-">[COLOR=orange]$LOCALIZE[41193]:[/COLOR]  $INFO[Container(8005).ListItem.Label2]</label>
+              <label fallback="-">[COLOR=accent]$LOCALIZE[41193]:[/COLOR]  $INFO[Container(8005).ListItem.Label2]</label>
             </control>
 			<control type="label">
               <posx>130</posx>
@@ -6994,7 +6994,7 @@
 			  <textcolor>white</textcolor>
 			  <shadowcolor>black</shadowcolor>
               <aligny>center</aligny>
-              <label>[COLOR=orange]$LOCALIZE[41194]:[/COLOR] $INFO[Container(8005).ListItem.Property(Summary)]</label>
+              <label>[COLOR=accent]$LOCALIZE[41194]:[/COLOR] $INFO[Container(8005).ListItem.Property(Summary)]</label>
             </control>
           </control>
           <control type="image">

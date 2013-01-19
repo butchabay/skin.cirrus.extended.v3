@@ -67,7 +67,7 @@
           <posy>510</posy>
           <height>30</height>
           <width>330</width>
-          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>cirrus_20</font>
@@ -197,7 +197,7 @@
 					<posy>30</posy>
 					<width>440</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
@@ -211,7 +211,7 @@
 					<posy>65</posy>
 					<width>440</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
@@ -225,7 +225,7 @@
 					<posy>100</posy>
 					<width>580</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
@@ -254,7 +254,7 @@
 					<posy>30</posy>
 					<width>440</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
 					<visible>!IsEmpty(ListItem.Thumb)</visible> 
 					<align>left</align>
 					<aligny>center</aligny>
@@ -269,7 +269,7 @@
 					<posy>65</posy>
 					<width>440</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_21</font>
@@ -283,7 +283,7 @@
 					<posy>100</posy>
 					<width>580</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
@@ -311,7 +311,7 @@
 					<posy>35</posy>
 					<width>440</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
@@ -325,7 +325,7 @@
 					<posy>70</posy>
 					<width>740</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
@@ -339,7 +339,7 @@
 					<posy>105</posy>
 					<width>600</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
@@ -391,7 +391,7 @@
 					<posy>35</posy>
 					<width>440</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
@@ -405,7 +405,7 @@
 					<posy>70</posy>
 					<width>740</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
@@ -419,7 +419,7 @@
 					<posy>105</posy>
 					<width>600</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>

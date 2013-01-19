@@ -34,7 +34,7 @@
 			<label>$LOCALIZE[19142]</label>
 			<align>center</align>
 			<aligny>center</aligny>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="button">
@@ -64,7 +64,7 @@
 			<label>$LOCALIZE[19133]</label>
 			<align>left</align>
 			<aligny>center</aligny>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="image">
@@ -100,7 +100,7 @@
 			<height>70</height>
 			<align>left</align>
 			<font>cirrus_20</font>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<label>$LOCALIZE[19001] $LOCALIZE[19002]</label>
 		</control>
 		<control type="group">
@@ -114,7 +114,7 @@
 				<width>400</width>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -134,7 +134,7 @@
 				<width>400</width>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -154,7 +154,7 @@
 				<height>35</height>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -172,7 +172,7 @@
 				<height>35</height>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -205,7 +205,7 @@
 				<width>400</width>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -226,7 +226,7 @@
 				<width>400</width>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -247,7 +247,7 @@
 				<width>400</width>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -302,7 +302,7 @@
 				<height>35</height>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -320,7 +320,7 @@
 				<height>35</height>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<texturefocus border="5">button-focus.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -338,7 +338,7 @@
 				<height>35</height>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -389,7 +389,7 @@
 				<width>400</width>
 				<font>cirrus_20</font>
 				<textcolor>grey2</textcolor>
-				<focusedcolor>orange</focusedcolor>
+				<focusedcolor>accent</focusedcolor>
 				<shadowcolor>black</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>

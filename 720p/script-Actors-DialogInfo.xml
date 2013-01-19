@@ -98,7 +98,7 @@
 						<align>left</align>
 						<font>cirrus_24</font>
 						<label>$INFO[ListItem.Property(AlsoKnownAs)]</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 					</control>	
 				
 					<control type="label"> <!--known movies label-->
@@ -109,7 +109,7 @@
 						<align>left</align>
 						<font>cirrus_24</font>
 						<label>$ADDON[script.metadata.actors 32011]: [COLOR=white]$INFO[ListItem.Property(TotalMovies)][/COLOR]</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 					</control>	
 					<control type="label"> <!--birthday label-->
 						<posx>0</posx>
@@ -119,7 +119,7 @@
 						<align>left</align>
 						<font>cirrus_24</font>
 						<label>$ADDON[script.metadata.actors 32012]: [COLOR=white]$INFO[ListItem.Property(Birthday)]$INFO[ListItem.Property(AgeLong), (,)][/COLOR]</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 					</control>		
 					<control type="label"> <!--died label-->
 						<posx>0</posx>
@@ -128,7 +128,7 @@
 						<align>left</align>
 						<aligny>top</aligny>
 						<font>cirrus_24</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<label>$ADDON[script.metadata.actors 32013]: [COLOR=white]$INFO[ListItem.Property(Deathday)]$INFO[ListItem.Property(DeathageLong), (,)][/COLOR]</label>
 					</control>
 	  
@@ -139,7 +139,7 @@
 						<align>left</align>
 						<aligny>top</aligny>
 						<font>cirrus_24</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<label>$ADDON[script.metadata.actors 32014]: [COLOR=white]$INFO[ListItem.Property(PlaceOfBirth)][/COLOR]</label>
 					</control>	
 					<control type="label"> <!--adult label-->
@@ -149,7 +149,7 @@
 						<align>left</align>
 						<aligny>top</aligny>
 						<font>cirrus_24</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<label>$ADDON[script.metadata.actors 32015]: [COLOR=white]$INFO[ListItem.Property(Adult)][/COLOR]</label>
 					</control>			
 				</control>	
@@ -165,7 +165,7 @@
 					<pagecontrol>60</pagecontrol>
 					<label>$INFO[ListItem.Plot]</label>
 					<autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<visible>!Control.IsVisible(150)</visible>
 					<animation effect="fade" start="0" end="100" time="500" delay="500">WindowOpen</animation>
 					<animation effect="fade" start="100" end="0" time="500">WindowClose</animation>
@@ -278,7 +278,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>cirrus_24_Bold</font>
-							<textcolor>orange</textcolor>
+							<textcolor>accent</textcolor>
 							<scrollspeed>30</scrollspeed>
 							<label>$INFO[Container(150).Listitem.Label]</label>
 							<visible>Control.IsVisible(150)</visible>
@@ -360,7 +360,7 @@
 						<width>1030</width>
 						<height>25</height>
 						<font>cirrus_20_Bold</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<selectedcolor>FFEB9E17</selectedcolor>
 						<label>$LOCALIZE[553]: $INFO[Container(250).ListItem.Label]  Ratio: $INFO[Container(250).ListItem.Property(aspect_ratio)]</label>
 						<visible>ControlGroup(2500).HasFocus</visible>

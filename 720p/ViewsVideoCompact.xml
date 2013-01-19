@@ -108,7 +108,7 @@
 						<posy>40</posy>
 						<width>183</width>
 						<height>25</height>
-						<color>orange</color>
+						<color>accent</color>
 						<texture>$INFO[Listitem.StarRating]</texture>
 						<colordiffuse>black</colordiffuse>
 						<visible>!Skin.HasSetting(imdbnr) + Container.Content(Movies)</visible>
@@ -153,7 +153,7 @@
 				<posy>185</posy>
 				<width>350</width>
 				<height>25</height>
-				<label>$INFO[ListItem.Genre,[COLOR=orange]$LOCALIZE[515]:[/COLOR] ]</label>
+				<label>$INFO[ListItem.Genre,[COLOR=accent]$LOCALIZE[515]:[/COLOR] ]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>cirrus_24</font>
@@ -168,7 +168,7 @@
 				<posy>215</posy>
 				<width>320</width>
 				<height>30</height>
-				<label>$INFO[ListItem.Year,[COLOR=orange]$LOCALIZE[31053]:[/COLOR] ]</label>
+				<label>$INFO[ListItem.Year,[COLOR=accent]$LOCALIZE[31053]:[/COLOR] ]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>cirrus_24</font>
@@ -182,7 +182,7 @@
 				<posy>245</posy>
 				<width>320</width>
 				<height>30</height>
-				<label>$INFO[ListItem.Duration,[COLOR=orange]$LOCALIZE[31054]:[/COLOR] ] mins</label>
+				<label>$INFO[ListItem.Duration,[COLOR=accent]$LOCALIZE[31054]:[/COLOR] ] mins</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>cirrus_24</font>
@@ -198,7 +198,7 @@
 				<posy>245</posy>
 				<width>320</width>
 				<height>30</height>
-				<label>$INFO[ListItem.Duration,[COLOR=orange]$LOCALIZE[31054]:[/COLOR] ]</label>
+				<label>$INFO[ListItem.Duration,[COLOR=accent]$LOCALIZE[31054]:[/COLOR] ]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>cirrus_24</font>
@@ -214,7 +214,7 @@
 				<posy>275</posy>
 				<width>320</width>
 				<height>30</height>
-				<label>$INFO[ListItem.Director,[COLOR=orange]$LOCALIZE[31066]:[/COLOR] ]</label>
+				<label>$INFO[ListItem.Director,[COLOR=accent]$LOCALIZE[31066]:[/COLOR] ]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>cirrus_24</font>
@@ -264,7 +264,7 @@
 				<fadetime>IconCrossfadeTime</fadetime>
 				<texture>IMDBFlag.png</texture>
 				<visible>!IsEmpty(ListItem.Top250)</visible>
-				<colordiffuse>orange</colordiffuse>
+				<colordiffuse>accent</colordiffuse>
 			</control>
 			<control type="label"> <!-- Top250IMDB Mod 1.2 -->
 				<description>top250</description>
@@ -414,7 +414,7 @@
 					<posy>282</posy>
 					<height>30</height>
 					<width>330</width>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>

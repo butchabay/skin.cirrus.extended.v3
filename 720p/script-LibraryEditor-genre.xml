@@ -192,7 +192,7 @@
 				<label>XBMC Library Editor - Genre$INFO[Window.Property(Type), - ,]</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>orange</textcolor>
+				<textcolor>accent</textcolor>
 				<shadowcolor>black</shadowcolor>
 			</control>
 

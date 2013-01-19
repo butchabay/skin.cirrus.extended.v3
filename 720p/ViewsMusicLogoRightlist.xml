@@ -80,7 +80,7 @@
 						<width>445</width>
 						<height>35</height>
 						<label>$INFO[listitem.Artist]</label>
-						<selectedcolor>orange</selectedcolor>
+						<selectedcolor>accent</selectedcolor>
 						<align>right</align>
 						<aligny>top</aligny>
 						<font>cirrus_24</font>
@@ -171,7 +171,7 @@
 							<height>25</height>
 							<font>cirrus_20</font>
 							<textcolor>white</textcolor>
-							<label>[COLOR=orange]$LOCALIZE[515]: [/COLOR]$INFO[ListItem.Property(Artist_Genre)]</label>
+							<label>[COLOR=accent]$LOCALIZE[515]: [/COLOR]$INFO[ListItem.Property(Artist_Genre)]</label>
 							<visible>!IsEmpty(ListItem.Property(Artist_Mood))</visible>
 				</control>		
 				</control>

@@ -573,7 +573,7 @@
         <scroll>false</scroll>
         <align>right</align>
         <aligny>center</aligny>
-        <label>([COLOR=orange]$INFO[Container(20).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages][/COLOR])</label>
+        <label>([COLOR=accent]$INFO[Container(20).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages][/COLOR])</label>
       </control>
 			
 			<control type="label">
@@ -586,7 +586,7 @@
 				<label>$LOCALIZE[19199]</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>orange</textcolor>
+				<textcolor>accent</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<visible>IsEmpty(Window.Property(IsRadio))</visible>
 			</control>
@@ -600,7 +600,7 @@
 				<label>$LOCALIZE[19023]</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>orange</textcolor>
+				<textcolor>accent</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<visible>IsEmpty(Window.Property(IsRadio))</visible>
 			</control>

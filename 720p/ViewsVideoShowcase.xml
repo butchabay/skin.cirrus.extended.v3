@@ -470,7 +470,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>[COLOR=orange]$LOCALIZE[41271][/COLOR] $INFO[ListItem.Property(TotalSeasons)]</label>
+					<label>[COLOR=accent]$LOCALIZE[41271][/COLOR] $INFO[ListItem.Property(TotalSeasons)]</label>
 					<scrollout>false</scrollout>
 				</control>
 				<control type="label">
@@ -483,7 +483,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>[COLOR=orange]$LOCALIZE[31062] [/COLOR][COLOR=ffffffff]$INFO[Window(Home).Property(NextAired.NextDate)][/COLOR]</label>
+					<label>[COLOR=accent]$LOCALIZE[31062] [/COLOR][COLOR=ffffffff]$INFO[Window(Home).Property(NextAired.NextDate)][/COLOR]</label>
 			    	<visible>!IsEmpty(Window(Home).Property(NextAired.Label))+!IsEmpty(Window(Home).Property(NextAired.NextDate))</visible>
 					<scrollout>false</scrollout>
 				</control>

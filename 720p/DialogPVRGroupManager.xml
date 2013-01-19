@@ -66,7 +66,7 @@
 						<label>31506</label>
 						<align>center</align>
 						<aligny>center</aligny>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 					</control>
 					<control type="image">
 						<posx>0</posx>
@@ -170,7 +170,7 @@
 						<label>31507</label>
 						<align>center</align>
 						<aligny>center</aligny>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 					</control>
 					<control type="image">
 						<posx>0</posx>
@@ -250,7 +250,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>$INFO[ListItem.ChannelNumber,(,) - ]$INFO[ListItem.ChannelName]</label>
 							</control>
@@ -288,7 +288,7 @@
 						<label>$LOCALIZE[31508][CR]$INFO[Control.GetLabel(20)]</label>
 						<align>center</align>
 						<aligny>center</aligny>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 					</control>
 					<control type="image">
 						<posx>0</posx>
@@ -368,7 +368,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>$INFO[ListItem.ChannelNumber,(,) - ]$INFO[ListItem.ChannelName]</label>
 							</control>

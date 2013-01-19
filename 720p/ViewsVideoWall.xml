@@ -114,7 +114,7 @@
 						<posy>55</posy>
 						<width>320</width>
 						<height>25</height>
-						<label>[COLOR=orange]$INFO[ListItem.Year]  [/COLOR]$INFO[ListItem.Duration]</label>
+						<label>[COLOR=accent]$INFO[ListItem.Year]  [/COLOR]$INFO[ListItem.Duration]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_24</font>
@@ -129,7 +129,7 @@
 						<posy>55</posy>
 						<width>320</width>
 						<height>25</height>
-						<label>[COLOR=orange]$INFO[ListItem.Year]  [/COLOR]$INFO[ListItem.Duration] mins</label>
+						<label>[COLOR=accent]$INFO[ListItem.Year]  [/COLOR]$INFO[ListItem.Duration] mins</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_24</font>
@@ -144,7 +144,7 @@
 						<posy>-35</posy>
 						<width>800</width>
 						<height>25</height>
-						<label fallback="416">[COLOR=orange]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
+						<label fallback="416">[COLOR=accent]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_24</font>
@@ -175,7 +175,7 @@
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture>IMDBFlag.png</texture>
 					<visible>!IsEmpty(ListItem.Top250)</visible>
-					<colordiffuse>orange</colordiffuse>
+					<colordiffuse>accent</colordiffuse>
 				</control>
 					<control type="label"> <!-- Top250IMDB Mod 1.2 -->
 						<description>top250</description>
@@ -294,7 +294,7 @@
 					<posy>15</posy>
 					<width>580</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_30</font>
@@ -307,7 +307,7 @@
 					<posy>55</posy>
 					<width>440</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
