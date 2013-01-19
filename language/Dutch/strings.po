@@ -127,11 +127,11 @@ msgstr "TERUGSPOELEN"
 
 msgctxt "#31046"
 msgid "Audio Properties"
-msgstr "Audio Eigenschappen"
+msgstr "Audio-eigenschappen"
 
 msgctxt "#31047"
 msgid "Current Preset"
-msgstr "Huidige Instelling"
+msgstr "Huidige instelling"
 
 msgctxt "#31048"
 msgid "Visualization Presets"
@@ -187,7 +187,7 @@ msgstr "Huidige Geselecteerd"
 
 msgctxt "#31062"
 msgid "Next Episode:"
-msgstr "Volgende Aflevering:"
+msgstr "Volgende aflevering:"
 
 msgctxt "#31063"
 msgid "Season"

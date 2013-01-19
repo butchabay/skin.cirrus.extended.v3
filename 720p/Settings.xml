@@ -54,7 +54,7 @@
             <posy>0</posy>
             <width>380</width>
             <height>56</height>
-            <font>cirrus_35</font>
+            <font>cirrus_24</font>
             <textcolor>grey3</textcolor>
             <align>right</align>
             <aligny>center</aligny>
@@ -74,7 +74,7 @@
             <posy>0</posy>
             <width>380</width>
             <height>56</height>
-            <font>cirrus_35</font>
+            <font>cirrus_24</font>
             <textcolor>white</textcolor>
             <align>right</align>
             <aligny>center</aligny>
