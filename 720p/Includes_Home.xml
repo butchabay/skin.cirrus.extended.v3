@@ -8,17 +8,17 @@
 				<posx>300</posx>
 				<posy>-520</posy>
 				<visible>Container(9000).HasFocus(1) | [Container(9000).HasFocus(3) + System.HasAddon(script.randomandlastitems)] | [Container(9000).HasFocus(4) + System.HasAddon(script.randomandlastitems)] | [Container(9000).HasFocus(5) + System.HasAddon(script.randomandlastitems)] | [Container(9000).HasFocus(9) + System.HasAddon(script.randomandlastitems)] | [Container(9000).HasFocus(10) + System.HasAddon(script.randomandlastitems)] | [Container(9000).HasFocus(11) + System.HasAddon(script.randomandlastitems)] | Container(9000).HasFocus(7) | Container(9000).HasFocus(14)</visible>
-				  <animation type="Conditional" condition="Container(9000).HasFocus(1) | Container(9000).HasFocus(3) | Container(9000).HasFocus(4) | Container(9000).HasFocus(5) | Container(9000).HasFocus(7) | Container(9000).HasFocus(9) | Container(9000).HasFocus(10) | Container(9000).HasFocus(11) | Container(9000).HasFocus(14)" reversible="false">
-					  <effect type="fade" start="0" end="100" time="250" />
-				  </animation>
-				  <animation type="Hidden" reversible="false">
-					  <effect type="fade" start="100" end="0" time="250" />
-				  </animation>			
-				  <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
-				  <animation type="WindowClose" condition="!Window.Previous(startup)" reversible="false">
-					  <effect type="fade" start="100" end="0" time="200" />
-				  </animation>
-				
+			  <animation type="Conditional" condition="Container(9000).HasFocus(1) | Container(9000).HasFocus(3) | Container(9000).HasFocus(4) | Container(9000).HasFocus(5) | Container(9000).HasFocus(7) | Container(9000).HasFocus(9) | Container(9000).HasFocus(10) | Container(9000).HasFocus(11) | Container(9000).HasFocus(14)" reversible="false">
+				  <effect type="fade" start="0" end="100" time="250" />
+			  </animation>
+			  <animation type="Hidden" reversible="false">
+				  <effect type="fade" start="100" end="0" time="250" />
+			  </animation>			
+			  <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
+			  <animation type="WindowClose" condition="!Window.Previous(startup)" reversible="false">
+				  <effect type="fade" start="100" end="0" time="200" />
+			  </animation>
+			
 			<control type="image">
 				<posx>723</posx>
 				<posy>920</posy>
@@ -1210,8 +1210,8 @@
 				<align>left</align>
 				<font>cirrus_20</font>
 				<scroll>false</scroll>
-				<textcolor>white</textcolor>
-				<label fallback="-">$LOCALIZE[552]: $INFO[System.Date(DDD)], $INFO[System.Date(d)]. $INFO[System.Date(MMM)] $INFO[System.Date(yyyy)]</label>
+				<textcolor>grey2</textcolor>
+				<label fallback="-">$LOCALIZE[552]: $INFO[System.Date(DDD)] $INFO[System.Date(d)] $INFO[System.Date(MMM)] $INFO[System.Date(yyyy)]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
