@@ -199,7 +199,7 @@
 					<height>45</height>
 					<font>cirrus_25</font>
 					<label>31106</label>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -448,7 +448,7 @@
 					<height>45</height>
 					<font>cirrus_20</font>
 					<label>512</label>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -539,7 +539,7 @@
 					<height>45</height>
 					<font>cirrus_20</font>
 					<label>31102</label>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -600,7 +600,7 @@
 					<height>35</height>
 					<font>cirrus_25</font>
 					<label>31101</label>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -610,7 +610,7 @@
 					<height>35</height>
 					<font>cirrus_20</font>
 					<label>41163</label>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -785,7 +785,7 @@
 					<width>750</width>
 					<height>34</height>
 					<font>cirrus_20</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -839,7 +839,7 @@
 					<width>750</width>
 					<height>34</height>
 					<font>cirrus_20</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -893,7 +893,7 @@
 					<width>750</width>
 					<height>34</height>
 					<font>cirrus_20</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -1115,7 +1115,7 @@
 					<width>750</width>
 					<height>34</height>
 					<font>cirrus_20</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -1322,7 +1322,7 @@
 					<width>750</width>
 					<height>34</height>
 					<font>cirrus_20</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -1405,7 +1405,7 @@
 					<textcolor>grey2</textcolor>
                     <texturenofocus>menuitemNF.png</texturenofocus>
 					<texturefocus flipx="true">listwhitegradient.png</texturefocus>
-					<label>$LOCALIZE[41140] [COLOR=orange]$INFO[Skin.String(HomeWeatherFanartFolder)][/COLOR]</label>
+					<label>$LOCALIZE[41140] [COLOR=accent]$INFO[Skin.String(HomeWeatherFanartFolder)][/COLOR]</label>
 					<onclick>Skin.SetPath(HomeWeatherFanartFolder)</onclick>
 					<visible>Skin.HasSetting(HomeWeatherFanart)</visible>
                     </control>
@@ -1442,7 +1442,7 @@
 					<height>35</height>
 					<font>cirrus_20</font>
 					<label>31040</label>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -1579,7 +1579,7 @@
 					<width>750</width>
 					<height>34</height>
 					<font>cirrus_20</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -1644,7 +1644,7 @@
 					<height>35</height>
 					<font>cirrus_20</font>
 					<label>31108</label>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -1921,7 +1921,7 @@
 					<height>45</height>
 					<font>cirrus_20</font>
 					<label>31109</label>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -6103,7 +6103,7 @@
 						<height>45</height>
 						<font>cirrus_20</font>
 						<label>41065</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -6702,7 +6702,7 @@
 						<height>45</height>
 						<font>cirrus_25</font>
 						<label>41080</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -6712,7 +6712,7 @@
 						<height>45</height>
 						<font>cirrus_20</font>
 						<label>41104</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -6735,7 +6735,7 @@
 						<height>45</height>
 						<font>cirrus_20</font>
 						<label>41103</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -6799,7 +6799,7 @@
 						<height>45</height>
 						<font>cirrus_20</font>
 						<label>41102</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -6915,7 +6915,7 @@
 						<height>45</height>
 						<font>cirrus_20</font>
 						<label>41161</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -6955,7 +6955,7 @@
 						<height>45</height>
 						<font>cirrus_20</font>
 						<label>41175</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -6975,7 +6975,7 @@
 					</control>
 					<control type="button" id="1100">
 						<description>Music Artist Logo Set Path</description>
-						<label>$LOCALIZE[41093] [COLOR=orange]$INFO[Skin.String(Music_Folder_Path)][/COLOR]</label>
+						<label>$LOCALIZE[41093] [COLOR=accent]$INFO[Skin.String(Music_Folder_Path)][/COLOR]</label>
 						<width>750</width>
 						<height>35</height>
 						<font>cirrus_20</font>
@@ -6991,7 +6991,7 @@
 						<height>45</height>
 						<font>cirrus_20</font>
 						<label>41162</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -7177,7 +7177,7 @@
 						<height>45</height>
 						<font>cirrus_25</font>
 						<label>41107</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -7188,7 +7188,7 @@
 						<height>40</height>
 						<font>cirrus_20</font>
 						<label>$LOCALIZE[41102] / $LOCALIZE[41103]</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -7251,7 +7251,7 @@
 						<height>40</height>
 						<font>cirrus_20</font>
 						<label>$LOCALIZE[41102]</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -7327,7 +7327,7 @@
 						<height>40</height>
 						<font>cirrus_20</font>
 						<label>$LOCALIZE[41103]</label>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>

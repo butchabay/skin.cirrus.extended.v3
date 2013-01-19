@@ -94,7 +94,7 @@
 				<width>250</width>
 				<height>30</height>
 				<font>cirrus_24</font>
-				<textcolor>orange</textcolor>
+				<textcolor>accent</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<scroll>false</scroll>
 				<align>left</align>

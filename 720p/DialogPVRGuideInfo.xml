@@ -75,7 +75,7 @@
 				<label>$INFO[ListItem.Title]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>orange</textcolor>
+				<textcolor>accent</textcolor>
 				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="group">
@@ -91,7 +91,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>cirrus_25</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<label>$LOCALIZE[552]:</label>
 					</control>
 					<control type="label">
@@ -115,7 +115,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>cirrus_25</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<label>$LOCALIZE[142]</label>
 					</control>
 					<control type="label">
@@ -139,7 +139,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>cirrus_25</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<label>$LOCALIZE[19148]:</label>
 					</control>
 					<control type="fadelabel">
@@ -163,7 +163,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>cirrus_25</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<label>$LOCALIZE[180]:</label>
 					</control>
 					<control type="label">
@@ -186,7 +186,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>cirrus_25</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<label>$LOCALIZE[135]:</label>
 					</control>
 					<control type="label">
@@ -224,7 +224,7 @@
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>[COLOR=orange]$LOCALIZE[207][/COLOR]$INFO[Container(400).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(400).NumPages,/, )]</label>
+					<label>[COLOR=accent]$LOCALIZE[207][/COLOR]$INFO[Container(400).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(400).NumPages,/, )]</label>
 				</control>
 				<control type="spincontrol" id="60">
 					<description>Next page button</description>

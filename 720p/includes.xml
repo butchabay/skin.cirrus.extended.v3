@@ -280,7 +280,7 @@
     <width>600</width>
     <height>50</height>
     <font>cirrus_24</font><!-- font12caps -->
-    <textcolor>orange</textcolor>
+    <textcolor>accent</textcolor>
     <scroll>false</scroll>
     <align>left</align>
     <aligny>center</aligny>
@@ -290,7 +290,7 @@
     <width>900</width>
     <height>50</height>
     <font>cirrus_40_Bold</font><!-- font12caps -->
-    <textcolor>orange</textcolor>
+    <textcolor>accent</textcolor>
     <scroll>false</scroll>
     <align>left</align>
     <aligny>center</aligny>
@@ -470,7 +470,7 @@
       <align>left</align>
       <aligny>center</aligny>
       <font>cirrus_16</font>
-      <textcolor>orange</textcolor>
+      <textcolor>accent</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>
     <control type="fadelabel">
@@ -520,7 +520,7 @@
       <posy>120</posy>
       <height>30</height>
       <width>370</width>
-      <label>[COLOR=orange]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
+      <label>[COLOR=accent]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
       <align>left</align>
       <aligny>center</aligny>
       <font>cirrus_16</font>
@@ -607,7 +607,7 @@
       <align>left</align>
       <aligny>center</aligny>
       <font>cirrus_16</font>
-      <textcolor>orange</textcolor>
+      <textcolor>accent</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>!videoplayer.content(episodes) + !videoplayer.content(musicvideos)</visible>
     </control>
@@ -620,7 +620,7 @@
       <align>left</align>
       <aligny>center</aligny>
       <font>cirrus_16</font>
-      <textcolor>orange</textcolor>
+      <textcolor>accent</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>videoplayer.content(musicvideos)</visible>
     </control>
@@ -634,7 +634,7 @@
       <align>left</align>
       <aligny>center</aligny>
       <font>cirrus_16</font>
-      <textcolor>orange</textcolor>
+      <textcolor>accent</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>videoplayer.content(episodes)</visible>
     </control>
@@ -661,7 +661,7 @@
       <width>250</width>
       <height>40</height>
       <font>cirrus_24</font>
-      <textcolor>orange</textcolor>
+      <textcolor>accent</textcolor>
 	  <shadowcolor>black</shadowcolor>
       <align>right</align>
       <aligny>center</aligny>
@@ -893,7 +893,7 @@
         <align>left</align>
         <aligny>center</aligny>
         <font>cirrus_24</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
         <scrollout>false</scrollout>
         <pauseatend>2000</pauseatend>
@@ -947,7 +947,7 @@
         <align>left</align>
         <aligny>center</aligny>
         <font>cirrus_24</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
         <scrollout>false</scrollout>
         <pauseatend>2000</pauseatend>

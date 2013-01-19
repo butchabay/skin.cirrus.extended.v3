@@ -344,7 +344,7 @@
                             <label>41128</label>
                             <align>right</align>
                             <aligny>center</aligny>
-                            <textcolor>orange</textcolor>
+                            <textcolor>accent</textcolor>
                             <font>cirrus_20</font>
                         </control>
                         <control type="label">
@@ -397,7 +397,7 @@
                                 <font>cirrus_20</font>
                                 <align>left</align>
                                 <aligny>top</aligny>
-                                <textcolor>orange</textcolor>
+                                <textcolor>accent</textcolor>
                                 <selectedcolor>selected</selectedcolor>
                                 <info>ListItem.Label</info>
                             </control>
@@ -423,7 +423,7 @@
                                 <font>cirrus_20</font>
                                 <align>left</align>
                                 <aligny>top</aligny>
-                                <textcolor>orange</textcolor>
+                                <textcolor>accent</textcolor>
                                 <selectedcolor>selected</selectedcolor>
                                 <info>ListItem.Label</info>
                             </control>
@@ -614,7 +614,7 @@
                             <label>41128</label>
                             <align>right</align>
                             <aligny>center</aligny>
-                            <textcolor>orange</textcolor>
+                            <textcolor>accent</textcolor>
                             <font>cirrus_20</font>
                         </control>
                         <control type="label">
@@ -672,7 +672,7 @@
                                 <font>cirrus_20</font>
                                 <align>left</align>
                                 <aligny>top</aligny>
-                                <textcolor>orange</textcolor>
+                                <textcolor>accent</textcolor>
                                 <selectedcolor>selected</selectedcolor>
                                 <info>ListItem.Label</info>
                             </control>
@@ -698,7 +698,7 @@
                                 <font>cirrus_20</font>
                                 <align>left</align>
                                 <aligny>top</aligny>
-                                <textcolor>orange</textcolor>
+                                <textcolor>accent</textcolor>
                                 <selectedcolor>selected</selectedcolor>
                                 <info>ListItem.Label</info>
                             </control>
@@ -950,7 +950,7 @@
                             <label>41128</label>
                             <align>right</align>
                             <aligny>center</aligny>
-                            <textcolor>orange</textcolor>
+                            <textcolor>accent</textcolor>
                             <font>cirrus_20</font>
                         </control>
                         <control type="label">
@@ -1035,7 +1035,7 @@
                                 <font>cirrus_20</font>
                                 <align>left</align>
                                 <aligny>top</aligny>
-                                <textcolor>orange</textcolor>
+                                <textcolor>accent</textcolor>
                                 <selectedcolor>selected</selectedcolor>
                                 <info>ListItem.Label</info>
                             </control>
@@ -1061,7 +1061,7 @@
                                 <font>cirrus_20</font>
                                 <align>left</align>
                                 <aligny>top</aligny>
-                                <textcolor>orange</textcolor>
+                                <textcolor>accent</textcolor>
                                 <selectedcolor>selected</selectedcolor>
                                 <info>ListItem.Label</info>
                             </control>
@@ -1177,7 +1177,7 @@
                             <font>cirrus_20_Bold</font>
                             <align>left</align>
                             <aligny>center</aligny>
-                            <textcolor>orange</textcolor>
+                            <textcolor>accent</textcolor>
                             <info>ListItem.Label</info>
                         </control>
                     </focusedlayout>
@@ -1190,7 +1190,7 @@
                     <font>cirrus_20</font>
                     <align>left</align>
                     <aligny>center</aligny>
-                    <textcolor>orange</textcolor>
+                    <textcolor>accent</textcolor>
                     <label>41285</label>
                     <visible>Control.HasFocus(50) + System.HasAddon(script.metadata.actors)</visible>
                 </control>

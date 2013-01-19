@@ -91,7 +91,7 @@
         <align>right</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         
 		<visible>!Skin.HasSetting(cleannowplaying)</visible>
       </control>
@@ -105,7 +105,7 @@
         <align>right</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
        
 		<visible>Skin.HasSetting(cleannowplaying)</visible>
 		<visible>!Skin.HasSetting(cdartonhome)</visible>
@@ -249,7 +249,7 @@
 				       <align>left</align>
 				       <aligny>center</aligny>
 				       <font>cirrus_25</font>
-				       <textcolor>orange</textcolor>
+				       <textcolor>accent</textcolor>
 				       <shadowcolor>black</shadowcolor>
 			       </control>
 			       <control type="label">
@@ -275,7 +275,7 @@
 				       <align>left</align>
 				       <aligny>center</aligny>
 				       <font>cirrus_20</font>
-					   <textcolor>orange</textcolor>
+					   <textcolor>accent</textcolor>
 				       <shadowcolor>black</shadowcolor>
 			       </control>
 			       <control type="label">
@@ -310,7 +310,7 @@
 				       <align>left</align>
 				       <aligny>center</aligny>
 				       <font>cirrus_25</font>
-				       <textcolor>orange</textcolor>
+				       <textcolor>accent</textcolor>
 				       <shadowcolor>black</shadowcolor>
 			       </control>
 			       <control type="label">
@@ -336,7 +336,7 @@
 				       <align>left</align>
 				       <aligny>center</aligny>
 				       <font>cirrus_20</font>
-					   <textcolor>orange</textcolor>
+					   <textcolor>accent</textcolor>
 				       <shadowcolor>black</shadowcolor>
 			       </control>
 			       <control type="label">
@@ -404,7 +404,7 @@
           <posy>380</posy>
           <height>30</height>
           <width>660</width>
-          <label>[COLOR=orange]$LOCALIZE[31040][/COLOR]</label>
+          <label>[COLOR=accent]$LOCALIZE[31040][/COLOR]</label>
           <align>right</align>
           <aligny>center</aligny>
           <font>cirrus_24</font>
@@ -418,7 +418,7 @@
           <posy>380</posy>
           <height>30</height>
           <width>660</width>
-          <label>[COLOR=orange]$LOCALIZE[31040][/COLOR]</label>
+          <label>[COLOR=accent]$LOCALIZE[31040][/COLOR]</label>
           <align>right</align>
           <aligny>center</aligny>
           <font>cirrus_24</font>
@@ -526,7 +526,7 @@
           <posy>380</posy>
           <height>30</height>
           <width>660</width>
-          <label>[COLOR=orange]$LOCALIZE[31040][/COLOR]</label>
+          <label>[COLOR=accent]$LOCALIZE[31040][/COLOR]</label>
           <align>right</align>
           <aligny>center</aligny>
           <font>cirrus_24</font>
@@ -540,7 +540,7 @@
           <posy>380</posy>
           <height>30</height>
           <width>660</width>
-          <label>[COLOR=orange]$LOCALIZE[31040][/COLOR]</label>
+          <label>[COLOR=accent]$LOCALIZE[31040][/COLOR]</label>
           <align>right</align>
           <aligny>center</aligny>
           <font>cirrus_24</font>
@@ -652,7 +652,7 @@
           <posy>380</posy>
           <height>30</height>
           <width>660</width>
-          <label>[COLOR=orange]$LOCALIZE[31040][/COLOR]</label>
+          <label>[COLOR=accent]$LOCALIZE[31040][/COLOR]</label>
           <align>right</align>
           <aligny>center</aligny>
           <font>cirrus_24</font>
@@ -745,7 +745,7 @@
           <align>right</align>
           <aligny>center</aligny>
           <font>cirrus_24</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
 		  <visible>!Skin.HasSetting(cleannowplaying)</visible>
         </control>
@@ -759,7 +759,7 @@
           <align>right</align>
           <aligny>center</aligny>
           <font>cirrus_24</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
 		  <visible>Skin.HasSetting(cleannowplaying)</visible>
         </control>

@@ -8,7 +8,7 @@
 		<!-- 	NextAired.%d.ShowTitle > NextAired.%d.Label
             NextAired.%d.ep_img > NextAired.%d.Thumb
             NextAired.%d.Showpath > NextAired.%d.Path  -->
-				<label>[COLOR=orange]$LOCALIZE[31062] [/COLOR][COLOR=ffffffff]$INFO[Window(Home).Property(NextAired.NextDate)][/COLOR]</label>
+				<label>[COLOR=accent]$LOCALIZE[31062] [/COLOR][COLOR=ffffffff]$INFO[Window(Home).Property(NextAired.NextDate)][/COLOR]</label>
 				<visible>!IsEmpty(Window(Home).Property(NextAired.Label))+!IsEmpty(Window(Home).Property(NextAired.NextDate))</visible>
 			</control>
 			

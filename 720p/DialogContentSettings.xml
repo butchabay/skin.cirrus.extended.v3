@@ -40,7 +40,7 @@
         <label>$LOCALIZE[20344]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="spincontrolex" id="3">
@@ -82,7 +82,7 @@
         <label>$LOCALIZE[31312]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="image">
@@ -125,7 +125,7 @@
         <label>$LOCALIZE[31313]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="list" id="4">
@@ -230,7 +230,7 @@
         <label>$LOCALIZE[31314]</label>
         <align>center</align>
         <aligny>center</aligny>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="grouplist" id="5">

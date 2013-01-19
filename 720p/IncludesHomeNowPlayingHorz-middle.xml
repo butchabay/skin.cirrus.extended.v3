@@ -83,7 +83,7 @@
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_16</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
 		  <visible>!Skin.HasSetting(cleannowplaying)</visible>
 		  <visible>!Skin.HasSetting(cdartonhome)</visible>
@@ -99,7 +99,7 @@
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_16</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
 		  <visible>Skin.HasSetting(cleannowplaying)</visible>
         </control>
@@ -114,7 +114,7 @@
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_16</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
 		  <visible>Skin.HasSetting(cdartonhome)</visible>
         </control>
@@ -271,7 +271,7 @@
           <posy>120</posy>
           <height>30</height>
           <width>320</width>
-          <label>[COLOR=orange]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
+          <label>[COLOR=accent]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_16</font>
@@ -287,7 +287,7 @@
           <posy>120</posy>
           <height>30</height>
           <width>320</width>
-          <label>[COLOR=orange]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
+          <label>[COLOR=accent]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_16</font>
@@ -302,7 +302,7 @@
           <posy>120</posy>
           <height>30</height>
           <width>320</width>
-          <label>[COLOR=orange]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
+          <label>[COLOR=accent]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_16</font>
@@ -363,7 +363,7 @@
 				       <align>left</align>
 				       <aligny>center</aligny>
 				       <font>cirrus_25</font>
-				       <textcolor>orange</textcolor>
+				       <textcolor>accent</textcolor>
 				       <shadowcolor>black</shadowcolor>
 			       </control>
 			       <control type="label">
@@ -389,7 +389,7 @@
 				       <align>left</align>
 				       <aligny>center</aligny>
 				       <font>cirrus_20</font>
-					   <textcolor>orange</textcolor>
+					   <textcolor>accent</textcolor>
 				       <shadowcolor>black</shadowcolor>
 			       </control>
 			       <control type="label">
@@ -424,7 +424,7 @@
 				       <align>left</align>
 				       <aligny>center</aligny>
 				       <font>cirrus_25</font>
-				       <textcolor>orange</textcolor>
+				       <textcolor>accent</textcolor>
 				       <shadowcolor>black</shadowcolor>
 			       </control>
 			       <control type="label">
@@ -450,7 +450,7 @@
 				       <align>left</align>
 				       <aligny>center</aligny>
 				       <font>cirrus_20</font>
-					   <textcolor>orange</textcolor>
+					   <textcolor>accent</textcolor>
 				       <shadowcolor>black</shadowcolor>
 			       </control>
 			       <control type="label">
@@ -502,7 +502,7 @@
         <align>left</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
 		<visible>!Skin.HasSetting(cleannowplaying)</visible>
 		<visible>!Skin.HasSetting(Use_Startup_DreamVideo)</visible>
@@ -517,7 +517,7 @@
         <align>left</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
 		<visible>Skin.HasSetting(cleannowplaying)</visible>
 		<visible>!Skin.HasSetting(Use_Startup_DreamVideo)</visible>
@@ -665,7 +665,7 @@
           <posy>40</posy>
           <height>30</height>
           <width>800</width>
-          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 		  <scroll>true</scroll>
           <align>left</align>
           <aligny>center</aligny>
@@ -681,7 +681,7 @@
           <posy>40</posy>
           <height>30</height>
           <width>800</width>
-          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 		  <scroll>true</scroll>
           <align>left</align>
           <aligny>center</aligny>
@@ -696,7 +696,7 @@
           <posy>40</posy>
           <height>30</height>
           <width>800</width>
-          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 		  <scroll>true</scroll>
           <align>left</align>
           <aligny>center</aligny>
@@ -819,7 +819,7 @@
           <posy>40</posy>
           <height>30</height>
           <width>325</width>
-          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_26</font>

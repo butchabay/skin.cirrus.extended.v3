@@ -29,7 +29,7 @@
         <label>$LOCALIZE[SCRIPT0]</label>
         <align>right</align>
         <aligny>center</aligny>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="label">
@@ -92,7 +92,7 @@
         <onright>101</onright>
         <ondown>101</ondown>
         <onup>101</onup>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <showonepage>true</showonepage>
         <visible>Control.IsVisible(100)</visible>
       </control>

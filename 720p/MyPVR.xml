@@ -124,7 +124,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_20</font>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<shadowcolor>black</shadowcolor>
 			<visible>Player.HasMedia + !Control.IsVisible(10)</visible>
 			<include>VisibleFadeEffect</include>
@@ -146,7 +146,7 @@
 						<width>300</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -159,7 +159,7 @@
 						<width>600</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -172,7 +172,7 @@
 						<width>140</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -255,7 +255,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -276,7 +276,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer</visible>
@@ -316,7 +316,7 @@
 								<font>cirrus_25</font>
 								<align>center</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
@@ -328,7 +328,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -348,7 +348,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -369,7 +369,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer</visible>
@@ -406,7 +406,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>([COLOR=orange]$INFO[Container(15).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(15).CurrentPage]/$INFO[Container(15).NumPages][/COLOR])</label>
+					<label>([COLOR=accent]$INFO[Container(15).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(15).CurrentPage]/$INFO[Container(15).NumPages][/COLOR])</label>
 				</control>
 			</control>
 			<!-- part2 -->
@@ -424,7 +424,7 @@
 						<width>100</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -437,7 +437,7 @@
 						<width>250</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -450,7 +450,7 @@
 						<width>550</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -463,7 +463,7 @@
 						<width>140</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -581,7 +581,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -602,7 +602,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer</visible>
@@ -660,7 +660,7 @@
 								<font>cirrus_25</font>
 								<align>center</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.StartTime</info>
 							</control>
@@ -679,7 +679,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.ChannelName</info>
 							</control>
@@ -691,7 +691,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -711,7 +711,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -732,7 +732,7 @@
 								<font>cirrus_25</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer</visible>
@@ -769,7 +769,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>([COLOR=orange]$INFO[Container(16).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(16).CurrentPage]/$INFO[Container(16).NumPages][/COLOR])</label>
+					<label>([COLOR=accent]$INFO[Container(16).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(16).CurrentPage]/$INFO[Container(16).NumPages][/COLOR])</label>
 				</control>
 			</control>
 			<!-- part3 -->
@@ -810,7 +810,7 @@
 							<font>cirrus_20</font>
 							<aligny>center</aligny>
 							<selectedcolor>selected</selectedcolor>
-							<textcolor>orange</textcolor>
+							<textcolor>accent</textcolor>
 						    <shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<label>$INFO[ListItem.Label]</label>
@@ -873,7 +873,7 @@
 							<font>cirrus_25</font>
 							<aligny>center</aligny>
 							<selectedcolor>selected</selectedcolor>
-							<textcolor>orange</textcolor>
+							<textcolor>accent</textcolor>
 						    <shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<label>$INFO[ListItem.ChannelName]</label>
@@ -1119,7 +1119,7 @@
 							<font>cirrus_25</font>
 							<aligny>center</aligny>
 							<selectedcolor>selected</selectedcolor>
-							<textcolor>orange</textcolor>
+							<textcolor>accent</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>
 							<info>ListItem.Label</info>
@@ -1190,7 +1190,7 @@
 								<font>cirrus_20</font>
 								<align>left</align>
 								<aligny>left</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>-</info>
 							</control>
@@ -1215,7 +1215,7 @@
 								<font>cirrus_20</font>
 								<align>left</align>
 								<aligny>left</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>-</info>
 							</control>
@@ -1240,7 +1240,7 @@
 								<font>cirrus_20</font>
 								<align>left</align>
 								<aligny>left</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>-</info>
 							</control>
@@ -1265,7 +1265,7 @@
 								<font>cirrus_20</font>
 								<align>left</align>
 								<aligny>left</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>-</info>
 							</control>
@@ -1287,7 +1287,7 @@
 						<width>700</width>
 						<height>20</height>
 						<font>cirrus_24</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
@@ -1653,7 +1653,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>orange</selectedcolor>
+							<selectedcolor>accent</selectedcolor>
 							<info>ListItem.ChannelNumber</info>
 						</control>
 						<control type="label">
@@ -1675,7 +1675,7 @@
 							<height>20</height>
 							<font>cirrus_20</font>
 							<textcolor>grey</textcolor>
-							<selectedcolor>orange</selectedcolor>
+							<selectedcolor>accent</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
 							<visible>IsEmpty(Listitem.Icon)</visible>
@@ -1758,7 +1758,7 @@
 							<width>270</width>
 							<height>25</height>
 							<font>cirrus_20</font>
-							<textcolor>orange</textcolor>
+							<textcolor>accent</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -1836,7 +1836,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>([COLOR=orange]$INFO[Container(11).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages][/COLOR])</label>
+					<label>([COLOR=accent]$INFO[Container(11).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages][/COLOR])</label>
 					<include>Window_OpenClose_Animation</include>		
 				</control>
 			</control>
@@ -2062,7 +2062,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>([COLOR=orange]$INFO[Container(12).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(12).CurrentPage]/$INFO[Container(12).NumPages][/COLOR])</label>
+					<label>([COLOR=accent]$INFO[Container(12).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(12).CurrentPage]/$INFO[Container(12).NumPages][/COLOR])</label>
 					<include>Window_OpenClose_Animation</include>		
 				</control>
 			</control>
@@ -2164,7 +2164,7 @@
 							<width>630</width>
 							<height>40</height>
 							<font>cirrus_25</font>
-							<textcolor>orange</textcolor>
+							<textcolor>accent</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -2176,7 +2176,7 @@
 							<width>500</width>
 							<height>40</height>
 							<font>cirrus_25</font>
-							<textcolor>orange</textcolor>
+							<textcolor>accent</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>right</align>
 							<aligny>center</aligny>
@@ -2213,7 +2213,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>([COLOR=orange]$INFO[Container(13).NumItems][/COLOR]) $LOCALIZE[19163] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(13).CurrentPage]/$INFO[Container(13).NumPages][/COLOR])</label>
+					<label>([COLOR=accent]$INFO[Container(13).NumItems][/COLOR]) $LOCALIZE[19163] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(13).CurrentPage]/$INFO[Container(13).NumPages][/COLOR])</label>
 					<include>Window_OpenClose_Animation</include>		
 				</control>
 				<control type="group">
@@ -2249,7 +2249,7 @@
 						<align>center</align>
 						<aligny>center</aligny>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 					</control>
 					<control type="textbox">
@@ -2283,7 +2283,7 @@
 						<width>300</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -2296,7 +2296,7 @@
 						<width>600</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -2309,7 +2309,7 @@
 						<width>200</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -2525,7 +2525,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>([COLOR=orange]$INFO[Container(14).NumItems][/COLOR]) $LOCALIZE[19040] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(14).CurrentPage]/$INFO[Container(14).NumPages][/COLOR])</label>
+					<label>([COLOR=accent]$INFO[Container(14).NumItems][/COLOR]) $LOCALIZE[19040] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(14).CurrentPage]/$INFO[Container(14).NumPages][/COLOR])</label>
 					<include>Window_OpenClose_Animation</include>		
 				</control>
 			</control>
@@ -2544,7 +2544,7 @@
 						<width>300</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -2557,7 +2557,7 @@
 						<width>250</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -2570,7 +2570,7 @@
 						<width>350</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -2583,7 +2583,7 @@
 						<width>140</width>
 						<height>20</height>
 						<font>cirrus_30</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -2771,7 +2771,7 @@
 								<font>cirrus_20</font>
 								<align>center</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Date</info>
 							</control>
@@ -2790,7 +2790,7 @@
 								<font>cirrus_20</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.ChannelName</info>
 							</control>
@@ -2802,7 +2802,7 @@
 								<font>cirrus_20</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -2822,7 +2822,7 @@
 								<font>cirrus_20</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -2843,7 +2843,7 @@
 								<font>cirrus_20</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>orange</textcolor>
+								<textcolor>accent</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer</visible>
@@ -2880,7 +2880,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>([COLOR=orange]$INFO[Container(17).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(17).CurrentPage]/$INFO[Container(17).NumPages][/COLOR])</label>
+					<label>([COLOR=accent]$INFO[Container(17).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(17).CurrentPage]/$INFO[Container(17).NumPages][/COLOR])</label>
 				</control>
 			</control>
 		</control>

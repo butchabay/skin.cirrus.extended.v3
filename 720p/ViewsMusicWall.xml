@@ -63,7 +63,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_24</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
@@ -98,7 +98,7 @@
 					<posy>35</posy>
 					<width>300</width>
 					<height>25</height>
-					<label>$INFO[ListItem.Genre, [COLOR=orange]Genre:[/COLOR] ]</label>
+					<label>$INFO[ListItem.Genre, [COLOR=accent]Genre:[/COLOR] ]</label>
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>top</aligny>

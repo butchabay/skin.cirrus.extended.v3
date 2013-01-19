@@ -455,7 +455,7 @@
 					<posy>520</posy>
 					<height>30</height>
 					<width>330</width>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>
@@ -614,7 +614,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_35</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="label">
@@ -656,7 +656,7 @@
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture>IMDBFlag.png</texture>
 					<visible>!IsEmpty(ListItem.Top250)</visible>
-					<colordiffuse>orange</colordiffuse>
+					<colordiffuse>accent</colordiffuse>
 				</control>
 				<control type="label"> <!-- Top250IMDB Mod 1.2 -->
 					<description>top250</description>

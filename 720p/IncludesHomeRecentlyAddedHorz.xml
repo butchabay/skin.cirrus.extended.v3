@@ -77,7 +77,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8000).ListItem.Label]  [COLOR=orange]$INFO[Container(8000).ListItem.Property(Year)][/COLOR]</label>
+			<label>$INFO[Container(8000).ListItem.Label]  [COLOR=accent]$INFO[Container(8000).ListItem.Property(Year)][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
@@ -441,7 +441,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8006).ListItem.Label]  [COLOR=orange]$INFO[Container(8006).ListItem.Property(Year)][/COLOR]</label>
+			<label>$INFO[Container(8006).ListItem.Label]  [COLOR=accent]$INFO[Container(8006).ListItem.Property(Year)][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
@@ -628,7 +628,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8007).ListItem.Label]  [COLOR=orange]$INFO[Container(8007).ListItem.Property(Year)][/COLOR]</label>
+			<label>$INFO[Container(8007).ListItem.Label]  [COLOR=accent]$INFO[Container(8007).ListItem.Property(Year)][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
@@ -815,7 +815,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8008).ListItem.Label]  [COLOR=orange]$INFO[Container(8008).ListItem.Property(Year)][/COLOR]</label>
+			<label>$INFO[Container(8008).ListItem.Label]  [COLOR=accent]$INFO[Container(8008).ListItem.Property(Year)][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
@@ -1017,7 +1017,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8001).ListItem.Label2]  [COLOR=orange]$INFO[Container(8001).ListItem.Property(EpisodeSeason)]$INFO[Container(8001).ListItem.Property(EpisodeNumber)][/COLOR]  [COLOR=grey]$INFO[Container(8001).ListItem.Label][/COLOR]</label>
+			<label>$INFO[Container(8001).ListItem.Label2]  [COLOR=accent]$INFO[Container(8001).ListItem.Property(EpisodeSeason)]$INFO[Container(8001).ListItem.Property(EpisodeNumber)][/COLOR]  [COLOR=grey]$INFO[Container(8001).ListItem.Label][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
@@ -1031,7 +1031,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8001).ListItem.Label2]   [COLOR=orange]$INFO[Container(8001).ListItem.Label][/COLOR] [COLOR=orange]$INFO[Container(8001).ListItem.Property(EpisodeSeason)] $INFO[Container(8001).ListItem.Property(EpisodeNumber)][/COLOR]</label>
+			<label>$INFO[Container(8001).ListItem.Label2]   [COLOR=accent]$INFO[Container(8001).ListItem.Label][/COLOR] [COLOR=accent]$INFO[Container(8001).ListItem.Property(EpisodeSeason)] $INFO[Container(8001).ListItem.Property(EpisodeNumber)][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
@@ -1399,7 +1399,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8009).ListItem.Label2]  [COLOR=orange]$INFO[Container(8009).ListItem.Property(EpisodeSeasonWidget)][/COLOR]  [COLOR=grey]$INFO[Container(8009).ListItem.Label][/COLOR]</label>
+			<label>$INFO[Container(8009).ListItem.Label2]  [COLOR=accent]$INFO[Container(8009).ListItem.Property(EpisodeSeasonWidget)][/COLOR]  [COLOR=grey]$INFO[Container(8009).ListItem.Label][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
@@ -1567,7 +1567,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8010).ListItem.Label2]  [COLOR=orange]$INFO[Container(8010).ListItem.Property(EpisodeSeasonWidget)][/COLOR]  [COLOR=grey]$INFO[Container(8010).ListItem.Label][/COLOR]</label>
+			<label>$INFO[Container(8010).ListItem.Label2]  [COLOR=accent]$INFO[Container(8010).ListItem.Property(EpisodeSeasonWidget)][/COLOR]  [COLOR=grey]$INFO[Container(8010).ListItem.Label][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
@@ -1735,7 +1735,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8011).ListItem.Label2]  [COLOR=orange]$INFO[Container(8011).ListItem.Property(EpisodeSeasonWidget)][/COLOR]  [COLOR=grey]$INFO[Container(8011).ListItem.Label][/COLOR]</label>
+			<label>$INFO[Container(8011).ListItem.Label2]  [COLOR=accent]$INFO[Container(8011).ListItem.Property(EpisodeSeasonWidget)][/COLOR]  [COLOR=grey]$INFO[Container(8011).ListItem.Label][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
@@ -1905,7 +1905,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8002).ListItem.Label2] [COLOR=grey]$INFO[Container(8002).ListItem.Label][/COLOR] [COLOR=orange]$INFO[Container(8002).ListItem.Property(Year)][/COLOR]</label>
+			<label>$INFO[Container(8002).ListItem.Label2] [COLOR=grey]$INFO[Container(8002).ListItem.Label][/COLOR] [COLOR=accent]$INFO[Container(8002).ListItem.Property(Year)][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>
@@ -2104,7 +2104,7 @@
 			<posy>0</posy>
 			<height>20</height>
 			<width>800</width>
-			<label>$INFO[Container(8005).ListItem.Label] [COLOR=grey]$INFO[Container(8005).ListItem.Label2][/COLOR] [COLOR=orange]$INFO[Container(8005).ListItem.Property(Version)][/COLOR]</label>
+			<label>$INFO[Container(8005).ListItem.Label] [COLOR=grey]$INFO[Container(8005).ListItem.Label2][/COLOR] [COLOR=accent]$INFO[Container(8005).ListItem.Property(Version)][/COLOR]</label>
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_24</font>

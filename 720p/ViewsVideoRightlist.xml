@@ -93,7 +93,7 @@
           <posy>510</posy>
           <height>30</height>
           <width>330</width>
-          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+          <label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>cirrus_20</font>
@@ -204,7 +204,7 @@
 						<posy>40</posy>
 						<width>183</width>
 						<height>25</height>
-						<color>orange</color>
+						<color>accent</color>
 						<texture>$INFO[Listitem.StarRating]</texture>
 						<colordiffuse>black</colordiffuse>
 						<visible>!Skin.HasSetting(imdbnr) + Container.Content(TVShows) | !Skin.HasSetting(imdbnr) + Container.Content(Episodes) | !Skin.HasSetting(imdbnr) + Container.Content(Movies)</visible>
@@ -258,7 +258,7 @@
 					<posy>105</posy>
 					<width>600</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					 <font>cirrus_24</font>
@@ -273,7 +273,7 @@
 					<posy>35</posy>
 					<width>740</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					 <font>cirrus_24</font>
@@ -287,7 +287,7 @@
 					<posy>70</posy>
 					<width>440</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					 <font>cirrus_24</font>
@@ -316,7 +316,7 @@
 					<posy>35</posy>
 					<width>440</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					 <font>cirrus_24</font>
@@ -330,7 +330,7 @@
 					<posy>70</posy>
 					<width>740</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					 <font>cirrus_24</font>
@@ -344,7 +344,7 @@
 					<posy>105</posy>
 					<width>600</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					 <font>cirrus_24</font>
@@ -372,7 +372,7 @@
 					<posy>35</posy>
 					<width>440</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20416]: [/COLOR]$INFO[listitem.premiered]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					 <font>cirrus_24</font>
@@ -386,7 +386,7 @@
 					<posy>70</posy>
 					<width>740</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[515]: [/COLOR]$INFO[listitem.genre]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					 <font>cirrus_24</font>
@@ -400,7 +400,7 @@
 					<posy>105</posy>
 					<width>600</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					 <font>cirrus_24</font>
@@ -500,7 +500,7 @@
 					<posy>108</posy>
 					<width>600</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					 <font>cirrus_24</font>
@@ -602,7 +602,7 @@
 						<posy>305</posy>
 						<width>590</width>
 						<height>25</height>
-						<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+						<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_24</font>
@@ -644,7 +644,7 @@
 						<posy>305</posy>
 						<width>590</width>
 						<height>25</height>
-						<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+						<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_24</font>
@@ -707,7 +707,7 @@
 					<posy>145</posy>
 					<width>360</width>
 					<height>25</height>
-					<label>$INFO[ListItem.Season,[COLOR=orange]$LOCALIZE[20373] :[/COLOR] ]  $INFO[ListItem.episode,[COLOR=orange]$LOCALIZE[20359] : [/COLOR]]</label>
+					<label>$INFO[ListItem.Season,[COLOR=accent]$LOCALIZE[20373] :[/COLOR] ]  $INFO[ListItem.episode,[COLOR=accent]$LOCALIZE[20359] : [/COLOR]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_30</font>
@@ -924,7 +924,7 @@
 						<posy>0</posy>
 						<width>1000</width>
 						<height>25</height>
-						<label>$INFO[ListItem.Genre,[COLOR=orange]$LOCALIZE[515]:[/COLOR] ]</label>
+						<label>$INFO[ListItem.Genre,[COLOR=accent]$LOCALIZE[515]:[/COLOR] ]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_24</font>
@@ -1033,7 +1033,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_26</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						
 					</control>
 					<control type="label">
@@ -1075,7 +1075,7 @@
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture>IMDBFlag.png</texture>
 					<visible>!IsEmpty(ListItem.Top250)</visible>
-					<colordiffuse>orange</colordiffuse>
+					<colordiffuse>accent</colordiffuse>
 				</control>
 					<control type="label"> <!-- Top250IMDB Mod 1.2 -->
 						<description>top250</description>
@@ -1101,7 +1101,7 @@
 						<posy>0</posy>
 						<width>1000</width>
 						<height>25</height>
-						<label>$INFO[ListItem.Genre,[COLOR=orange]$LOCALIZE[515]:[/COLOR] ]</label>
+						<label>$INFO[ListItem.Genre,[COLOR=accent]$LOCALIZE[515]:[/COLOR] ]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_24</font>
@@ -1160,7 +1160,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>cirrus_35</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 						
 					</control>
 					<control type="label">
@@ -1201,7 +1201,7 @@
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture>IMDBFlag.png</texture>
 					<visible>!IsEmpty(ListItem.Top250)</visible>
-					<colordiffuse>orange</colordiffuse>
+					<colordiffuse>accent</colordiffuse>
 				</control>
 					<control type="label"> <!-- Top250IMDB Mod 1.2 -->
 						<description>top250</description>

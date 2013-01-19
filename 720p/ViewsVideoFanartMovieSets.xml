@@ -314,7 +314,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Genre]$INFO[Container(7000).ListItem.Genre,[COLOR=orange]$LOCALIZE[515]:[/COLOR] ]</label>
+					<label>$INFO[ListItem.Genre]$INFO[Container(7000).ListItem.Genre,[COLOR=accent]$LOCALIZE[515]:[/COLOR] ]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 				</control> -->
@@ -328,7 +328,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Year]$INFO[Container(7000).ListItem.Property(Years),[COLOR=orange]$LOCALIZE[41250]:[/COLOR] ]</label>
+					<label>$INFO[ListItem.Year]$INFO[Container(7000).ListItem.Property(Years),[COLOR=accent]$LOCALIZE[41250]:[/COLOR] ]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 				</control>
@@ -343,7 +343,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(TotalMovies),[COLOR=orange]$LOCALIZE[41295]:[/COLOR] ]</label>
+					<label>$INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(TotalMovies),[COLOR=accent]$LOCALIZE[41295]:[/COLOR] ]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 				</control>
@@ -446,7 +446,7 @@
 					<posy>275</posy>
 					<height>30</height>
 					<width>330</width>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>

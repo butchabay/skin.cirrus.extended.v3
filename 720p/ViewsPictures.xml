@@ -84,7 +84,7 @@
 				<posy>665</posy>
 				<width>700</width>
 				<height>15</height>
-				<label>$INFO[ListItem.PictureDateTime,[COLOR=orange]$LOCALIZE[31326][/COLOR] - ]</label>
+				<label>$INFO[ListItem.PictureDateTime,[COLOR=accent]$LOCALIZE[31326][/COLOR] - ]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>cirrus_20</font>
@@ -97,7 +97,7 @@
 				<posy>690</posy>
 				<width>700</width>
 				<height>15</height>
-				<label>$INFO[ListItem.PictureResolution,[COLOR=orange]$LOCALIZE[31327][/COLOR] - ]</label>
+				<label>$INFO[ListItem.PictureResolution,[COLOR=accent]$LOCALIZE[31327][/COLOR] - ]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>cirrus_20</font>

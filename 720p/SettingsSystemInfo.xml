@@ -260,7 +260,7 @@
           <width>700</width>
           <label>144</label>
           <align>right</align>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
           <font>cirrus_20_Bold</font>
         </control>

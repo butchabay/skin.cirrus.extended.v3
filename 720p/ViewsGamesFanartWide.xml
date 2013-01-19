@@ -106,7 +106,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>[COLOR=orange]$INFO[ListItem.premiered][/COLOR] $INFO[ListItem.Label]</label>
+					<label>[COLOR=accent]$INFO[ListItem.premiered][/COLOR] $INFO[ListItem.Label]</label>
 				</control>
 			</control>
       <control type="scrollbar" id="60">
@@ -177,7 +177,7 @@
           <scroll>false</scroll>
           <align>left</align>
           <aligny>center</aligny>
-          <label>$INFO[ListItem.Genre,[COLOR=orange]$LOCALIZE[515]:[/COLOR] ]</label>
+          <label>$INFO[ListItem.Genre,[COLOR=accent]$LOCALIZE[515]:[/COLOR] ]</label>
           <scrollout>false</scrollout>
           <pauseatend>2000</pauseatend>
         </control>
@@ -187,12 +187,12 @@
           <width>500</width>
           <height>30</height>
           <font>cirrus_30</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
           <scroll>true</scroll>
           <align>left</align>
           <aligny>center</aligny>
-          <label>[COLOR=orange][/COLOR]$INFO[ListItem.Studio, ]$INFO[ListItem.Premiered,  (,)]</label>
+          <label>[COLOR=accent][/COLOR]$INFO[ListItem.Studio, ]$INFO[ListItem.Premiered,  (,)]</label>
           <scrollout>false</scrollout>
           <pauseatend>2000</pauseatend>
         </control>
@@ -261,7 +261,7 @@
 					<posy>295</posy>
 					<height>30</height>
 					<width>330</width>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>

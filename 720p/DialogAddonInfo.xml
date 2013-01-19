@@ -37,7 +37,7 @@
 				<label>24003</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>orange</textcolor>
+				<textcolor>accent</textcolor>
 				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="image">
@@ -70,7 +70,7 @@
 					<posy>0</posy>
 					<width>590</width>
 					<height>25</height>
-					<label>$INFO[ListItem.Property(Addon.Type),[COLOR=orange]$LOCALIZE[146][/COLOR] ]</label>
+					<label>$INFO[ListItem.Property(Addon.Type),[COLOR=accent]$LOCALIZE[146][/COLOR] ]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_20_Bold</font>
@@ -82,7 +82,7 @@
 					<posy>30</posy>
 					<width>590</width>
 					<height>25</height>
-					<label>$INFO[ListItem.Property(Addon.Creator),[COLOR=orange]$LOCALIZE[21863]:[/COLOR] ]</label>
+					<label>$INFO[ListItem.Property(Addon.Creator),[COLOR=accent]$LOCALIZE[21863]:[/COLOR] ]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_20_Bold</font>
@@ -94,7 +94,7 @@
 					<posy>60</posy>
 					<width>590</width>
 					<height>25</height>
-					<label>$INFO[ListItem.Property(Addon.Version),[COLOR=orange]$LOCALIZE[24051] [/COLOR] ]</label>
+					<label>$INFO[ListItem.Property(Addon.Version),[COLOR=accent]$LOCALIZE[24051] [/COLOR] ]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_20_Bold</font>
@@ -110,7 +110,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_20_Bold</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 				</control>
 				<control type="image">
 					<description>Rating value</description>
@@ -126,7 +126,7 @@
 					<posy>120</posy>
 					<width>590</width>
 					<height>25</height>
-					<label>$INFO[ListItem.Property(Addon.Summary),[COLOR=orange]$LOCALIZE[20037]: [/COLOR] ]</label>
+					<label>$INFO[ListItem.Property(Addon.Summary),[COLOR=accent]$LOCALIZE[20037]: [/COLOR] ]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_20_Bold</font>
@@ -149,7 +149,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_20_Bold</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 				</control>
 				<control type="group">
 					<visible>!IsEmpty(ListItem.Property(Addon.Disclaimer))</visible>
@@ -159,7 +159,7 @@
 						<posy>170</posy>
 						<width>300</width>
 						<height>25</height>
-						<label>$INFO[Container(400).CurrentPage, $LOCALIZE[31024] [COLOR=orange]([/COLOR]]$INFO[Container(400).NumPages,/,[COLOR=orange])[/COLOR]]</label>
+						<label>$INFO[Container(400).CurrentPage, $LOCALIZE[31024] [COLOR=accent]([/COLOR]]$INFO[Container(400).NumPages,/,[COLOR=accent])[/COLOR]]</label>
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font12</font>
@@ -202,7 +202,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>font13</font>
-						<textcolor>orange</textcolor>
+						<textcolor>accent</textcolor>
 					</control>
 					<control type="textbox">
 						<description>Disclaimer</description>
