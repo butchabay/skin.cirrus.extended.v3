@@ -593,7 +593,7 @@
                             <shadowcolor></shadowcolor>
                         </control>
                         <control type="label">
-                            <description>genre label</description>
+                            <description>Genre label</description>
                             <posx>85</posx>
                             <posy>40</posy>
                             <width>570</width>
