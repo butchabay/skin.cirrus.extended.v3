@@ -68,7 +68,7 @@
 					<posy>15</posy>
 					<width>380</width>
 					<height>25</height>
-					<font>cirrus_30</font>
+					<font>cirrus_24</font>
 					<textcolor>grey3</textcolor>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -100,7 +100,7 @@
 					<posy>15</posy>
 					<width>380</width>
 					<height>25</height>
-					<font>cirrus_30</font>
+					<font>cirrus_24</font>
 					<textcolor>white</textcolor>
 					<align>right</align>
 					<aligny>center</aligny>

@@ -1,5 +1,7 @@
 Changelog: 3.0.0 (12.01.2013)
 
 - Update from eden to frodo getting latest svn version 2.0.9
+- Reduced artwork filesize
+- Removal of double textstrings in language files
 
 
