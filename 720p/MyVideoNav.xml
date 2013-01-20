@@ -749,6 +749,20 @@
 					<selected>Skin.HasSetting(showmoviedvd)</selected>
 					<visible>!Container.Content(TVShows) + !Container.Content(Seasons) + [Container.Content(Movies) + Control.IsVisible(720) | Control.IsVisible(52) | Control.IsVisible(721)]</visible>
 				</control>
+                <control type="button" id="44">
+                    <description>Download Artwork</description>
+                    <include>ButtonCommonValues</include>
+                    <label>41600</label>
+                    <onclick>XBMC.RunScript(script.artwork.downloader, mediatype=tvshow)</onclick>
+                    <visible>System.HasAddon(script.artwork.downloader) + Container.Content(tvshows)</visible>
+                </control>
+                <control type="button" id="45">
+                    <description>Download Artwork</description>
+                    <include>ButtonCommonValues</include>
+                    <label>41600</label>
+                    <onclick>XBMC.RunScript(script.artwork.downloader, mediatype=movie)</onclick>
+                    <visible>System.HasAddon(script.artwork.downloader) + Container.Content(movies)</visible>
+                </control>
 				<control type="button" id="8">
 					<description>Search</description>
 					<include>ButtonCommonValues</include>

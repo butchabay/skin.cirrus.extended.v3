@@ -1917,3 +1917,7 @@ msgstr ""
 msgctxt "#41301"
 msgid "Listen Later"
 msgstr ""
+
+msgctxt "#41600"
+msgid "Batch Download Artwork"
+msgstr ""
