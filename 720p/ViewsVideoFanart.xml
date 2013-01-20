@@ -813,7 +813,7 @@
 					<width>575</width>
 					<height>106</height>
 				    <aspectratio>stretch</aspectratio>
-					<texture background="true">$INFO[ListItem.Path]$INFO[ListItem.Season,season,-banner.jpg]</texture>
+                    <texture background="true">$INFO[ListItem.Art(season.banner)]</texture>
 					<bordertexture border="8">contentpanelvertical.png</bordertexture>
 				    <bordersize>8</bordersize>
 				</control>

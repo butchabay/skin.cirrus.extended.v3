@@ -394,7 +394,7 @@
 		<property name="Network">$INFO[Window(Home).Property(NextAired.29.Network)]</property>
 		<property name="Genre">$INFO[Window(Home).Property(NextAired.29.Genres)]</property>
 		<property name="Runtime">$INFO[Window(Home).Property(NextAired.29.Runtime)]</property>
-		 <property name="Banner">$INFO[Window(Home).Property(NextAired29.Showpath),,banner.jpg]</property>
+		 <property name="Banner">$INFO[Window(Home).Property(NextAired.29.Showpath),,banner.jpg]</property>
 		<onclick>-</onclick>
 	</include>
 	<include name="NextAiredItem30">

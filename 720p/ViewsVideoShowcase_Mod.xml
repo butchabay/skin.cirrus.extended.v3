@@ -1148,7 +1148,7 @@
 					<width>290</width>
 					<height>65</height>
 				    <aspectratio>stretch</aspectratio>
-					<texture background="true">$INFO[ListItem.Path]$INFO[ListItem.Season,season,-banner.jpg]</texture>
+					<texture background="true">$INFO[ListItem.Art(season.banner)]</texture>
 				    <bordersize>8</bordersize>
 					<visible>!Container(721).OnNext + !Container(721).OnPrevious + Container.Content(Seasons)</visible>
 			        <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
