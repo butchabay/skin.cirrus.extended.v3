@@ -38,9 +38,9 @@
     <include>CommonPageCount</include>
     <include>BehindDialogFadeOut</include>
     <include>Clock</include>
-    <control type="group">                    <!-- type of addon -->
+    <control type="group">                    <!-- Add-on Category -->
       <posx>20</posx>
-      <posy>30</posy>
+      <posy>20</posy>
       <visible>!IsEmpty(Container.Property(AddonCategory))</visible>
       <include>VisibleFadeEffect</include>
       <animation effect="slide" end="-710,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
@@ -59,7 +59,7 @@
     </control>
     <control type="group">
       <posx>20</posx>
-      <posy>-5</posy>
+      <posy>-15</posy>
       <visible>!IsEmpty(Container.Property(RepoName))</visible>
       <include>VisibleFadeEffect</include>
       <animation effect="slide" end="-600,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
@@ -77,7 +77,7 @@
     </control>
     <control type="group">
       <posx>120</posx>
-      <posy>10</posy>
+      <posy>0</posy>
       <animation effect="slide" end="-310,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
       <animation effect="slide" start="-310,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
       <control type="label">
