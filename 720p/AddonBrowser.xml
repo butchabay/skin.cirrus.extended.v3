@@ -200,7 +200,7 @@
     <!-- Mod Scroll List Letter -->
     <control type="group">
       <posx>20</posx>
-      <posy>50</posy>
+      <posy>140</posy>
       <visible>Container.Scrolling + [StringCompare(Container.SortMethod,$LOCALIZE[551]) | StringCompare(Container.SortMethod,$LOCALIZE[561]) | StringCompare(Container.SortMethod,$LOCALIZE[558]) | StringCompare(Container.SortMethod,$LOCALIZE[557]) | StringCompare(Container.SortMethod,$LOCALIZE[556])]</visible>
       <include>VisibleFadeEffect</include>
       <animation effect="slide" end="-510,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
