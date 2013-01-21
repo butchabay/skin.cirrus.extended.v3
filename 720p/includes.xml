@@ -437,7 +437,7 @@
       <scroll>false</scroll>
       <align>right</align>
       <aligny>center</aligny>
-      <label>[COLOR=white]$INFO[Container.NumItems][/COLOR] $LOCALIZE[31025] $LOCALIZE[31024] [COLOR=white]$INFO[Container.CurrentPage]/$INFO[Container.NumPages][/COLOR]</label>
+      <label>[COLOR=white]$INFO[Container.NumItems][/COLOR] $LOCALIZE[31025] - $LOCALIZE[31024] [COLOR=white]$INFO[Container.CurrentPage]/$INFO[Container.NumPages][/COLOR]</label>
       <include>Window_OpenClose_Animation</include>   
       <visible>!Skin.HasSetting(nopagecount)</visible>	  
     </control>
@@ -992,11 +992,10 @@
       <posy>0</posy>
       <animation effect="slide" start="0,0" end="-210,0" delay="0" time="300" condition="Window.Next(Home) | Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">WindowClose</animation>
       <animation effect="slide" start="-210,0" end="0,0" delay="0" time="300" condition="Window.Previous(Home) | Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">WindowOpen</animation>
-
       <control type="label">
         <description>time label</description>
         <posx>20</posx>
-        <posy>21</posy>
+        <posy>11</posy>
         <width>400</width>
         <height>28</height>
         <align>left</align>

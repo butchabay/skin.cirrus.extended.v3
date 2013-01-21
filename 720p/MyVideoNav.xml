@@ -245,7 +245,7 @@
 	<!-- LABELS FOR MUSIC VIDEO BREADCRUMB TRAIL -->
 	<control type="group">
 		<posx>20</posx>
-		<posy>10</posy>
+		<posy>0</posy>
 		<visible>Container.Content(MusicVideos)</visible>
 		<include>VisibleFadeEffect</include>
 		<animation effect="slide" end="-1300,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
@@ -261,7 +261,7 @@
 	<!-- LABELS FOR TV BREADCRUMB TRAIL -->
 	<control type="group">
 		<posx>20</posx>
-		<posy>10</posy>
+		<posy>0</posy>
 		<visible>Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes)</visible>
 		<include>VisibleFadeEffect</include>
 		<animation effect="slide" end="-1300,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
@@ -275,7 +275,7 @@
 	</control>
 	<control type="group">
 		<posx>20</posx>
-		<posy>10</posy>
+		<posy>0</posy>
 		<visible>Container.Content(Movies)</visible>
 		<include>VisibleFadeEffect</include>
 		<animation effect="slide" end="-1300,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
@@ -289,7 +289,7 @@
 	</control>
 	<control type="group">
 		<posx>20</posx>
-		<posy>10</posy>
+		<posy>0</posy>
 		<visible>Container.Content(Genres)</visible>
 		<include>VisibleFadeEffect</include>
 		<animation effect="slide" end="-1300,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
@@ -303,7 +303,7 @@
 	</control>
 	<control type="group">
 		<posx>20</posx>
-		<posy>10</posy>
+		<posy>0</posy>
 		<visible>Container.Content(Years)</visible>
 		<include>VisibleFadeEffect</include>
 		<animation effect="slide" end="-1300,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
@@ -317,7 +317,7 @@
 	</control>
 	<control type="group">
 		<posx>20</posx>
-		<posy>10</posy>
+		<posy>0</posy>
 		<visible>Container.Content(Actors)</visible>
 		<include>VisibleFadeEffect</include>
 		<animation effect="slide" end="-1300,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
@@ -331,7 +331,7 @@
 	</control>
 	<control type="group">
 		<posx>20</posx>
-		<posy>10</posy>
+		<posy>0</posy>
 		<visible>Container.Content(Directors)</visible>
 		<include>VisibleFadeEffect</include>
 		<animation effect="slide" end="-1300,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
@@ -345,7 +345,7 @@
 	</control>
 	<control type="group">
 		<posx>20</posx>
-		<posy>10</posy>
+		<posy>0</posy>
 		<visible>Container.Content(Addons)</visible>
 		<include>VisibleFadeEffect</include>
 		<animation effect="slide" end="-1300,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
@@ -359,7 +359,7 @@
 	</control>
 	<control type="group">
 		<posx>20</posx>
-		<posy>10</posy>
+		<posy>0</posy>
 		<visible>Container.Content(Files)</visible>
 		<include>VisibleFadeEffect</include>
 		<animation effect="slide" end="-1300,0" time="400" tween="quadratic" easing="out">WindowClose</animation>

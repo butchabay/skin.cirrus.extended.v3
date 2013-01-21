@@ -36,7 +36,7 @@
     <include>BehindDialogFadeOut</include>
 	<control type="group">
       <posx>20</posx>
-      <posy>10</posy>
+      <posy>0</posy>
       <animation effect="slide" end="-1300,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
       <animation effect="slide" start="-1300,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
       <control type="label">
