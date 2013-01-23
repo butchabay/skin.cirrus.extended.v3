@@ -21,7 +21,7 @@
         <label>$LOCALIZE[13406]</label>
         <align>right</align>
         <aligny>center</aligny>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="scrollbar" id="60">
@@ -65,7 +65,7 @@
             <height>35</height>
             <font>cirrus_20</font>
             <aligny>center</aligny>
-            <textcolor>orange</textcolor>
+            <textcolor>accent</textcolor>
             <shadowcolor>black</shadowcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>
@@ -108,7 +108,7 @@
             <height>35</height>
             <font>cirrus_20</font>
             <aligny>center</aligny>
-            <textcolor>orange</textcolor>
+            <textcolor>accent</textcolor>
             <shadowcolor>black</shadowcolor>
             <selectedcolor>selected</selectedcolor>
             <align>right</align>

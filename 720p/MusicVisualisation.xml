@@ -919,7 +919,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<label>31040</label>
 					<visible>!Skin.HasSetting(cdart) + !Skin.HasSetting(zombie_osd)</visible>
@@ -933,7 +933,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<label>31040</label>
 					<visible>Skin.HasSetting(cdart) + !Skin.HasSetting(zombie_osd)</visible>
@@ -1005,7 +1005,7 @@
 					<label>[UPPERCASE]$INFO[MusicPlayer.Artist][/UPPERCASE]</label>
 					<scroll>true</scroll>
 					<font>cirrus_40</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<visible>Skin.HasSetting(zombie_osd)</visible>
 				</control>	
@@ -1054,7 +1054,7 @@
 					<posy>60</posy>
 					<width>300</width>
 					<height>20</height>
-					<label>[UPPERCASE]$INFO[musicplayer.Playlistposition,[COLOR=orange]$LOCALIZE[554]:[/COLOR] ]$INFO[musicplayer.Playlistlength, / ][/UPPERCASE]</label>
+					<label>[UPPERCASE]$INFO[musicplayer.Playlistposition,[COLOR=accent]$LOCALIZE[554]:[/COLOR] ]$INFO[musicplayer.Playlistlength, / ][/UPPERCASE]</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>
@@ -1110,7 +1110,7 @@
 					<posy>100</posy>
 					<width>300</width>
 					<height>20</height>
-					<label>$INFO[musicplayer.Playlistposition,[COLOR=orange]$LOCALIZE[554]:[/COLOR] ]$INFO[musicplayer.Playlistlength, / ]</label>
+					<label>$INFO[musicplayer.Playlistposition,[COLOR=accent]$LOCALIZE[554]:[/COLOR] ]$INFO[musicplayer.Playlistlength, / ]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>
@@ -1123,7 +1123,7 @@
 					<posy>100</posy>
 					<width>300</width>
 					<height>20</height>
-					<label>$INFO[musicplayer.Playlistposition,[COLOR=orange]$LOCALIZE[554]:[/COLOR] ]$INFO[musicplayer.Playlistlength, / ]</label>
+					<label>$INFO[musicplayer.Playlistposition,[COLOR=accent]$LOCALIZE[554]:[/COLOR] ]$INFO[musicplayer.Playlistlength, / ]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>
@@ -1163,7 +1163,7 @@
 					<posy>100</posy>
 					<width>490</width>
 					<height>20</height>
-					<label>[COLOR=orange]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Artist,, - ]$INFO[MusicPlayer.offset(1).Title]</label>
+					<label>[COLOR=accent]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Artist,, - ]$INFO[MusicPlayer.offset(1).Title]</label>
 					<align>right</align>
 					<aligny>center</aligny>
 					<scroll>true</scroll>

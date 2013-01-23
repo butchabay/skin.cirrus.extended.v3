@@ -96,7 +96,7 @@
 					<height>40</height>
 					<label>41151</label>
 					<font>-</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<texturefocus>OSDRecord2.png</texturefocus>
 					<texturenofocus>OSDRecordNF2.png</texturenofocus>
 					<onleft>703</onleft>
@@ -272,7 +272,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>cirrus_20</font>
-				<textcolor>orange</textcolor>
+				<textcolor>accent</textcolor>
 				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="label">

@@ -90,7 +90,7 @@
           <textcolor>white</textcolor>
           <shadowcolor>black</shadowcolor>
           <pagecontrol>-</pagecontrol>
-          <label>$INFO[Container(50).ListItem.Title,[COLOR=orange]$LOCALIZE[556]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Artist,[COLOR=orange]$LOCALIZE[557]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Album,[COLOR=orange]$LOCALIZE[558]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Duration,[COLOR=orange]$LOCALIZE[555]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.TrackNumber,[COLOR=orange]$LOCALIZE[554]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Genre,[COLOR=orange]$LOCALIZE[515]:[/COLOR] ,[CR]]</label>
+          <label>$INFO[Container(50).ListItem.Title,[COLOR=accent]$LOCALIZE[556]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Artist,[COLOR=accent]$LOCALIZE[557]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Album,[COLOR=accent]$LOCALIZE[558]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Duration,[COLOR=accent]$LOCALIZE[555]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.TrackNumber,[COLOR=accent]$LOCALIZE[554]:[/COLOR] ,[CR]]$INFO[Container(50).ListItem.Genre,[COLOR=accent]$LOCALIZE[515]:[/COLOR] ,[CR]]</label>
         </control>
       </control>
       <control type="group">
@@ -114,7 +114,7 @@
           <textcolor>white</textcolor>
           <shadowcolor>black</shadowcolor>
           <pagecontrol>-</pagecontrol>
-          <label>$INFO[Container(100).ListItem.Title,[COLOR=orange]$LOCALIZE[556]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Artist,[COLOR=orange]$LOCALIZE[557]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Album,[COLOR=orange]$LOCALIZE[558]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Duration,[COLOR=orange]$LOCALIZE[555]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.TrackNumber,[COLOR=orange]$LOCALIZE[554]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Genre,[COLOR=orange]$LOCALIZE[515]:[/COLOR] ,[CR]]</label>
+          <label>$INFO[Container(100).ListItem.Title,[COLOR=accent]$LOCALIZE[556]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Artist,[COLOR=accent]$LOCALIZE[557]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Album,[COLOR=accent]$LOCALIZE[558]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Duration,[COLOR=accent]$LOCALIZE[555]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.TrackNumber,[COLOR=accent]$LOCALIZE[554]:[/COLOR] ,[CR]]$INFO[Container(100).ListItem.Genre,[COLOR=accent]$LOCALIZE[515]:[/COLOR] ,[CR]]</label>
         </control>
       </control>
     </control>
@@ -148,7 +148,7 @@
         <font>cirrus_24</font>
         <align>left</align>
         <scroll>true</scroll>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
         <label>($INFO[Container(50).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(50).CurrentPage]/$INFO[Container(50).NumPages])</label>
       </control>
@@ -272,7 +272,7 @@
         <width>300</width>
         <height>20</height>
         <font>cirrus_24</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <scroll>false</scroll>
         <align>right</align>
         <aligny>center</aligny>
@@ -370,7 +370,7 @@
     </control>
    <control type="group">
       <posx>20</posx>
-      <posy>10</posy>
+      <posy>0</posy>
       <animation effect="slide" end="-310,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
       <animation effect="slide" start="-310,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
       <control type="label">

@@ -51,7 +51,7 @@
 			<label>-</label>
 			<align>center</align>
 			<aligny>center</aligny>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="grouplist" id="5">
@@ -71,7 +71,7 @@
 			<height>40</height>
 			<font>cirrus_20</font>
 			<textcolor>grey2</textcolor>
-			<focusedcolor>orange</focusedcolor>
+			<focusedcolor>accent</focusedcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 		</control>
@@ -80,7 +80,7 @@
 			<height>40</height>
 			<font>cirrus_20</font>
 			<textcolor>grey2</textcolor>
-			<focusedcolor>orange</focusedcolor>
+			<focusedcolor>accent</focusedcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 		</control>
@@ -88,7 +88,7 @@
 			<description>Default spincontrolex</description>
 			<height>40</height>
 			<textcolor>grey2</textcolor>
-			<focusedcolor>orange</focusedcolor>
+			<focusedcolor>accent</focusedcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 			<font>cirrus_20</font>
@@ -102,7 +102,7 @@
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 			<font>cirrus_20</font>
 			<textcolor>grey2</textcolor>
-			<focusedcolor>orange</focusedcolor>
+			<focusedcolor>accent</focusedcolor>
 		</control>
 		<control type="image" id="11">
 			<description>Default Seperator</description>
@@ -114,7 +114,7 @@
 			<height>40</height>
 			<font>cirrus_20</font>
 			<textcolor>grey2</textcolor>
-			<focusedcolor>orange</focusedcolor>
+			<focusedcolor>accent</focusedcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 		</control>

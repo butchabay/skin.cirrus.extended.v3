@@ -205,7 +205,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_20</font>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
         <control type="label">
@@ -231,7 +231,7 @@
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_24</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
           <scrollout>false</scrollout>
           <pauseatend>2000</pauseatend>
@@ -276,7 +276,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>cirrus_20</font>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
         <!-- details of actual next tracks start here -->
@@ -306,7 +306,7 @@
           <!-- font to use - defined in fonts.xml -->
           <font>cirrus_20</font>
           <!-- color of text -->
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <!-- color of shadow -->
           <shadowcolor>black</shadowcolor>
           <!-- only display text if condition below is satisfied -->
@@ -324,7 +324,7 @@
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_20</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
           <visible>MusicPlayer.offset(2).Exists</visible>
         </control>
@@ -338,7 +338,7 @@
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_20</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
           <visible>MusicPlayer.offset(3).Exists</visible>
         </control>
@@ -352,7 +352,7 @@
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_20</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
           <visible>MusicPlayer.offset(4).Exists</visible>
          </control>
@@ -366,7 +366,7 @@
           <align>left</align>
           <aligny>center</aligny>
           <font>cirrus_20</font>
-          <textcolor>orange</textcolor>
+          <textcolor>accent</textcolor>
           <shadowcolor>black</shadowcolor>
           <visible>MusicPlayer.Offset(5).Exists</visible>
          

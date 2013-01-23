@@ -33,7 +33,7 @@
 			<label>$INFO[Control.GetLabel(1)] $INFO[System.Progressbar,- ,%]</label>
 			<align>left</align>
 			<aligny>center</aligny>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="label" id="2">

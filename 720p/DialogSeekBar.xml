@@ -75,6 +75,7 @@
 				<fadetime>200</fadetime>
 				<animation effect="fade" time="900">VisibleChange</animation>
 				<texture fallback="blank.png">$INFO[Player.FolderPath]../poster.jpg</texture>
+				<texture fallback="blank.png">$INFO[Player.Art(poster)]</texture>
 				<bordertexture border="6">ContentPanelvertical.png</bordertexture>
 				<bordersize>6</bordersize>
 				<aspectratio aligny="bottom">stretch</aspectratio>
@@ -316,7 +317,7 @@
 					<posy>110</posy>
 					<width>550</width>
 					<height>30</height>
-					<label>[COLOR=orange]$LOCALIZE[31063][/COLOR] $INFO[VideoPlayer.Season]  [COLOR=orange]$LOCALIZE[31064][/COLOR] $INFO[VideoPlayer.Episode]</label>
+					<label>[COLOR=accent]$LOCALIZE[31063][/COLOR] $INFO[VideoPlayer.Season]  [COLOR=accent]$LOCALIZE[31064][/COLOR] $INFO[VideoPlayer.Episode]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<scroll>true</scroll>
@@ -331,12 +332,12 @@
 					<posy>220</posy>
 					<width>300</width>
 					<height>30</height>
-					<label>[COLOR=orange]$LOCALIZE[31063][/COLOR] $INFO[VideoPlayer.Season]  [COLOR=orange]$LOCALIZE[31064][/COLOR] $INFO[VideoPlayer.Episode]</label>
+					<label>[COLOR=accent]$LOCALIZE[31063][/COLOR] $INFO[VideoPlayer.Season]  [COLOR=accent]$LOCALIZE[31064][/COLOR] $INFO[VideoPlayer.Episode]</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<scroll>true</scroll>
 					<font>cirrus_22_Bold</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<visible>VideoPlayer.Content(Episodes)</visible>
 					<visible>Skin.HasSetting(slimseek)</visible>
@@ -394,7 +395,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_22_Bold</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<visible>VideoPlayer.Content(Movies)</visible>
                     <visible>!Skin.HasSetting(slimseek)</visible>
@@ -414,6 +415,7 @@
 					<visible>VideoPlayer.Content(Movies)</visible>
 					<visible>Skin.HasSetting(slimseek)</visible>
 				</control> -->
+			<!-- TODO -->
 			<control type="largeimage">
 					<description>TV Show Image</description>
 					<posx>200r</posx>
@@ -503,7 +505,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_22_Bold</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<label>$INFO[VideoPlayer.Year]</label>
 					<visible>Skin.HasSetting(slimseek)</visible>
@@ -517,7 +519,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_24_Bold</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<label>31043</label>
 					<visible>[Player.Paused + !Player.Caching] + !Player.Seeking</visible>
 					<visible>VideoPlayer.Content(Files) | Skin.HasSetting(slimseek)</visible>
@@ -531,7 +533,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_22_Bold</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
 					<visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
 					<visible>VideoPlayer.Content(Files) | Skin.HasSetting(slimseek)</visible>
@@ -592,7 +594,7 @@
 					<posy>300</posy>
 					<width>510</width>
 					<height>20</height>
-					<label>[COLOR=orange]$LOCALIZE[31049][/COLOR] $INFO[Player.FinishTime]</label>
+					<label>[COLOR=accent]$LOCALIZE[31049][/COLOR] $INFO[Player.FinishTime]</label>
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>
@@ -607,7 +609,7 @@
 					<posy>285</posy>
 					<width>510</width>
 					<height>20</height>
-					<label>[COLOR=orange]$LOCALIZE[31049][/COLOR] $INFO[Player.FinishTime]</label>
+					<label>[COLOR=accent]$LOCALIZE[31049][/COLOR] $INFO[Player.FinishTime]</label>
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>cirrus_20</font>
@@ -882,7 +884,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_24_Bold</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<label>31043</label>
 					<visible>[Player.Paused + !Player.Caching] + !Player.Seeking</visible>
 					<visible>!VideoPlayer.Content(Files) + !Skin.HasSetting(slimseek)</visible>
@@ -896,7 +898,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>cirrus_22_Bold</font>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
 					<visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
 					<visible>!VideoPlayer.Content(Files) + !Skin.HasSetting(slimseek)</visible>

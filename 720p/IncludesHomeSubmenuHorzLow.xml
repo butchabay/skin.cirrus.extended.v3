@@ -13,7 +13,6 @@
 				<width>1350</width>
 				<height>40</height>
 				<texture>horzmenuback.png</texture>
-				<!-- <aspectratio>stretch</aspectratio> -->
 			</control>
 			
 			<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus">conditional</animation>
@@ -70,8 +69,8 @@
 					</control>
 				</focusedlayout>
 				<content>
-				    <!-- SearchSUBMENU Butchabay -->
-				   <item id="90100">
+				  <!-- SearchSUBMENU Butchabay -->
+				  <item id="90100">
 						<label>31331</label>
 						<onclick>ActivateWindow(Videos,Root)</onclick>
 						<onclick>SendClick(8)</onclick>
@@ -99,7 +98,7 @@
 					<item id="90106">
 						<label>31007</label>
 						<onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
-                        <onclick>ActivateWindow(Videos,Addons,return)</onclick>
+            <onclick>ActivateWindow(Videos,Addons,return)</onclick>
 					</item>
 				</content>
 			</control>
@@ -287,7 +286,7 @@
 				<itemgap>0</itemgap>
 				<visible>Container(9000).HasFocus(18) + [[Skin.HasSetting(HomeScriptButton1) + !IsEmpty(Skin.String(HomeScriptButton1_label))] | [Skin.HasSetting(HomeScriptButton2) + !IsEmpty(Skin.String(HomeScriptButton2_label))] | [Skin.HasSetting(HomeScriptButton3) + !IsEmpty(Skin.String(HomeScriptButton3_label))] | [Skin.HasSetting(HomeScriptButton4) + !IsEmpty(Skin.String(HomeScriptButton4_label))] | [Skin.HasSetting(HomeScriptButton5) + !IsEmpty(Skin.String(HomeScriptButton5_label))] | [Skin.HasSetting(HomeScriptButton6) + !IsEmpty(Skin.String(HomeScriptButton6_label))]]</visible>
 				<itemlayout width="270" height="245">
-					<control type="group">	
+				<control type="group">	
 						<posx>20</posx>
 						<posy>-5</posy>
 						<control type="label"><!--Movie title-->
@@ -298,7 +297,7 @@
 							<font>cirrus_30</font>
 							<textcolor>grey3</textcolor>
 						</control>
-					</control>
+				</control>
 				</itemlayout>
 				<focusedlayout width="270" height="515">
 					<control type="group">	
@@ -549,7 +548,6 @@
 						<onclick>$INFO[Skin.String(MovieScriptButton3_Path)]</onclick>
 						<visible>Skin.HasSetting(MovieScriptButton3) + !IsEmpty(Skin.String(MovieScriptButton3_label))</visible>
 					</item>
-					<!-- TO HERE Butchabay 1.2.4 -->
 					<!-- Custom Favourites Movies Butchabay 1.2.4 -->
 					<item id="90180">
 						<label>$INFO[Skin.String(MovieButton20_label)]</label>
@@ -648,7 +646,7 @@
 				<!-- ATTENTION CHANGED ID BUTCHABAY FROM HERE 1.2.4 -->
 				
 				     <!-- SearchSUBMENU Butchabay -->
-				    <item id="901900">
+				 <item id="901900">
 						<label>31331</label>
 						<onclick>ActivateWindow(Videos,TVShowTitles,return)</onclick>
 						<onclick>SendClick(8)</onclick>
@@ -764,14 +762,14 @@
 						<visible>Skin.HasSetting(HomeTVbutton28) + !IsEmpty(Skin.String(HomeTVbutton28_label))</visible>
 					</item>
 					<item id="90209">
-					    <label>$INFO[Skin.String(HomeTVbutton29_label)]</label>
+					  <label>$INFO[Skin.String(HomeTVbutton29_label)]</label>
 						<onclick>Setfocus(9000)</onclick>
 						<onclick>$INFO[Skin.String(Menu_Custom29_Path)]</onclick>
 						<visible>Skin.HasSetting(HomeTVbutton29) + !IsEmpty(Skin.String(HomeTVbutton29_label))</visible>
 					</item>
 					<!-- Custom Favourites TV Shows Butchabay END 1.2.4 -->
 					<item id="90210">
-					    <label>31187</label>
+					  <label>31187</label>
 						<onclick>RunScript(script.tv.show.next.aired)</onclick>
 						<visible>Library.HasContent(TVShows) + System.HasAddon(script.tv.show.next.aired)</visible>
 					</item>
@@ -779,6 +777,5 @@
 				</content>
 			</control>
 		</control>	
-
 	</include>
 </includes>

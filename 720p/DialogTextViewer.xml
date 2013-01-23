@@ -23,7 +23,7 @@
 					<font>cirrus_30_Bold</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>orange</textcolor>
+					<textcolor>accent</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
 				<control type="textbox" id="5">

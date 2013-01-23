@@ -38,7 +38,7 @@
         <label>A : </label>
         <align>left</align>
         <aligny>center</aligny>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="label" id="101">
@@ -64,7 +64,7 @@
         <scroll>true</scroll>
         <textcolor>grey</textcolor>
         <shadowcolor>black</shadowcolor>
-        <label>([COLOR=orange]$INFO[Container(20).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages][/COLOR])</label>
+        <label>([COLOR=accent]$INFO[Container(20).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages][/COLOR])</label>
       </control>
       <control type="scrollbar" id="30">
         <posx>580</posx>
@@ -199,7 +199,7 @@
         <label>B : </label>
         <align>left</align>
         <aligny>center</aligny>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="label" id="102">
@@ -224,7 +224,7 @@
         <scroll>true</scroll>
         <textcolor>grey</textcolor>
         <shadowcolor>black</shadowcolor>
-        <label>([COLOR=orange]$INFO[Container(21).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=orange]$INFO[Container(21).CurrentPage]/$INFO[Container(21).NumPages][/COLOR])</label>
+        <label>([COLOR=accent]$INFO[Container(21).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=accent]$INFO[Container(21).CurrentPage]/$INFO[Container(21).NumPages][/COLOR])</label>
       </control>
       <control type="scrollbar" id="31">
         <posx>40r</posx>

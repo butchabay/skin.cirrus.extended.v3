@@ -5,7 +5,7 @@
 	<color name="grey3">33FFFFFF</color>
 	<color name="black">FF000000</color>
 	<color name="blue">FFEB9E17</color>
+	<color name="accent">FFB88A00</color>
 	<color name="selected">FFEB9E17</color>
 	<color name="dialogheader">DDced8da</color>
-	<color name="orange">FFB88A00</color>
 </colors>

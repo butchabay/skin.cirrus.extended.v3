@@ -474,7 +474,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>[COLOR=orange]$INFO[ListItem.Year][/COLOR] $INFO[ListItem.Duration]</label>
+					<label>[COLOR=accent]$INFO[ListItem.Year][/COLOR] $INFO[ListItem.Duration]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 					<visible>SubString(ListItem.Duration,mins)</visible>
@@ -490,7 +490,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>[COLOR=orange]$INFO[ListItem.Year][/COLOR] $INFO[ListItem.Duration] min</label>
+					<label>[COLOR=accent]$INFO[ListItem.Year][/COLOR] $INFO[ListItem.Duration] min</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 					<visible>!SubString(ListItem.Duration,mins)</visible>
@@ -505,7 +505,7 @@
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture>IMDBFlag.png</texture>
 					<visible>!IsEmpty(ListItem.Top250)</visible>
-					<colordiffuse>orange</colordiffuse>
+					<colordiffuse>accent</colordiffuse>
 				</control>
 					<control type="label"> <!-- Top250IMDB Mod 1.2 -->
 						<description>top250</description>
@@ -575,7 +575,7 @@
 					<posy>195</posy>
 					<height>20</height>
 					<width>310</width>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_18</font>
@@ -725,7 +725,7 @@
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(TotalMovies),[COLOR=orange]$LOCALIZE[41252]: [/COLOR],]   $INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(WatchedMovies),[COLOR=orange]$LOCALIZE[41130]:[/COLOR] ]  $INFO[Container(7000).ListItem.Duration,, min]</label>
+					<label>$INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(TotalMovies),[COLOR=accent]$LOCALIZE[41295]: [/COLOR],]   $INFO[ListItem.Episode]$INFO[Container(7000).ListItem.Property(WatchedMovies),[COLOR=accent]$LOCALIZE[41130]:[/COLOR] ]  $INFO[Container(7000).ListItem.Duration,, min]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 					<visible>Control.IsVisible(721) + Container.Content(Sets)</visible>
@@ -928,7 +928,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Genre,[COLOR=orange]$LOCALIZE[515]:[/COLOR] ]</label>
+					<label>$INFO[ListItem.Genre,[COLOR=accent]$LOCALIZE[515]:[/COLOR] ]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 				</control>
@@ -942,7 +942,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>[COLOR=orange]$LOCALIZE[20416]:[/COLOR] $INFO[ListItem.Premiered]</label>
+					<label>[COLOR=accent]$LOCALIZE[20416]:[/COLOR] $INFO[ListItem.Premiered]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 					<visible>!IsEmpty(ListItem.Thumb)</visible> 
@@ -1004,7 +1004,7 @@
 					<posy>586</posy>
 					<width>640</width>
 					<height>25</height>
-					<label fallback="416">[COLOR=orange]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">[COLOR=accent]$LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>right</align>
 					<font>cirrus_22</font>
 					<scroll>true</scroll>
@@ -1026,7 +1026,7 @@
 					<posy>195</posy>
 					<height>20</height>
 					<width>310</width>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_18</font>
@@ -1148,7 +1148,7 @@
 					<width>290</width>
 					<height>65</height>
 				    <aspectratio>stretch</aspectratio>
-					<texture background="true">$INFO[ListItem.Path]$INFO[ListItem.Season,season,-banner.jpg]</texture>
+					<texture background="true">$INFO[ListItem.Art(season.banner)]</texture>
 				    <bordersize>8</bordersize>
 					<visible>!Container(721).OnNext + !Container(721).OnPrevious + Container.Content(Seasons)</visible>
 			        <animation effect="slide" start="0,-100" end="0,0" easing="out" tween="back" time="1200" delay="900" reversible="false">Visible</animation>
@@ -1219,7 +1219,7 @@
 					<font>cirrus_22</font>
 					<align>justify</align>
 					<textcolor>white</textcolor>
-					<label>$INFO[ListItem.Studio,[COLOR=orange]Studio:[/COLOR] ]</label>
+					<label>$INFO[ListItem.Studio,[COLOR=accent]Studio:[/COLOR] ]</label>
 					<autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 				</control>
 				<control type="videowindow" id="8"> <!-- Trailer -->
@@ -1237,7 +1237,7 @@
 					<posy>178</posy>
 					<height>20</height>
 					<width>310</width>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=orange] (,)[/COLOR]]</label>
+					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=accent] (,)[/COLOR]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>cirrus_18</font>
@@ -1256,7 +1256,7 @@
 					<posy>560</posy>
 					<width>1280</width>
 					<height>30</height>
-					<label fallback="416">$INFO[ListItem.Genre,[COLOR=orange]$LOCALIZE[515]: [/COLOR] ] [COLOR=orange]   $LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+					<label fallback="416">$INFO[ListItem.Genre,[COLOR=accent]$LOCALIZE[515]: [/COLOR] ] [COLOR=accent]   $LOCALIZE[20360]: [/COLOR]$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 					<align>center</align>
 					<font>cirrus_22</font>
 					<scroll>true</scroll>

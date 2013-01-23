@@ -45,7 +45,7 @@
         <height>640</height>
         <texture border="20">videoinfoback.png</texture>
       </control>
-    <control type="image">
+      <control type="image">
         <description>LOGO</description>
         <posx>100</posx>
         <posy>30</posy>
@@ -115,7 +115,6 @@
       </control>
     </control>
     <include>BehindDialogFadeOut</include>
-
     <control type="button" id="10">
       <description>Default Category Button</description>
       <height>60</height>
@@ -123,7 +122,7 @@
       <textoffsetx>20</textoffsetx>
       <align>right</align>
       <aligny>center</aligny>
-      <font>cirrus_20</font>
+      <font>cirrus_24</font>
       <textcolor>grey2</textcolor>
       <focusedcolor>white</focusedcolor>
       <texturefocus border="5">listwhitegradient.png</texturefocus>
@@ -168,7 +167,7 @@
     <control type="image" id="11">
       <description>separator image</description>
       <height>2</height>
-     <!--  <texture>separator2.png</texture> -->
+      <!--  <texture>separator2.png</texture> -->
     </control>
     <control type="label" id="2">
       <description>Fake Label so we can pass it value down to the one below</description>

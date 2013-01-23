@@ -8,17 +8,17 @@
 				<posx>300</posx>
 				<posy>-520</posy>
 				<visible>Container(9000).HasFocus(1) | [Container(9000).HasFocus(3) + System.HasAddon(script.randomandlastitems)] | [Container(9000).HasFocus(4) + System.HasAddon(script.randomandlastitems)] | [Container(9000).HasFocus(5) + System.HasAddon(script.randomandlastitems)] | [Container(9000).HasFocus(9) + System.HasAddon(script.randomandlastitems)] | [Container(9000).HasFocus(10) + System.HasAddon(script.randomandlastitems)] | [Container(9000).HasFocus(11) + System.HasAddon(script.randomandlastitems)] | Container(9000).HasFocus(7) | Container(9000).HasFocus(14)</visible>
-				  <animation type="Conditional" condition="Container(9000).HasFocus(1) | Container(9000).HasFocus(3) | Container(9000).HasFocus(4) | Container(9000).HasFocus(5) | Container(9000).HasFocus(7) | Container(9000).HasFocus(9) | Container(9000).HasFocus(10) | Container(9000).HasFocus(11) | Container(9000).HasFocus(14)" reversible="false">
-					  <effect type="fade" start="0" end="100" time="250" />
-				  </animation>
-				  <animation type="Hidden" reversible="false">
-					  <effect type="fade" start="100" end="0" time="250" />
-				  </animation>			
-				  <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
-				  <animation type="WindowClose" condition="!Window.Previous(startup)" reversible="false">
-					  <effect type="fade" start="100" end="0" time="200" />
-				  </animation>
-				
+			  <animation type="Conditional" condition="Container(9000).HasFocus(1) | Container(9000).HasFocus(3) | Container(9000).HasFocus(4) | Container(9000).HasFocus(5) | Container(9000).HasFocus(7) | Container(9000).HasFocus(9) | Container(9000).HasFocus(10) | Container(9000).HasFocus(11) | Container(9000).HasFocus(14)" reversible="false">
+				  <effect type="fade" start="0" end="100" time="250" />
+			  </animation>
+			  <animation type="Hidden" reversible="false">
+				  <effect type="fade" start="100" end="0" time="250" />
+			  </animation>			
+			  <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
+			  <animation type="WindowClose" condition="!Window.Previous(startup)" reversible="false">
+				  <effect type="fade" start="100" end="0" time="200" />
+			  </animation>
+			
 			<control type="image">
 				<posx>723</posx>
 				<posy>920</posy>
@@ -45,7 +45,6 @@
 			</control>
 			
 			<!-- ============== Movie Infos ================= -->
-			
 			<control type="label">
 				<posx>760</posx>
 				<posy>935</posy>
@@ -1205,24 +1204,24 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>500</width>
+				<width>450</width>
 				<height>25</height>
 				<align>left</align>
 				<font>cirrus_20</font>
 				<scroll>false</scroll>
 				<textcolor>white</textcolor>
-				<label fallback="-">$LOCALIZE[552]: $INFO[System.Date(DDD)], $INFO[System.Date(d)]. $INFO[System.Date(MMM)] $INFO[System.Date(yyyy)]</label>
+				<label fallback="-">[COLOR=grey]$LOCALIZE[552]:[/COLOR] $INFO[System.Date(DDD)] $INFO[System.Date(d)] $INFO[System.Date(MMM)] $INFO[System.Date(yyyy)]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
 				<posy>35</posy>
-				<width>500</width>
+				<width>450</width>
 				<height>25</height>
 				<align>left</align>
 				<font>cirrus_20</font>
 				<scroll>false</scroll>
 				<textcolor>white</textcolor>
-				<label fallback="-">$LOCALIZE[12390]: $INFO[System.Uptime]</label>
+				<label fallback="-">[COLOR=grey]$LOCALIZE[12390]:[/COLOR] $INFO[System.Uptime]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -1233,7 +1232,7 @@
 				<font>cirrus_20</font>
 				<scroll>false</scroll>
 				<textcolor>white</textcolor>
-				<label fallback="-">$LOCALIZE[12394]: $INFO[System.TotalUptime]</label>
+				<label fallback="-">[COLOR=grey]$LOCALIZE[12394]:[/COLOR] $INFO[System.TotalUptime]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -1244,7 +1243,7 @@
 				<font>cirrus_20</font>
 				<scroll>false</scroll>
 				<textcolor>white</textcolor>
-				<label fallback="-">XBMC $LOCALIZE[144] $INFO[System.BuildVersion]</label>
+				<label fallback="-">[COLOR=grey]XBMC $LOCALIZE[144][/COLOR] $INFO[System.BuildVersion]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -1255,10 +1254,10 @@
 				<font>cirrus_20</font>
 				<scroll>false</scroll>
 				<textcolor>white</textcolor>
-				<label fallback="-">$LOCALIZE[13000]: $INFO[System.KernelVersion]</label>
+				<label fallback="-">[COLOR=grey]$LOCALIZE[13000]:[/COLOR] $INFO[System.KernelVersion]</label>
 			</control>
 			<control type="image">
-				<posx>520</posx>
+				<posx>470</posx>
 				<posy>-20</posy>
 				<height>200</height>
 				<texture>separator_vertical.png</texture>
@@ -1266,7 +1265,7 @@
 		</control>
 		
 		<control type="group">
-				<posx>570</posx>
+				<posx>520</posx>
 				<posy>25</posy>		
 			<control type="label">
 				<posx>0</posx>
@@ -1277,7 +1276,7 @@
 				<font>cirrus_20</font>
 				<scroll>false</scroll>
 				<textcolor>white</textcolor>
-				<label fallback="-">$LOCALIZE[243]: $INFO[System.FPS]</label>
+				<label fallback="-">[COLOR=grey]$LOCALIZE[243]:[/COLOR] $INFO[System.FPS]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -1288,7 +1287,7 @@
 				<font>cirrus_20</font>
 				<scroll>false</scroll>
 				<textcolor>white</textcolor>
-				<label fallback="-">$LOCALIZE[13271] $INFO[System.CPUUsage]</label>
+				<label fallback="-">[COLOR=grey]$LOCALIZE[13271][/COLOR] $INFO[System.CPUUsage]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -1299,7 +1298,7 @@
 				<font>cirrus_20</font>
 				<scroll>false</scroll>
 				<textcolor>white</textcolor>
-				<label fallback="-">$LOCALIZE[158]: $INFO[System.FreeMemory]</label>
+				<label fallback="-">[COLOR=grey]$LOCALIZE[158]:[/COLOR] $INFO[System.FreeMemory]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -1332,7 +1331,7 @@
 				<font>cirrus_20</font>
 				<textcolor>white</textcolor>
 				<visible>!SubString(System.ScreenResolution,1280x720) + !SubString(System.ScreenResolution,1920x1080)</visible>
-				<label fallback="-">$LOCALIZE[13287] $INFO[System.ScreenWidth]x$INFO[System.ScreenHeight]</label>
+				<label fallback="-">[COLOR=grey]$LOCALIZE[13287][/COLOR] $INFO[System.ScreenWidth]x$INFO[System.ScreenHeight]</label>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -1343,7 +1342,7 @@
 				<font>cirrus_20</font>
 				<textcolor>white</textcolor>
 				<wrapmultiline>true</wrapmultiline>
-				<label fallback="-">$LOCALIZE[798]:</label>
+				<label fallback="-">[COLOR=grey]$LOCALIZE[798]:[/COLOR]</label>
 			</control>
 			<control type="label">
 				<posx>150</posx>
@@ -1361,7 +1360,7 @@
 			</control>
 			<control type="label">
 				<posx>150</posx>
-				<posy>120</posy>
+				<posy>140</posy>
 				<width>170</width>
 				<height>25</height>
 				<align>left</align>
@@ -1382,7 +1381,7 @@
 		</control>
 		
 		<control type="group">
-				<posx>915</posx>
+				<posx>865</posx>
 				<posy>20</posy>	
 			<control type="label">
 				<posx>0</posx>
@@ -1392,7 +1391,7 @@
 				<align>left</align>
 				<font>cirrus_20</font>
 				<textcolor>white</textcolor>
-				<label fallback="-">$LOCALIZE[13277]:</label>
+				<label fallback="-">[COLOR=grey]$LOCALIZE[13277]:[/COLOR]</label>
 			</control>	
 			<control type="label">
 				<posx>0</posx>

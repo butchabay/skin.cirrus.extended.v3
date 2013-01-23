@@ -143,7 +143,7 @@
 			<align>right</align>
 			<aligny>center</aligny>
 			<font>cirrus_30</font>
-			<textcolor>orange</textcolor>
+			<textcolor>accent</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
 		 <control type="scrollbar" id="60">

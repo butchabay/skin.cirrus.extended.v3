@@ -71,7 +71,7 @@
         <align>right</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <label>$LOCALIZE[557]:</label>
       </control>
       <control type="fadelabel">
@@ -95,7 +95,7 @@
         <align>right</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <label>$LOCALIZE[558]:</label>
       </control>
       <control type="fadelabel">
@@ -119,7 +119,7 @@
         <align>right</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <label>$LOCALIZE[515]:</label>
       </control>
       <control type="fadelabel">
@@ -143,7 +143,7 @@
         <align>right</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <label>$LOCALIZE[562]:</label>
       </control>
       <control type="fadelabel">
@@ -167,7 +167,7 @@
         <align>right</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <label>$LOCALIZE[554]:</label>
       </control>
       <control type="fadelabel">
@@ -191,7 +191,7 @@
         <align>right</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <label>$LOCALIZE[563]:</label>
       </control>
       <control type="group">
@@ -243,7 +243,7 @@
         <align>right</align>
         <aligny>center</aligny>
         <font>cirrus_20</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <label>$LOCALIZE[569]:</label>
       </control>
       <control type="textbox">

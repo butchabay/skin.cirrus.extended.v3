@@ -54,7 +54,7 @@
         <width>740</width>
         <label>21433</label>
         <font>cirrus_24</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="edit" id="12">
@@ -83,7 +83,7 @@
         <align>left</align>
         <label>21434</label>
         <font>cirrus_24</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="list" id="10">
@@ -205,7 +205,7 @@
         <width>740</width>
         <label>31325</label>
         <font>cirrus_24</font>
-        <textcolor>orange</textcolor>
+        <textcolor>accent</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="spincontrolex" id="16">

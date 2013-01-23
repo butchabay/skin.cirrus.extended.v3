@@ -301,7 +301,7 @@
                 <font>cirrus_20</font>
                 <align>left</align>
                 <aligny>top</aligny>
-                <textcolor>orange</textcolor>
+                <textcolor>accent</textcolor>
                 <selectedcolor>selected</selectedcolor>
                <info>ListItem.Label</info>
               </control>
@@ -327,7 +327,7 @@
                 <font>cirrus_20</font>
                 <align>left</align>
                 <aligny>top</aligny>
-                <textcolor>orange</textcolor>
+                <textcolor>accent</textcolor>
                 <selectedcolor>selected</selectedcolor>
                 <info>ListItem.Label</info>
               </control>
